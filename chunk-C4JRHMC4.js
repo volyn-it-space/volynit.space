@@ -1,0 +1,1 @@
+import{a as o}from"./chunk-4CJYK2TK.js";import{I as t}from"./chunk-I6NSEUR4.js";var a=[];var i=class e{_store=new o(a);projects=this._store.items;loading=this._store.loading;resolveProjects(r){this._store.resolve(r)}static \u0275fac=function(n){return new(n||e)};static \u0275prov=t({token:e,factory:e.\u0275fac,providedIn:"root"})};export{i as a};

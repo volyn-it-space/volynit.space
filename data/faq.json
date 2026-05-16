@@ -1,0 +1,521 @@
+[
+	{
+		"id": "public-main-offer",
+		"audience": "public",
+		"question": "What is your main offer?",
+		"answer": [
+			"We create ready-to-use websites for businesses and help them become visible on GPT and online.",
+			"Then we offer ownership and ongoing support."
+		]
+	},
+	{
+		"id": "public-how-it-works",
+		"audience": "public",
+		"question": "How does it work?",
+		"answer": [
+			"We prepare a ready website concept for your business.",
+			"You review it, choose a support format, and we launch, maintain, and improve it together."
+		]
+	},
+	{
+		"id": "public-what-is-included",
+		"audience": "public",
+		"question": "What is included in subscription?",
+		"answer": [
+			"Hosting.",
+			"Website maintenance.",
+			"Bug fixing if the issue is our responsibility."
+		]
+	},
+	{
+		"id": "public-paid-request",
+		"audience": "public",
+		"question": "What is considered a paid request?",
+		"answer": [
+			"Any new feature, redesign, or change beyond the original agreement is treated as a separate paid request."
+		]
+	},
+	{
+		"id": "public-bug-definition",
+		"audience": "public",
+		"question": "What is considered a bug?",
+		"answer": [
+			"If something does not work as originally agreed or described, it is considered a bug and we fix it for free."
+		]
+	},
+	{
+		"id": "public-content",
+		"audience": "public",
+		"question": "Do you provide texts and images?",
+		"answer": [
+			"We use client content if available.",
+			"If needed, we can prepare basic starter content for launch."
+		]
+	},
+	{
+		"id": "public-multilanguage",
+		"audience": "public",
+		"question": "Do you support multiple languages?",
+		"answer": [
+			"Yes. Multi-language support can be included by default depending on the project scope."
+		]
+	},
+	{
+		"id": "public-ownership",
+		"audience": "public",
+		"question": "Who owns the website?",
+		"answer": [
+			"It depends on the agreement.",
+			"We can transfer the full repository and domain, or keep the project on our side and maintain it for you."
+		]
+	},
+	{
+		"id": "public-take-website",
+		"audience": "public",
+		"question": "Can I leave and take the website with me?",
+		"answer": [
+			"Yes. Each project is independent and can be transferred based on the agreement."
+		]
+	},
+	{
+		"id": "public-hosting",
+		"audience": "public",
+		"question": "Where are websites hosted?",
+		"answer": [
+			"Projects can be hosted on GitHub Pages or another provider preferred by the client."
+		]
+	},
+	{
+		"id": "public-client-stop-paying",
+		"audience": "public",
+		"question": "What happens if I stop paying?",
+		"answer": [
+			"The website may stay live, but admin access can become limited or read-only depending on the support agreement."
+		]
+	},
+	{
+		"id": "public-change-requirements",
+		"audience": "public",
+		"question": "What happens if I change requirements during development?",
+		"answer": [
+			"Development is paused.",
+			"The request is re-estimated.",
+			"We continue only after the updated scope and price are approved."
+		]
+	},
+	{
+		"id": "public-multiple-requests",
+		"audience": "public",
+		"question": "Can I submit multiple requests?",
+		"answer": [
+			"Yes.",
+			"Each request has its own estimate, queue position, and expected start time."
+		]
+	},
+	{
+		"id": "public-approval",
+		"audience": "public",
+		"question": "How is completed work approved?",
+		"answer": [
+			"The usual flow is: developer completes the task, agent verifies it, and client gives final approval."
+		]
+	},
+	{
+		"id": "public-no-response",
+		"audience": "public",
+		"question": "What if I do not respond after completion?",
+		"answer": [
+			"If the work is already paid and delivered, the task remains completed and waits for your confirmation."
+		]
+	},
+	{
+		"id": "public-main-advantage",
+		"audience": "public",
+		"question": "What is your main advantage?",
+		"answer": [
+			"We build before selling.",
+			"You work with real developers, not just no-code builders.",
+			"You get a faster launch and ongoing support."
+		]
+	},
+	{
+		"id": "public-gpt-visibility",
+		"audience": "public",
+		"question": "How can a website help my business appear on GPT?",
+		"answer": [
+			"A clear public website improves your online presence and helps AI systems understand your business better.",
+			"Structured information, service descriptions, contact details, and public visibility all help."
+		]
+	},
+	{
+		"id": "public-support-speed",
+		"audience": "public",
+		"question": "How quickly do you handle new requests?",
+		"answer": [
+			"Timing depends on the queue and request size.",
+			"Each request receives an estimate and expected start time."
+		]
+	},
+	{
+		"id": "agent-main-offer",
+		"audience": "agent",
+		"question": "What is our main offer?",
+		"answer": [
+			"We create ready-to-use websites for businesses and help them become visible on GPT and online.",
+			"Then we offer ownership and ongoing support."
+		]
+	},
+	{
+		"id": "agent-first-message",
+		"audience": "agent",
+		"question": "What should I say first to a business?",
+		"answer": [
+			"People are already searching on GPT - we have made your business visible there. Want to see?"
+		]
+	},
+	{
+		"id": "agent-verify-owner",
+		"audience": "agent",
+		"question": "How do we verify the business owner?",
+		"answer": [
+			"We go physically to the location, ask for the administrator or owner, and present the product directly."
+		]
+	},
+	{
+		"id": "agent-show-client",
+		"audience": "agent",
+		"question": "What do we show to the client?",
+		"answer": [
+			"A ready website.",
+			"A demo of the admin panel if needed.",
+			"An explanation of how it helps them get clients."
+		]
+	},
+	{
+		"id": "agent-if-client-wants",
+		"audience": "agent",
+		"question": "What happens if they want it?",
+		"answer": [
+			"They request ownership.",
+			"We provide pricing options.",
+			"They choose a plan.",
+			"They get access after payment."
+		]
+	},
+	{
+		"id": "agent-what-clients-pay-for",
+		"audience": "agent",
+		"question": "What do clients pay for?",
+		"answer": [
+			"Monthly subscription for hosting and maintenance.",
+			"Additional features estimated and paid separately."
+		]
+	},
+	{
+		"id": "agent-subscription-includes",
+		"audience": "agent",
+		"question": "What is included in subscription?",
+		"answer": ["Hosting.", "Bug fixing if it is our responsibility.", "Website maintenance."]
+	},
+	{
+		"id": "agent-bug-definition",
+		"audience": "agent",
+		"question": "What is considered a bug?",
+		"answer": [
+			"If something does not work as originally agreed or described, it is a bug and we fix it for free."
+		]
+	},
+	{
+		"id": "agent-paid-request",
+		"audience": "agent",
+		"question": "What is considered a paid request?",
+		"answer": ["Any new feature or change beyond the original agreement."]
+	},
+	{
+		"id": "agent-change-requirements",
+		"audience": "agent",
+		"question": "What if client changes requirements during development?",
+		"answer": [
+			"Development is paused.",
+			"The request is re-estimated.",
+			"The client must approve the new price before work continues."
+		]
+	},
+	{
+		"id": "agent-multiple-requests",
+		"audience": "agent",
+		"question": "Can clients have multiple requests?",
+		"answer": [
+			"Yes.",
+			"Each request has its own price, queue position, and estimated start time."
+		]
+	},
+	{
+		"id": "agent-delays",
+		"audience": "agent",
+		"question": "How do we handle delays or estimation mistakes?",
+		"answer": [
+			"We communicate with the client.",
+			"We either adjust the timeline or cancel and refund if needed."
+		]
+	},
+	{
+		"id": "agent-task-done",
+		"audience": "agent",
+		"question": "Who decides when task is done?",
+		"answer": [
+			"Developer marks done.",
+			"Agent verifies and marks done.",
+			"Client gives final approval."
+		]
+	},
+	{
+		"id": "agent-client-no-response",
+		"audience": "agent",
+		"question": "What if client does not respond after completion?",
+		"answer": [
+			"If the work is already paid, the project stays completed and waits for approval."
+		]
+	},
+	{
+		"id": "agent-stop-paying",
+		"audience": "agent",
+		"question": "What happens if client stops paying?",
+		"answer": ["The website stays live, but admin access becomes read-only."]
+	},
+	{
+		"id": "agent-website-owner",
+		"audience": "agent",
+		"question": "Who owns the website?",
+		"answer": [
+			"It depends on the agreement.",
+			"We can transfer the full repository and domain, or keep it on our side and maintain it."
+		]
+	},
+	{
+		"id": "agent-hosting",
+		"audience": "agent",
+		"question": "Where are websites hosted?",
+		"answer": [
+			"Currently projects may be hosted on GitHub Pages.",
+			"Later they can be moved to any provider preferred by the client."
+		]
+	},
+	{
+		"id": "agent-transfer",
+		"audience": "agent",
+		"question": "Can client leave and take the website?",
+		"answer": ["Yes. Each project is independent and can be transferred."]
+	},
+	{
+		"id": "agent-edit-code",
+		"audience": "agent",
+		"question": "Can client edit code themselves?",
+		"answer": [
+			"Not while we are responsible for the project.",
+			"They can collaborate through pull requests if needed."
+		]
+	},
+	{
+		"id": "agent-responsibility",
+		"audience": "agent",
+		"question": "What is agent responsibility?",
+		"answer": [
+			"Communicate with the client.",
+			"Present the product.",
+			"Collect requests.",
+			"Validate completed work."
+		]
+	},
+	{
+		"id": "agent-developer-responsibility",
+		"audience": "agent",
+		"question": "What is developer responsibility?",
+		"answer": ["Build features.", "Fix bugs.", "Maintain the system."]
+	},
+	{
+		"id": "agent-controls-decisions",
+		"audience": "agent",
+		"question": "Who controls decisions?",
+		"answer": [
+			"Client controls business decisions.",
+			"Agent controls communication and validation.",
+			"Developer controls technical decisions."
+		]
+	},
+	{
+		"id": "agent-content",
+		"audience": "agent",
+		"question": "Do we provide content?",
+		"answer": [
+			"We use client content if available.",
+			"If not, we generate basic starter content."
+		]
+	},
+	{
+		"id": "agent-upsell",
+		"audience": "agent",
+		"question": "Can agents upsell?",
+		"answer": [
+			"Yes.",
+			"Agents can upsell features, SMM services, and developer or agent hourly work."
+		]
+	},
+	{
+		"id": "agent-white-label",
+		"audience": "agent",
+		"question": "Do we allow white-label?",
+		"answer": ["Only for businesses we work with."]
+	},
+	{
+		"id": "agent-multilanguage",
+		"audience": "agent",
+		"question": "Do we support multiple languages?",
+		"answer": ["Yes. Multi-language is supported by default."]
+	},
+	{
+		"id": "agent-main-advantage",
+		"audience": "agent",
+		"question": "What is our main advantage?",
+		"answer": [
+			"We build before selling.",
+			"We are real developers, not builders only.",
+			"We offer fast launch and continuous support."
+		]
+	},
+	{
+		"id": "agent-if-business-says-no",
+		"audience": "agent",
+		"question": "What should I do if the business is not interested right now?",
+		"answer": [
+			"Leave a short contact point, keep the relationship polite, and move on.",
+			"The goal is to keep the door open for future contact."
+		]
+	},
+	{
+		"id": "developer-main-role",
+		"audience": "developer",
+		"question": "What is developer responsibility?",
+		"answer": [
+			"Build approved features.",
+			"Fix agreed bugs.",
+			"Maintain technical quality and stability."
+		]
+	},
+	{
+		"id": "developer-bug-definition",
+		"audience": "developer",
+		"question": "What is considered a bug?",
+		"answer": [
+			"If something does not work as originally agreed or described, it is a bug and should be fixed without charging as a new feature."
+		]
+	},
+	{
+		"id": "developer-paid-request",
+		"audience": "developer",
+		"question": "What is considered a paid request?",
+		"answer": ["Any new feature, redesign, or scope change beyond the original agreement."]
+	},
+	{
+		"id": "developer-scope-change",
+		"audience": "developer",
+		"question": "What if client changes requirements during development?",
+		"answer": [
+			"Pause implementation.",
+			"Ask for re-estimation through the agent.",
+			"Continue only after updated approval."
+		]
+	},
+	{
+		"id": "developer-task-finish",
+		"audience": "developer",
+		"question": "When is a task considered done?",
+		"answer": [
+			"First the developer marks it done.",
+			"Then the agent verifies it.",
+			"Finally the client approves it."
+		]
+	},
+	{
+		"id": "developer-priority",
+		"audience": "developer",
+		"question": "Can multiple client requests run at the same time?",
+		"answer": ["Yes, but each request keeps its own queue position, estimate, and priority."]
+	},
+	{
+		"id": "developer-client-code-access",
+		"audience": "developer",
+		"question": "Can client edit code directly?",
+		"answer": [
+			"Not while we are responsible for the project.",
+			"If needed, collaboration can happen through pull requests."
+		]
+	},
+	{
+		"id": "developer-hosting",
+		"audience": "developer",
+		"question": "Where are projects hosted?",
+		"answer": [
+			"Projects may be hosted on GitHub Pages or another provider chosen for the client."
+		]
+	},
+	{
+		"id": "developer-ownership",
+		"audience": "developer",
+		"question": "Can a client take the website and leave?",
+		"answer": [
+			"Yes. Each project is independent and can be transferred according to the agreement."
+		]
+	},
+	{
+		"id": "developer-content",
+		"audience": "developer",
+		"question": "Who provides texts and images?",
+		"answer": [
+			"Prefer client content when available.",
+			"If missing, use generated basic starter content for launch."
+		]
+	},
+	{
+		"id": "developer-decisions",
+		"audience": "developer",
+		"question": "Who controls decisions?",
+		"answer": [
+			"Client controls business decisions.",
+			"Agent controls communication and validation.",
+			"Developer controls technical implementation decisions."
+		]
+	},
+	{
+		"id": "developer-delay",
+		"audience": "developer",
+		"question": "What should happen if estimate becomes inaccurate?",
+		"answer": [
+			"Report it early through the agent.",
+			"The timeline should be adjusted or the request re-estimated."
+		]
+	},
+	{
+		"id": "developer-no-direct-scope",
+		"audience": "developer",
+		"question": "Should developers approve business scope changes directly with the client?",
+		"answer": ["No.", "Scope, pricing, and validation should go through the agent workflow."]
+	},
+	{
+		"id": "developer-quality",
+		"audience": "developer",
+		"question": "What is expected before marking work done?",
+		"answer": [
+			"The feature should be working, reviewed by the developer, and ready for agent verification."
+		]
+	},
+	{
+		"id": "developer-small-fixes",
+		"audience": "developer",
+		"question": "Should small unapproved improvements be added automatically?",
+		"answer": [
+			"Only if they are clearly beneficial, low-risk, and do not change the agreed scope.",
+			"Otherwise they should be proposed first."
+		]
+	}
+]
