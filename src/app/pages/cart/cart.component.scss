@@ -1,0 +1,32 @@
+.cart-field {
+	width: 100%;
+	border-radius: 0.5rem;
+	border: 1px solid var(--c-border);
+	background: var(--c-bg-secondary);
+	padding: 0.75rem 1rem;
+	font-size: 0.875rem;
+	color: var(--c-text-secondary);
+	box-shadow: var(--shadow-xs);
+	outline: none;
+	transition:
+		border-color 200ms ease,
+		box-shadow 200ms ease,
+		background-color 200ms ease;
+}
+
+.cart-field:hover {
+	border-color: var(--c-border-strong);
+}
+
+.cart-field::placeholder {
+	color: var(--c-text-muted);
+}
+
+.cart-field:focus {
+	border-color: var(--c-secondary);
+	box-shadow: 0 0 0 2px color-mix(in srgb, var(--c-secondary) 22%, transparent);
+}
+
+.cart-field.ng-invalid.ng-touched {
+	border-color: color-mix(in srgb, #dc2626 72%, var(--c-border));
+}

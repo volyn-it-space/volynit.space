@@ -1,0 +1,18 @@
+[
+	{
+		"id": "horeca-seo-session",
+		"title": "HoReCa SEO workshop",
+		"description": "A focused session on how restaurants and cafes can improve search and AI visibility with structured websites.",
+		"date": "May 18",
+		"location": "Lutsk",
+		"label": "Workshop"
+	},
+	{
+		"id": "summer-menu-launch",
+		"title": "Summer menu launch support day",
+		"description": "A content and landing-page sprint for businesses updating menus, delivery blocks, and seasonal offers.",
+		"date": "June 2",
+		"location": "Remote",
+		"label": "Content sprint"
+	}
+]

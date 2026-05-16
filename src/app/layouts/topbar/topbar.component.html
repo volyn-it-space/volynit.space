@@ -1,0 +1,100 @@
+@let cartCounter = cartCount();
+
+<header
+	class="relative z-40 border-b border-[var(--c-border)] bg-[color-mix(in_srgb,var(--c-bg-secondary)_88%,transparent)] backdrop-blur-md supports-[backdrop-filter]:bg-[color-mix(in_srgb,var(--c-bg-secondary)_74%,transparent)]"
+>
+	<div
+		class="mx-auto flex min-h-14 w-full max-w-[var(--container)] items-center justify-between px-4 py-2.5 sm:px-5"
+	>
+		<a
+			[aria-label]="'Go to homepage' | translate"
+			class="inline-flex items-center rounded-[var(--radius)] px-1 text-xs font-bold uppercase tracking-[0.18em] text-[var(--c-text-secondary)] transition-colors duration-200 hover:text-[var(--c-primary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--c-primary)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--c-bg-secondary)]"
+			routerLink="/"
+		>
+			{{ companyName() }}
+		</a>
+		<div class="flex items-center gap-2">
+			@if (cartCounter) {
+				<a
+					routerLink="/cart"
+					class="inline-flex h-10 items-center gap-2 rounded-full border border-[var(--c-border)] bg-[color-mix(in_srgb,var(--c-bg-glass)_82%,var(--c-bg-soft))] px-3.5 text-sm font-semibold text-[var(--c-text-secondary)] shadow-[var(--shadow-xs)] transition-colors duration-200 hover:border-[var(--c-border-strong)] hover:bg-[var(--c-bg-tertiary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--c-primary)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--c-bg-secondary)]"
+				>
+					<span class="material-symbols-outlined text-[20px]" aria-hidden="true"
+						>shopping_bag</span
+					>
+					<span class="hidden sm:inline" translate>Cart</span>
+					<span
+						class="inline-flex min-w-6 items-center justify-center rounded-full bg-[var(--c-secondary)] px-2 py-0.5 text-xs font-bold text-[var(--c-text-on-primary)]"
+					>
+						{{ cartCounter }}
+					</span>
+				</a>
+			}
+
+			<div
+				class="relative flex items-center gap-1 rounded-full border border-[var(--c-border)] bg-[color-mix(in_srgb,var(--c-bg-glass)_82%,var(--c-bg-soft))] p-1 shadow-[var(--shadow-xs)]"
+			>
+				<button
+					class="inline-flex h-8 items-center gap-2 rounded-full px-3 text-sm font-semibold text-[var(--c-text-secondary)] transition-colors duration-200 hover:bg-[var(--c-bg-tertiary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--c-primary)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--c-bg-secondary)]"
+					[attr.aria-label]="languageCycleLabel()"
+					(click)="nextLanguage()"
+					type="button"
+				>
+					<img
+						class="h-5 w-7 rounded-[4px] border border-[var(--c-border)] object-cover"
+						[alt]="currentLanguage().label"
+						[ngSrc]="currentLanguage().flagSrc"
+						width="28"
+						height="20"
+					/>
+				</button>
+
+				<button
+					class="inline-flex h-8 w-8 items-center justify-center rounded-full text-[var(--c-text-secondary)] transition-colors duration-200 hover:bg-[var(--c-bg-tertiary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--c-primary)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--c-bg-secondary)]"
+					[attr.aria-expanded]="languageMenuOpen()"
+					[attr.aria-label]="languageMenuLabel()"
+					(click)="toggleLanguageMenu()"
+					type="button"
+				>
+					<span class="material-symbols-outlined text-[20px]" aria-hidden="true">
+						arrow_drop_down
+					</span>
+				</button>
+
+				@if (languageMenuOpen()) {
+					<div
+						class="absolute right-0 top-[calc(100%+0.5rem)] z-10 min-w-48 overflow-hidden rounded-[var(--radius-card)] border border-[var(--c-border)] bg-[var(--c-bg-elevated)] p-1 shadow-[var(--shadow-md)] backdrop-blur-md"
+					>
+						@for (language of languages(); track language.code) {
+							<button
+								class="flex w-full items-center gap-3 rounded-[var(--radius)] px-3 py-2 text-left text-sm font-medium text-[var(--c-text-primary)] transition-colors duration-200 hover:bg-[var(--c-bg-tertiary)] hover:text-[var(--c-text-secondary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--c-primary)]"
+								(click)="setLanguage(language)"
+								type="button"
+							>
+								<img
+									class="h-5 w-7 rounded-[4px] border border-[var(--c-border)] object-cover"
+									[alt]="language.label"
+									[ngSrc]="language.flagSrc"
+									width="28"
+									height="20"
+								/>
+								<span>{{ language.label }}</span>
+							</button>
+						}
+					</div>
+				}
+			</div>
+
+			<button
+				class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[var(--c-border)] bg-[color-mix(in_srgb,var(--c-bg-glass)_82%,var(--c-bg-soft))] text-[var(--c-text-secondary)] shadow-[var(--shadow-xs)] transition-colors duration-200 hover:border-[var(--c-border-strong)] hover:bg-[var(--c-bg-tertiary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--c-primary)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--c-bg-secondary)]"
+				[attr.aria-label]="toggleLabel()"
+				(click)="toggleMode()"
+				type="button"
+			>
+				<span class="material-symbols-outlined text-[22px]" aria-hidden="true">
+					{{ toggleIcon() }}
+				</span>
+			</button>
+		</div>
+	</div>
+</header>

@@ -1,0 +1,103 @@
+<main
+	class="mx-auto max-w-[var(--container)] px-3 pb-[calc(9rem+env(safe-area-inset-bottom))] pt-3 sm:px-4 sm:pb-[calc(9.5rem+env(safe-area-inset-bottom))]"
+>
+	<section
+		class="faq-shell overflow-hidden rounded-[var(--radius-panel)] border border-[var(--c-border)] bg-[var(--gradient-surface)] p-4 shadow-[var(--shadow-md)] sm:p-6 lg:p-8"
+		aria-labelledby="faq-title"
+	>
+		<div class="grid gap-6 lg:grid-cols-[0.82fr_1.18fr] lg:gap-8">
+			<header class="px-1 pt-2 sm:px-2 lg:sticky lg:top-24 lg:self-start">
+				<div
+					class="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-[var(--radius)] border border-[var(--c-border-soft)] bg-[var(--c-bg-glass)] text-[var(--c-secondary)] shadow-[var(--shadow-xs)]"
+					aria-hidden="true"
+				>
+					<span class="material-symbols-outlined text-[24px]">help</span>
+				</div>
+
+				<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+					{{ content().eyebrow | translate }}
+				</p>
+				<h1
+					id="faq-title"
+					class="mt-3 max-w-2xl text-3xl font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-4xl lg:text-5xl"
+				>
+					{{ content().title | translate }}
+				</h1>
+				<p class="mt-4 max-w-[34rem] text-base leading-7 text-[var(--c-text-primary)]">
+					{{ content().intro | translate }}
+				</p>
+			</header>
+
+			<div class="grid gap-3 sm:gap-4">
+				@if (loading()) {
+					<div
+						class="rounded-[var(--radius-card)] border border-[var(--c-border)] bg-[var(--c-bg-glass)] px-5 py-10 text-center shadow-[var(--shadow-sm)]"
+					>
+						<div
+							class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]"
+						>
+							<span class="material-symbols-outlined animate-spin text-[28px]" aria-hidden="true">progress_activity</span>
+						</div>
+						<p class="mt-4 text-base font-semibold text-[var(--c-text-secondary)]" translate>
+							Loading FAQ items
+						</p>
+						<p class="mx-auto mt-2 max-w-md text-sm leading-6 text-[var(--c-text-muted)]">
+							{{ 'Please wait while we prepare the right answers for this audience.' | translate }}
+						</p>
+					</div>
+				} @else if (items().length > 0) {
+					@for (item of items(); track item.id) {
+						<article
+							class="faq-item rounded-[var(--radius-card)] border border-[var(--c-border-soft)] bg-[var(--c-bg-elevated)] shadow-[var(--shadow-sm)]"
+							[class.faq-item--open]="isOpen(item)"
+						>
+							<h2>
+								<button
+									class="flex min-h-16 w-full items-center justify-between gap-4 rounded-[var(--radius-card)] px-4 py-4 text-left text-base font-semibold leading-6 text-[var(--c-text-secondary)] transition-colors duration-200 hover:bg-[var(--c-bg-soft)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--c-secondary)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--c-bg-secondary)] sm:px-5 sm:py-5 sm:text-lg"
+									[attr.aria-expanded]="isOpen(item)"
+									[attr.aria-controls]="'faq-answer-' + item.id"
+									[id]="'faq-question-' + item.id"
+									(click)="toggleItem(item)"
+									type="button"
+								>
+									<span>{{ item.question | translate }}</span>
+									<span
+										class="faq-item__icon flex h-9 w-9 shrink-0 items-center justify-center self-center rounded-[var(--radius)] border border-[var(--c-border)] bg-[var(--c-bg-glass)] text-[var(--c-secondary)] sm:h-10 sm:w-10"
+										aria-hidden="true"
+									></span>
+								</button>
+							</h2>
+
+							<div
+								class="faq-item__panel"
+								[attr.aria-labelledby]="'faq-question-' + item.id"
+								[id]="'faq-answer-' + item.id"
+							>
+								<div class="faq-item__panel-inner">
+									<div class="grid gap-3 border-t border-[var(--c-divider)] px-4 pb-5 pt-4 sm:px-5 sm:pb-6">
+										@for (paragraph of item.answer; track paragraph) {
+											<p class="max-w-3xl text-sm leading-7 text-[var(--c-text-primary)] sm:text-base">
+												{{ paragraph | translate }}
+											</p>
+										}
+									</div>
+								</div>
+							</div>
+						</article>
+					}
+				} @else {
+					<div
+						class="rounded-[var(--radius-card)] border border-dashed border-[var(--c-border)] bg-[var(--c-bg-glass)] px-5 py-10 text-center shadow-[var(--shadow-sm)]"
+					>
+						<p class="text-base font-semibold text-[var(--c-text-secondary)]">
+							{{ 'No FAQ items found.' | translate }}
+						</p>
+						<p class="mx-auto mt-2 max-w-md text-sm leading-6 text-[var(--c-text-muted)]">
+							{{ 'This page is ready, but there are no entries for this audience yet.' | translate }}
+						</p>
+					</div>
+				}
+			</div>
+		</div>
+	</section>
+</main>

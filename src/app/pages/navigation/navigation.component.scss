@@ -1,0 +1,51 @@
+:host {
+	display: block;
+	background: var(--gradient-page);
+	color: var(--c-text-primary);
+}
+
+.navigation-shell {
+	background:
+		linear-gradient(
+			135deg,
+			color-mix(in srgb, var(--c-bg-secondary) 84%, var(--c-warning) 7%) 0%,
+			color-mix(in srgb, var(--c-bg-elevated) 88%, var(--c-bg-tertiary)) 100%
+		);
+}
+
+.navigation-card {
+	position: relative;
+	overflow: hidden;
+	background:
+		linear-gradient(
+			135deg,
+			color-mix(in srgb, var(--c-bg-elevated) 86%, var(--c-warning) 5%) 0%,
+			color-mix(in srgb, var(--c-bg-glass) 72%, var(--c-bg-secondary)) 100%
+		);
+}
+
+.navigation-card::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	border-radius: inherit;
+	background: linear-gradient(
+		90deg,
+		color-mix(in srgb, var(--c-secondary) 9%, transparent),
+		transparent 42%
+	);
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity var(--motion-fast) var(--easing);
+}
+
+.navigation-card:hover::before,
+.navigation-card:focus-visible::before {
+	opacity: 1;
+}
+
+.navigation-index,
+.navigation-icon {
+	background: color-mix(in srgb, var(--c-bg-soft) 76%, var(--c-bg-glass));
+	box-shadow: inset 0 1px 0 color-mix(in srgb, var(--c-text-secondary) 8%, transparent);
+}

@@ -1,0 +1,60 @@
+<main
+	class="mx-auto max-w-[var(--container)] px-3 pb-[calc(8rem+env(safe-area-inset-bottom))] pt-3 sm:px-4 sm:pb-[calc(8.5rem+env(safe-area-inset-bottom))]"
+>
+	<section class="space-y-6 px-1 py-8 sm:px-2 sm:py-10" [attr.aria-label]="'Events page' | translate">
+		<div>
+			<p class="text-[12px] font-semibold uppercase text-[var(--c-secondary)]" translate>
+				Events
+			</p>
+			<h1 class="mt-2 text-2xl font-semibold text-[var(--c-text-secondary)] sm:text-3xl" translate>
+				Events
+			</h1>
+		</div>
+
+		@if (loading()) {
+			<section class="rounded-[var(--radius-card)] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center shadow-[var(--shadow-sm)] sm:px-6 sm:py-14">
+				<div class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]">
+					<span class="material-symbols-outlined animate-spin text-[28px]" aria-hidden="true">progress_activity</span>
+				</div>
+				<h2 class="mt-4 text-xl font-semibold text-[var(--c-text-secondary)]" translate>Loading events</h2>
+				<p class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]" translate>Please wait while we prepare upcoming events.</p>
+			</section>
+		} @else if (events().length > 0) {
+			<div class="grid gap-4 md:grid-cols-2">
+				@for (event of events(); track event.id) {
+					<article class="rounded-[var(--radius-card)] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-5 shadow-[var(--shadow-sm)]">
+						@if (event.label) {
+							<p class="text-xs font-semibold uppercase text-[var(--c-secondary)]">{{ event.label | translate }}</p>
+						}
+						<h2 class="mt-2 text-xl font-semibold text-[var(--c-text-secondary)]">{{ event.title | translate }}</h2>
+						<p class="mt-3 text-sm leading-6 text-[var(--c-text-muted)]">{{ event.description | translate }}</p>
+						@if (event.date || event.location) {
+							<p class="mt-4 text-sm leading-6 text-[var(--c-text-primary)]">
+								{{ event.date }}
+								@if (event.date && event.location) {
+									<span> / </span>
+								}
+								@if (event.location) {
+									{{ event.location | translate }}
+								}
+							</p>
+						}
+						@if (event.href) {
+							<a class="mt-5 inline-flex min-h-11 items-center justify-center rounded-[var(--radius-sm)] border border-[var(--c-border)] px-4 text-sm font-semibold text-[var(--c-text-secondary)]" [href]="event.href" translate>
+								View event
+							</a>
+						}
+					</article>
+				}
+			</div>
+		} @else {
+			<section class="rounded-[var(--radius-card)] border border-dashed border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center shadow-[var(--shadow-sm)] sm:px-6 sm:py-14">
+				<div class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]">
+					<span class="material-symbols-outlined text-[28px]" aria-hidden="true">event</span>
+				</div>
+				<h2 class="mt-4 text-xl font-semibold text-[var(--c-text-secondary)]" translate>This page is empty for now</h2>
+				<p class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]" translate>Check back later for updates.</p>
+			</section>
+		}
+	</section>
+</main>

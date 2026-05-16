@@ -1,0 +1,252 @@
+<main
+	class="mx-auto max-w-[var(--container)] px-3 pb-[calc(7rem+env(safe-area-inset-bottom))] pt-3 sm:px-4 sm:pb-12"
+>
+	<section
+		class="work-shell overflow-hidden rounded-[var(--radius-panel)] border border-[var(--c-border-soft)] bg-[var(--c-bg-secondary)] px-4 py-12 shadow-[var(--shadow-lg)] sm:px-6 sm:py-16 lg:px-8"
+		[attr.aria-label]="'Our work page' | translate"
+	>
+		<header class="mx-auto max-w-[46rem] text-center">
+			<div
+				class="intro-icon mx-auto inline-flex h-16 w-16 items-center justify-center rounded-full border border-[var(--c-border-soft)] bg-[var(--c-bg-glass)] text-[var(--c-secondary)] shadow-[var(--shadow-sm)]"
+			>
+				<span class="material-symbols-outlined text-[28px]" aria-hidden="true"
+					>work_history</span
+				>
+			</div>
+
+			<p
+				class="mt-6 text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
+				translate
+			>
+				Our work
+			</p>
+		</header>
+
+		@if (loading()) {
+			<section
+				class="mt-10 rounded-[var(--radius-card)] border border-[var(--c-border)] bg-[var(--c-bg-elevated)] px-5 py-10 text-center shadow-[var(--shadow-sm)] sm:mt-12 sm:px-6 sm:py-14"
+			>
+				<div
+					class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]"
+				>
+					<span
+						class="material-symbols-outlined animate-spin text-[28px]"
+						aria-hidden="true"
+						>progress_activity</span
+					>
+				</div>
+				<h2 class="mt-4 text-xl font-semibold text-[var(--c-text-secondary)]" translate>
+					Loading projects
+				</h2>
+				<p
+					class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]"
+					translate
+				>
+					Please wait while we prepare our latest work.
+				</p>
+			</section>
+		} @else if (projects().length > 0) {
+			<div class="mt-10 grid gap-5 sm:mt-12 lg:grid-cols-3 xl:gap-6">
+				@for (project of projects(); track project.title) {
+					<article
+						class="project-card flex overflow-hidden rounded-[var(--radius-card)] border border-[var(--c-border)] bg-[var(--c-bg-elevated)]"
+					>
+						<div class="project-content flex flex-1 flex-col p-5 sm:p-6">
+							<p
+								class="inline-flex w-fit rounded-full border border-[var(--c-border-soft)] bg-[var(--c-bg-glass)] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--c-secondary)]"
+							>
+								{{ project.category | translate }}
+							</p>
+							<h3
+								class="mt-5 text-xl font-semibold leading-7 text-[var(--c-text-secondary)]"
+							>
+								{{ project.title | translate }}
+							</h3>
+							<p class="mt-3 text-sm leading-6 text-[var(--c-text-muted)]">
+								{{ project.description | translate }}
+							</p>
+
+							<div class="mt-5 flex flex-wrap gap-2">
+								@for (tag of project.tags; track tag) {
+									<span
+										class="rounded-full border border-[var(--c-border-soft)] bg-[var(--c-bg-glass)] px-3 py-1.5 text-xs font-medium text-[var(--c-text-primary)]"
+									>
+										{{ tag | translate }}
+									</span>
+								}
+							</div>
+
+							<div
+								class="mt-5 space-y-3 text-sm leading-6 text-[var(--c-text-muted)]"
+							>
+								@if (project.address) {
+									<p>
+										<span
+											class="font-semibold text-[var(--c-text-secondary)]"
+											translate
+											>Address:</span
+										>
+										{{ project.address }}
+									</p>
+								}
+
+								@if (project.secondaryAddresses?.length) {
+									<div class="space-y-1">
+										<p
+											class="font-semibold text-[var(--c-text-secondary)]"
+											translate
+										>
+											More addresses:
+										</p>
+										@for (
+											address of project.secondaryAddresses;
+											track address
+										) {
+											<p>{{ address }}</p>
+										}
+									</div>
+								}
+
+								@if (project.phones?.length) {
+									<div class="space-y-1">
+										<p
+											class="font-semibold text-[var(--c-text-secondary)]"
+											translate
+										>
+											Phones:
+										</p>
+										<div class="flex flex-wrap gap-2">
+											@for (phone of project.phones; track phone) {
+												<a
+													class="project-inline-link"
+													[href]="phoneHref(phone)"
+												>
+													{{ phone }}
+												</a>
+											}
+										</div>
+									</div>
+								}
+
+								@if (project.email || project.secondaryEmail) {
+									<div class="space-y-1">
+										<p
+											class="font-semibold text-[var(--c-text-secondary)]"
+											translate
+										>
+											Email:
+										</p>
+										@if (project.email) {
+											<a
+												class="project-inline-link"
+												[href]="'mailto:' + project.email"
+											>
+												{{ project.email }}
+											</a>
+										}
+										@if (project.secondaryEmail) {
+											<a
+												class="project-inline-link block"
+												[href]="'mailto:' + project.secondaryEmail"
+											>
+												{{ project.secondaryEmail }}
+											</a>
+										}
+									</div>
+								}
+
+							</div>
+
+							<div class="mt-7 grid gap-2.5 lg:mt-auto lg:pt-7">
+								@if (project.projectUrl) {
+									<a
+										class="project-primary-link inline-flex min-h-11 items-center justify-center rounded-[var(--radius-sm)] bg-[var(--c-secondary)] px-4 text-center text-sm font-semibold shadow-[var(--glow-secondary)] transition hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-[var(--c-secondary)] focus:ring-offset-2 focus:ring-offset-[var(--c-bg-elevated)]"
+										[href]="project.projectUrl"
+										target="_blank"
+										rel="noreferrer"
+										translate
+									>
+										View project
+									</a>
+								}
+								@if (project.googlePlace || socialEntries(project).length) {
+									<div class="flex flex-wrap items-center gap-2">
+										@if (project.googlePlace) {
+											<a
+												class="inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius-sm)] border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-text-secondary)] transition hover:border-[var(--c-border-strong)] hover:bg-[var(--c-bg-glass)] hover:text-[var(--c-secondary)] focus:outline-none focus:ring-2 focus:ring-[var(--c-secondary)] focus:ring-offset-2 focus:ring-offset-[var(--c-bg-elevated)]"
+												[href]="project.googlePlace"
+												target="_blank"
+												rel="noreferrer"
+												[attr.aria-label]="'Open Google Maps' | translate"
+												[title]="'Open Google Maps' | translate"
+											>
+												<span
+													class="material-symbols-outlined text-[21px]"
+													aria-hidden="true"
+												>
+													location_on
+												</span>
+											</a>
+										}
+										@for (social of socialEntries(project); track social[0]) {
+											<a
+												class="inline-flex h-11 w-11 items-center justify-center rounded-[var(--radius-sm)] border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-text-secondary)] transition hover:border-[var(--c-border-strong)] hover:bg-[var(--c-bg-glass)] hover:text-[var(--c-secondary)] focus:outline-none focus:ring-2 focus:ring-[var(--c-secondary)] focus:ring-offset-2 focus:ring-offset-[var(--c-bg-elevated)]"
+												[href]="social[1]"
+												target="_blank"
+												rel="noreferrer"
+												[attr.aria-label]="socialLabel(social[0])"
+												[title]="socialLabel(social[0])"
+											>
+												<svg
+													class="h-4 w-4"
+													viewBox="0 0 24 24"
+													aria-hidden="true"
+												>
+													@switch (social[0]) {
+														@case ('facebook') {
+															<path
+																fill="currentColor"
+																d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.91h2.54V9.84c0-2.52 1.49-3.91 3.77-3.91 1.09 0 2.23.2 2.23.2v2.47h-1.26c-1.24 0-1.63.78-1.63 1.57v1.89h2.77l-.44 2.91h-2.33V22C18.34 21.24 22 17.08 22 12.06Z"
+															/>
+														}
+														@default {
+															<path
+																fill="currentColor"
+																d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm0 2A3.8 3.8 0 0 0 4 7.8v8.4A3.8 3.8 0 0 0 7.8 20h8.4a3.8 3.8 0 0 0 3.8-3.8V7.8A3.8 3.8 0 0 0 16.2 4H7.8Zm8.95 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"
+															/>
+														}
+													}
+												</svg>
+											</a>
+										}
+									</div>
+								}
+							</div>
+						</div>
+					</article>
+				}
+			</div>
+		} @else {
+			<section
+				class="mt-10 rounded-[var(--radius-card)] border border-dashed border-[var(--c-border)] bg-[var(--c-bg-elevated)] px-5 py-10 text-center shadow-[var(--shadow-sm)] sm:mt-12 sm:px-6 sm:py-14"
+			>
+				<div
+					class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]"
+				>
+					<span class="material-symbols-outlined text-[28px]" aria-hidden="true"
+						>work_history</span
+					>
+				</div>
+				<h2 class="mt-4 text-xl font-semibold text-[var(--c-text-secondary)]" translate>
+					This page is empty for now
+				</h2>
+				<p
+					class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]"
+					translate
+				>
+					Check back later for updates.
+				</p>
+			</section>
+		}
+	</section>
+</main>

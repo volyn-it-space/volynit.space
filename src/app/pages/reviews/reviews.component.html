@@ -1,0 +1,80 @@
+<main class="mx-auto max-w-[var(--container)] px-3 pb-8 pt-3 sm:px-4 sm:pb-10">
+	<section class="space-y-6 px-1 py-8 sm:px-2 sm:py-10" [attr.aria-label]="'Reviews page' | translate">
+		<div>
+			<p
+				class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
+				translate
+			>
+				Reviews
+			</p>
+			<h1 class="mt-2 text-2xl font-semibold text-[var(--c-text-secondary)] sm:text-3xl" translate>
+				Reviews
+			</h1>
+		</div>
+
+		@if (loading()) {
+			<section
+				class="rounded-[var(--radius-card)] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center sm:px-6 sm:py-14"
+			>
+				<div
+					class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]"
+				>
+					<span class="material-symbols-outlined animate-spin text-[28px]" aria-hidden="true">progress_activity</span>
+				</div>
+				<h2 class="mt-4 text-xl font-semibold text-[var(--c-text-secondary)]" translate>
+					Loading reviews
+				</h2>
+				<p class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]" translate>
+					Please wait while we collect client feedback.
+				</p>
+			</section>
+		} @else if (reviews().length > 0) {
+			<div class="grid gap-4 md:grid-cols-2">
+				@for (review of reviews(); track review.id) {
+					<article class="rounded-[var(--radius-card)] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-5 shadow-[var(--shadow-sm)]">
+						@if (review.rating) {
+							<p class="text-xs font-semibold uppercase text-[var(--c-secondary)]">
+								{{ review.rating }}/5
+							</p>
+						}
+						<p class="mt-2 text-base leading-7 text-[var(--c-text-secondary)]">
+							{{ review.quote | translate }}
+						</p>
+						<p class="mt-4 text-sm font-semibold text-[var(--c-text-secondary)]">
+							{{ review.author }}
+						</p>
+						@if (review.role || review.company) {
+							<p class="mt-1 text-sm leading-6 text-[var(--c-text-muted)]">
+								@if (review.role) {
+									{{ review.role | translate }}
+								}
+								@if (review.role && review.company) {
+									<span> / </span>
+								}
+								@if (review.company) {
+									{{ review.company | translate }}
+								}
+							</p>
+						}
+					</article>
+				}
+			</div>
+		} @else {
+			<section
+				class="rounded-[var(--radius-card)] border border-dashed border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center sm:px-6 sm:py-14"
+			>
+				<div
+					class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]"
+				>
+					<span class="material-symbols-outlined text-[28px]" aria-hidden="true">rate_review</span>
+				</div>
+				<h2 class="mt-4 text-xl font-semibold text-[var(--c-text-secondary)]" translate>
+					This page is currently empty
+				</h2>
+				<p class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]" translate>
+					Check back later for updates.
+				</p>
+			</section>
+		}
+	</section>
+</main>

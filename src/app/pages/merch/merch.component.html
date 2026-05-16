@@ -1,0 +1,98 @@
+<main class="mx-auto max-w-[var(--container)] px-3 pb-28 pt-3 sm:px-4 sm:pb-32">
+	<section
+		class="merch-shell overflow-hidden rounded-[var(--radius-card)] border border-[var(--c-border-soft)] bg-[var(--c-bg-secondary)] px-4 py-7 shadow-[var(--shadow-md)] sm:px-6 sm:py-9 lg:px-8"
+		[attr.aria-label]="'Merch page' | translate"
+	>
+		<div class="flex flex-col gap-5 border-b border-[var(--c-border-soft)] pb-6 sm:flex-row sm:items-start sm:justify-between">
+			<div class="max-w-[44rem]">
+				<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]" translate>
+					Merch
+				</p>
+				<h1 class="mt-2 text-3xl font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-4xl" translate>
+					Volyn IT Space merch
+				</h1>
+				<p class="mt-3 text-sm leading-6 text-[var(--c-text-muted)] sm:text-base sm:leading-7" translate>
+					Support the Volyn IT Space community with clean branded merchandise for developers,
+					teams, and local supporters.
+				</p>
+			</div>
+
+			<a
+				routerLink="/cart"
+				class="inline-flex h-10 w-fit items-center justify-center gap-2 rounded-[var(--radius-sm)] border border-[var(--c-border)] bg-[var(--c-bg-glass)] px-4 text-sm font-semibold text-[var(--c-text-secondary)] shadow-[var(--shadow-xs)] transition duration-200 hover:border-[var(--c-border-strong)] hover:bg-[var(--c-bg-tertiary)] hover:text-[var(--c-secondary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--c-secondary)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--c-bg-secondary)]"
+			>
+				<span class="material-symbols-outlined text-[20px]" aria-hidden="true">shopping_bag</span>
+				<span translate>Cart</span>
+				<span class="rounded-full bg-[var(--c-secondary)] px-2 py-0.5 text-xs font-bold text-[var(--c-text-on-primary)]">
+					{{ cartCount() }}
+				</span>
+			</a>
+		</div>
+
+		@if (loading()) {
+			<section class="mt-7 rounded-[var(--radius-card)] border border-[var(--c-border)] bg-[var(--c-bg-elevated)] px-5 py-10 text-center shadow-[var(--shadow-sm)] sm:px-6 sm:py-14">
+				<div class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]">
+					<span class="material-symbols-outlined animate-spin text-[28px]" aria-hidden="true">progress_activity</span>
+				</div>
+				<h2 class="mt-4 text-xl font-semibold text-[var(--c-text-secondary)]" translate>Loading merch</h2>
+				<p class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]" translate>Please wait while we prepare the catalog.</p>
+			</section>
+		} @else if (merchItems().length > 0) {
+			<div class="mt-7 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
+				@for (item of merchItems(); track item.name) {
+					<article
+						class="group flex min-h-full flex-col overflow-hidden rounded-[var(--radius-card)] border border-[var(--c-border)] bg-[var(--c-bg-elevated)] shadow-[var(--shadow-sm)] transition duration-200 hover:-translate-y-0.5 hover:border-[var(--c-border-strong)] hover:shadow-[var(--shadow-lg)]"
+					>
+						<div class="merch-placeholder">
+							<span class="merch-placeholder__brand">Volyn IT Space</span>
+							<span class="merch-placeholder__label">{{ item.label | translate }}</span>
+						</div>
+
+						<div class="flex min-h-[16rem] flex-1 flex-col p-4 sm:p-5">
+							<div class="flex items-start justify-between gap-4">
+								<h2 class="text-xl font-semibold leading-7 text-[var(--c-text-secondary)]">
+									{{ item.name | translate }}
+								</h2>
+								<p
+									class="shrink-0 rounded-[var(--radius-sm)] border border-[var(--c-border-soft)] bg-[var(--c-bg-soft)] px-3 py-1.5 text-base font-bold leading-none text-[var(--c-secondary)] shadow-[var(--shadow-xs)]"
+								>
+									{{ item.price }}
+								</p>
+							</div>
+
+							<p class="mt-4 text-sm leading-6 text-[var(--c-text-muted)]">
+								{{ item.description | translate }}
+							</p>
+
+							@if (isInCart(item.name)) {
+								<button
+									type="button"
+									class="mt-7 inline-flex h-12 items-center justify-center rounded-[var(--radius-sm)] border border-[var(--c-border)] bg-[var(--c-bg-soft)] px-5 text-sm font-bold text-[var(--c-text-secondary)] shadow-[var(--shadow-xs)] transition duration-200 hover:border-[var(--c-border-strong)] hover:bg-[var(--c-bg-tertiary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--c-secondary)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--c-bg-elevated)] sm:mt-auto"
+									(click)="removeFromCart(item.name)"
+								>
+									<span translate>Remove from cart</span>
+								</button>
+							} @else {
+								<button
+									type="button"
+									class="mt-7 inline-flex h-12 items-center justify-center rounded-[var(--radius-sm)] bg-[var(--c-secondary)] px-5 text-sm font-bold text-[var(--merch-cta-text)] shadow-[var(--glow-secondary)] transition duration-200 hover:brightness-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--c-secondary)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--c-bg-elevated)] sm:mt-auto"
+									(click)="addToCart(item)"
+								>
+									<span translate>Add to cart</span>
+								</button>
+							}
+						</div>
+					</article>
+				}
+			</div>
+		} @else {
+			<section class="mt-7 rounded-[var(--radius-card)] border border-dashed border-[var(--c-border)] bg-[var(--c-bg-elevated)] px-5 py-10 text-center shadow-[var(--shadow-sm)] sm:px-6 sm:py-14">
+				<div class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]">
+					<span class="material-symbols-outlined text-[28px]" aria-hidden="true">shopping_bag</span>
+				</div>
+				<h2 class="mt-4 text-xl font-semibold text-[var(--c-text-secondary)]" translate>This page is empty for now</h2>
+				<p class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]" translate>Check back later for updates.</p>
+			</section>
+		}
+	</section>
+</main>

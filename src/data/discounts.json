@@ -1,0 +1,17 @@
+[
+	{
+		"id": "spring-launch-package",
+		"title": "Spring website launch package",
+		"description": "Landing page setup, on-brand structure, and core SEO essentials for a fast HoReCa launch.",
+		"label": "Limited offer",
+		"terms": "Available for new horeca clients in May.",
+		"href": "/socials"
+	},
+	{
+		"id": "menu-refresh-bundle",
+		"title": "Menu refresh bundle",
+		"description": "We update menu blocks, gallery order, and contact actions in one focused content sprint.",
+		"label": "Popular",
+		"terms": "Best for cafes and restaurants preparing for the summer season."
+	}
+]

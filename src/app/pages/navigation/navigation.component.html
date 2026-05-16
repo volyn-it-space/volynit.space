@@ -1,0 +1,63 @@
+<main
+	class="mx-auto max-w-[var(--container)] px-3 pb-[calc(8rem+env(safe-area-inset-bottom))] pt-3 sm:px-4 sm:pb-[calc(8.5rem+env(safe-area-inset-bottom))]"
+>
+	<section
+		class="navigation-shell overflow-hidden rounded-[var(--radius-panel)] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] p-4 shadow-[var(--shadow-md)] sm:p-5 lg:p-7"
+		aria-labelledby="navigation-title"
+	>
+		<div class="mb-5 flex items-end justify-between gap-4 px-1 sm:mb-7">
+			<div>
+				<p
+					class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
+					translate
+				>
+					Navigation
+				</p>
+			</div>
+
+			<span
+				class="hidden h-11 w-11 shrink-0 items-center justify-center rounded-[var(--radius)] border border-[var(--c-border-soft)] bg-[var(--c-bg-glass)] text-[var(--c-secondary)] shadow-[var(--shadow-xs)] sm:inline-flex"
+				aria-hidden="true"
+			>
+				<span class="material-symbols-outlined text-[24px]">navigation</span>
+			</span>
+		</div>
+
+		<nav
+			[attr.aria-label]="'Section list' | translate"
+		>
+			<div class="grid gap-3 sm:gap-4 lg:grid-cols-2">
+				@for (item of navigationItems; track item.route; let index = $index) {
+					<a
+						class="navigation-card group flex min-h-24 items-center gap-4 rounded-[var(--radius-card)] border border-[var(--c-border-soft)] bg-[var(--c-bg-elevated)] px-4 py-4 shadow-[var(--shadow-sm)] transition duration-200 hover:-translate-y-0.5 hover:border-[var(--c-border-strong)] hover:shadow-[var(--shadow-md)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--c-secondary)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--c-bg-secondary)] sm:min-h-28 sm:px-5 sm:py-5"
+						[routerLink]="item.route"
+					>
+						<span
+							class="navigation-index flex h-12 w-12 shrink-0 items-center justify-center rounded-[var(--radius)] border border-[var(--c-border-soft)] text-sm font-semibold text-[var(--c-secondary)] sm:h-14 sm:w-14 sm:text-base"
+							aria-hidden="true"
+						>
+							0{{ index + 1 }}
+						</span>
+
+						<span class="min-w-0 flex-1">
+							<span
+								class="block text-2xl font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-3xl"
+						>
+							{{ item.label | translate }}
+						</span>
+					</span>
+
+						<span
+							class="navigation-icon flex h-12 w-12 shrink-0 items-center justify-center rounded-[var(--radius)] text-[var(--c-secondary)] transition duration-200 group-hover:translate-x-0.5 sm:h-14 sm:w-14"
+							aria-hidden="true"
+						>
+							<span class="material-symbols-outlined text-[26px] sm:text-[30px]">
+								{{ item.icon }}
+							</span>
+						</span>
+					</a>
+				}
+			</div>
+		</nav>
+	</section>
+</main>

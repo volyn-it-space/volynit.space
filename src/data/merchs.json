@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Volyn IT Space Hoodie",
+		"description": "Heavyweight hoodie for meetups, coworking days, and cool-season city walks.",
+		"price": "1490 UAH",
+		"label": "Hoodie"
+	},
+	{
+		"name": "Volyn IT Space Tote",
+		"description": "Clean canvas tote for laptop, notebook, and daily errands around Lutsk.",
+		"price": "490 UAH",
+		"label": "Tote bag"
+	},
+	{
+		"name": "Volyn IT Space Mug",
+		"description": "Minimal ceramic mug for coffee breaks during client calls and code reviews.",
+		"price": "390 UAH",
+		"label": "Mug"
+	}
+]

@@ -1,0 +1,282 @@
+{
+  "_id": "",
+  "name": "Volyn IT Space",
+  "lang": "uk",
+  "locale": "uk_UA",
+  "siteUrl": "https://volynit.space",
+  "description": "Ready-made websites, GPT and online discoverability, launch support, and ongoing developer care for Volyn businesses.",
+  "email": "hello@volynit.space",
+  "phone": "+380 332 000 000",
+  "address": "Lutsk, Volyn, Ukraine",
+  "mapHref": "https://example.com/volyn-it-space/maps",
+  "region": "Volyn",
+  "country": "Ukraine",
+  "logo": "logo.png",
+  "defaultSeo": {
+    "title": "Ready-made websites for Volyn businesses | Volyn IT Space",
+    "description": "Volyn IT Space creates ready-made websites for Volyn businesses, improves discoverability in GPT and online, and supports launch and monthly updates.",
+    "keywords": [
+      "Volyn IT Space",
+      "Volyn business websites",
+      "ready-made websites",
+      "small business website Volyn",
+      "restaurant website Volyn",
+      "GPT discoverability",
+      "online visibility"
+    ],
+    "author": "Volyn IT Space",
+    "robots": "index, follow",
+    "image": "/assets/og-image.svg",
+    "type": "website",
+    "twitterCard": "summary_large_image"
+  },
+  "pageSeo": {
+    "/": {
+      "title": "Ready-made websites for Volyn businesses | Volyn IT Space",
+      "description": "Launch a polished business website for Volyn with fast delivery, strong structure, GPT and search visibility, and ongoing developer support.",
+      "image": "/assets/og-image.svg"
+    },
+    "/our-work": {
+      "title": "Website examples for local businesses | Volyn IT Space",
+      "description": "See sample website directions for cafes, restaurants, bars, and other local businesses built around clear content, conversion paths, and SEO-ready structure.",
+      "image": "/assets/land.jpg"
+    },
+    "/our-team": {
+      "title": "Team behind Volyn IT Space",
+      "description": "Meet the developers and operators behind Volyn IT Space who build, launch, and support ready-made business websites.",
+      "image": "/assets/profile/honchar-denys.jpg"
+    },
+    "/merch": {
+      "title": "Brand merch and add-ons | Volyn IT Space",
+      "description": "Browse Volyn IT Space branded items and extra offer ideas presented with the same fast, content-first website structure.",
+      "robots": "noindex, follow",
+      "image": "/assets/logo.png"
+    },
+    "/cart": {
+      "title": "Cart | Volyn IT Space",
+      "description": "Review selected merch items before checkout.",
+      "robots": "noindex, follow",
+      "image": "/assets/logo.png"
+    },
+    "/sales": {
+      "title": "Offers and launch packages | Volyn IT Space",
+      "description": "Review launch offers, content update packages, and focused website improvements for local businesses in Volyn.",
+      "image": "/assets/og-image.svg"
+    },
+    "/articles": {
+      "title": "Articles on SEO and discoverability | Volyn IT Space",
+      "description": "Read practical articles on website structure, local SEO, GPT discoverability, and content decisions for small business websites.",
+      "image": "/assets/og-image.svg"
+    },
+    "/reviews": {
+      "title": "Client feedback and trust signals | Volyn IT Space",
+      "description": "See reviews and trust-building proof points around the websites and launch support offered by Volyn IT Space.",
+      "image": "/assets/og-image.svg"
+    },
+    "/events": {
+      "title": "Events and workshops | Volyn IT Space",
+      "description": "Explore workshops, sessions, and business events focused on local websites, content structure, and online visibility.",
+      "image": "/assets/og-image.svg"
+    },
+    "/jobs": {
+      "title": "Jobs at Volyn IT Space",
+      "description": "Open roles for content, frontend, and website delivery work focused on fast marketing sites for local businesses.",
+      "image": "/assets/og-image.svg"
+    },
+    "/faq": {
+      "title": "Frequently asked questions | Volyn IT Space",
+      "description": "Find answers about ready-made websites, launch process, support model, and discoverability work for Volyn businesses.",
+      "image": "/assets/og-image.svg"
+    },
+    "/faq/agent": {
+      "title": "Agent FAQ | Volyn IT Space",
+      "description": "Internal agent FAQ for the Volyn IT Space project.",
+      "robots": "noindex, follow"
+    },
+    "/faq/developer": {
+      "title": "Developer FAQ | Volyn IT Space",
+      "description": "Internal developer FAQ for the Volyn IT Space project.",
+      "robots": "noindex, follow"
+    },
+    "/navigation": {
+      "title": "Site navigation | Volyn IT Space",
+      "description": "Quick access to the main pages of the Volyn IT Space website.",
+      "robots": "noindex, follow",
+      "image": "/assets/logo.png"
+    },
+    "/socials": {
+      "title": "Contacts and social links | Volyn IT Space",
+      "description": "Reach Volyn IT Space through phone, email, messengers, listings, and social networks from one contact page.",
+      "image": "/assets/logo.png"
+    }
+  },
+  "structuredData": {
+    "type": "ProfessionalService",
+    "addressLocality": "Lutsk",
+    "addressCountry": "UA",
+    "areaServed": "Volyn",
+    "serviceType": [
+      "Ready-made websites for businesses",
+      "Website launch setup",
+      "Monthly website support",
+      "GPT and online discoverability"
+    ],
+    "sameAs": [
+      "https://example.com/volyn-it-space/instagram",
+      "https://example.com/volyn-it-space/facebook",
+      "https://example.com/volyn-it-space/linkedin"
+    ]
+  },
+  "info": {
+    "eyebrow": "Ready-made websites for Volyn businesses",
+    "title": "Help your business stand out in Volyn, on GPT, and online",
+    "lead": "We prepare a ready website solution, present it clearly, connect your business, and support it every month.",
+    "focus": "Volyn region businesses",
+    "highlights": [
+      "Ready solution",
+      "Fast launch",
+      "Monthly support",
+      "Built by real developers"
+    ],
+    "services": [
+      "Modern website",
+      "Mobile-ready pages",
+      "Visibility on GPT and online",
+      "Admin panel if needed",
+      "Multi-language support",
+      "Hosting and maintenance",
+      "Bug fixes within agreement",
+      "Future feature development"
+    ],
+    "businessCategories": [
+      {
+        "title": "Restaurants & cafes",
+        "description": "Menus, bookings, offers, delivery links, and a polished first impression."
+      },
+      {
+        "title": "Beauty & wellness",
+        "description": "Services, treatments, trust signals, and simple ways for clients to book."
+      },
+      {
+        "title": "Clinics & professional services",
+        "description": "Clear service pages, credibility, contact details, and practical local visibility."
+      },
+      {
+        "title": "Education & training",
+        "description": "Courses, enrolment paths, schedules, and clear information for parents or learners."
+      },
+      {
+        "title": "Shops & local brands",
+        "description": "Brand story, products, store details, and online trust for local buyers."
+      },
+      {
+        "title": "Service businesses",
+        "description": "A strong fit for businesses that need a polished online presence without slow custom delivery."
+      }
+    ],
+    "benefits": [
+      "Volyn-focused business approach",
+      "Ready-made launch model",
+      "Real developers behind the work",
+      "Clear support structure",
+      "Flexible paid improvements",
+      "Transferable project ownership"
+    ]
+  },
+  "socials": [
+    {
+      "label": "Instagram",
+      "value": "@volynitspace.demo",
+      "href": "https://example.com/volyn-it-space/instagram",
+      "type": "instagram"
+    },
+    {
+      "label": "Facebook",
+      "value": "/volynitspace.demo",
+      "href": "https://example.com/volyn-it-space/facebook",
+      "type": "facebook"
+    },
+    {
+      "label": "TikTok",
+      "value": "@volynitspace.demo",
+      "href": "https://example.com/volyn-it-space/tiktok",
+      "type": "tiktok"
+    },
+    {
+      "label": "YouTube",
+      "value": "@volynitspace-demo",
+      "href": "https://example.com/volyn-it-space/youtube",
+      "type": "youtube"
+    },
+    {
+      "label": "Threads",
+      "value": "@volynitspace.demo",
+      "href": "https://example.com/volyn-it-space/threads",
+      "type": "threads"
+    },
+    {
+      "label": "X",
+      "value": "@volynitspace_demo",
+      "href": "https://example.com/volyn-it-space/x",
+      "type": "x"
+    },
+    {
+      "label": "LinkedIn",
+      "value": "Volyn IT Space Demo",
+      "href": "https://example.com/volyn-it-space/linkedin",
+      "type": "linkedin"
+    },
+    {
+      "label": "Pinterest",
+      "value": "volynitspace-demo",
+      "href": "https://example.com/volyn-it-space/pinterest",
+      "type": "pinterest"
+    }
+  ],
+  "messengers": [
+    {
+      "label": "Telegram",
+      "value": "@volynitspace_demo",
+      "href": "https://example.com/volyn-it-space/telegram",
+      "type": "telegram"
+    },
+    {
+      "label": "Viber",
+      "value": "+380 332 000 000",
+      "href": "https://example.com/volyn-it-space/viber",
+      "type": "viber"
+    },
+    {
+      "label": "WhatsApp",
+      "value": "+380 332 000 000",
+      "href": "https://example.com/volyn-it-space/whatsapp",
+      "type": "whatsapp"
+    }
+  ],
+  "listings": [
+    {
+      "label": "Google Business",
+      "value": "Volyn IT Space Demo",
+      "href": "https://example.com/volyn-it-space/google-business",
+      "type": "google-business"
+    },
+    {
+      "label": "Tripadvisor",
+      "value": "Volyn IT Space Demo",
+      "href": "https://example.com/volyn-it-space/tripadvisor",
+      "type": "tripadvisor"
+    },
+    {
+      "label": "Bolt Food",
+      "value": "Delivery",
+      "href": "https://example.com/volyn-it-space/bolt-food",
+      "type": "bolt-food"
+    },
+    {
+      "label": "Glovo",
+      "value": "Delivery",
+      "href": "https://example.com/volyn-it-space/glovo",
+      "type": "glovo"
+    }
+  ]
+}

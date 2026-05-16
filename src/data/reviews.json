@@ -1,0 +1,18 @@
+[
+	{
+		"id": "review-bakery",
+		"author": "Olha",
+		"quote": "The site became much clearer for clients. Calls and Instagram messages started converting faster because the page finally answered the basic questions.",
+		"role": "Owner",
+		"company": "Local bakery",
+		"rating": 5
+	},
+	{
+		"id": "review-cafe",
+		"author": "Roman",
+		"quote": "We needed a clean launch without a complex CMS. The team delivered a simple site we can actually maintain.",
+		"role": "Manager",
+		"company": "City cafe",
+		"rating": 5
+	}
+]

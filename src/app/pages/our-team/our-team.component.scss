@@ -1,0 +1,16 @@
+:host {
+	display: block;
+	background: var(--gradient-page);
+	color: var(--c-text-primary);
+	min-height: 100%;
+}
+
+.team-hero {
+	background:
+		linear-gradient(180deg, color-mix(in srgb, var(--c-bg-glass) 80%, transparent), var(--c-bg-secondary)),
+		var(--gradient-surface);
+}
+
+.team-hero__icon {
+	box-shadow: var(--glow-secondary), var(--shadow-sm);
+}

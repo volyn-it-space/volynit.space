@@ -1,0 +1,245 @@
+<main class="mx-auto max-w-[var(--container)] px-3 pb-[calc(8rem+env(safe-area-inset-bottom))] pt-3 sm:px-4 sm:pb-[calc(8.5rem+env(safe-area-inset-bottom))]">
+	<section
+		class="socials-shell overflow-hidden rounded-[var(--radius-panel)] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-md)]"
+		[attr.aria-label]="'Socials page' | translate"
+	>
+		<div class="border-b border-[var(--c-border-soft)] px-4 py-6 sm:px-6 lg:px-8">
+			<p
+				class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
+				translate
+			>
+				Socials
+			</p>
+			<div class="mt-3 grid gap-3 lg:grid-cols-[minmax(0,1fr)_18rem] lg:items-end">
+				<div>
+					<h1
+						class="text-3xl font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-4xl"
+						translate
+					>
+						Contact and social channels
+					</h1>
+					<p class="mt-3 max-w-[42rem] text-sm leading-6 text-[var(--c-text-muted)] sm:text-base sm:leading-7" translate>
+						Demo contact details for Volyn IT Space, including phone, email, location,
+						messengers, and social platforms.
+					</p>
+				</div>
+
+				<div class="hidden rounded-[var(--radius)] border border-[var(--c-border-soft)] bg-[var(--c-bg-glass)] px-4 py-3 text-sm leading-6 text-[var(--c-text-muted)] shadow-[var(--shadow-xs)] lg:block" translate>
+					Calls, messages, updates, and local listings for Volyn IT Space.
+				</div>
+			</div>
+		</div>
+
+		<div class="space-y-8 p-4 sm:p-6 lg:p-8">
+			<div class="grid gap-5 xl:grid-cols-[minmax(0,1fr)_20rem]">
+				<section aria-labelledby="primary-contacts-title" class="space-y-4">
+					<div class="section-heading">
+						<p id="primary-contacts-title" translate>Primary contacts</p>
+						<span translate>Reach the team directly</span>
+					</div>
+
+					<div class="grid gap-4 lg:grid-cols-3">
+						<a
+							class="contact-card group block rounded-[var(--radius-card)] border border-[var(--c-border)] bg-[var(--c-bg-elevated)] p-4 shadow-[var(--shadow-sm)] transition duration-200 hover:-translate-y-0.5 hover:border-[var(--c-border-strong)] hover:shadow-[var(--shadow-md)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--c-secondary)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--c-bg-secondary)] sm:p-5"
+							[href]="phoneHref()"
+							[attr.aria-label]="('Call' | translate) + ' ' + company().name"
+						>
+							<div class="flex h-full flex-col gap-5">
+								<span
+									class="icon-wrap inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-[var(--radius)] text-[var(--c-secondary)]"
+									aria-hidden="true"
+								>
+									<span class="material-symbols-outlined text-[25px]">call</span>
+								</span>
+
+								<div class="min-w-0">
+									<p
+										class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
+										translate
+									>
+										Phone
+									</p>
+									<p class="mt-2 text-xl font-semibold text-[var(--c-text-secondary)]">
+										{{ company().phone }}
+									</p>
+									<p class="mt-3 text-sm leading-6 text-[var(--c-text-muted)]" translate>
+										Demo number for website presentations, support questions, and
+										project enquiries.
+									</p>
+								</div>
+							</div>
+						</a>
+
+						<a
+							class="contact-card group block rounded-[var(--radius-card)] border border-[var(--c-border)] bg-[var(--c-bg-elevated)] p-4 shadow-[var(--shadow-sm)] transition duration-200 hover:-translate-y-0.5 hover:border-[var(--c-border-strong)] hover:shadow-[var(--shadow-md)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--c-secondary)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--c-bg-secondary)] sm:p-5"
+							[href]="emailHref()"
+							[attr.aria-label]="('Email' | translate) + ' ' + company().name"
+						>
+							<div class="flex h-full flex-col gap-5">
+								<span
+									class="icon-wrap inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-[var(--radius)] text-[var(--c-secondary)]"
+									aria-hidden="true"
+								>
+									<span class="material-symbols-outlined text-[25px]">alternate_email</span>
+								</span>
+
+								<div class="min-w-0">
+									<p
+										class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
+										translate
+									>
+										Email
+									</p>
+									<p class="mt-2 break-all text-xl font-semibold text-[var(--c-text-secondary)]">
+										{{ company().email }}
+									</p>
+									<p class="mt-3 text-sm leading-6 text-[var(--c-text-muted)]" translate>
+										Demo inbox for business website requests, launch questions, and
+										collaboration.
+									</p>
+								</div>
+							</div>
+						</a>
+
+						<a
+							class="contact-card group block rounded-[var(--radius-card)] border border-[var(--c-border)] bg-[var(--c-bg-elevated)] p-4 shadow-[var(--shadow-sm)] transition duration-200 hover:-translate-y-0.5 hover:border-[var(--c-border-strong)] hover:shadow-[var(--shadow-md)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--c-secondary)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--c-bg-secondary)] sm:p-5"
+							[href]="company().mapHref"
+							target="_blank"
+							rel="noreferrer nofollow"
+							[attr.aria-label]="('Open' | translate) + ' ' + company().name + ' ' + ('on the map' | translate)"
+						>
+							<div class="flex h-full flex-col gap-5">
+								<span
+									class="icon-wrap inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-[var(--radius)] text-[var(--c-secondary)]"
+									aria-hidden="true"
+								>
+									<span class="material-symbols-outlined text-[25px]">location_on</span>
+								</span>
+
+								<div class="min-w-0">
+									<p
+										class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
+										translate
+									>
+										Address
+									</p>
+									<p class="mt-2 text-xl font-semibold leading-7 text-[var(--c-text-secondary)]">
+										{{ company().address }}
+									</p>
+									<p class="mt-3 text-sm leading-6 text-[var(--c-text-muted)]" translate>
+										Demo address for a Volyn-focused digital team and local business
+										presentations.
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</section>
+
+				<aside
+					class="logo-panel relative flex min-h-[17rem] items-center justify-center overflow-hidden rounded-[var(--radius-card)] border border-[var(--c-border-soft)] bg-[var(--c-bg-elevated)] p-6 text-center shadow-[var(--shadow-sm)]"
+					[attr.aria-label]="'Volyn IT Space brand' | translate"
+				>
+					<div class="brand-ring absolute inset-4 rounded-[var(--radius-card)]" aria-hidden="true"></div>
+					<div class="relative">
+						<img
+							class="mx-auto h-auto w-[10.5rem] drop-shadow-[0_18px_34px_rgba(0,0,0,0.16)] sm:w-[12rem]"
+							[ngSrc]="company().logo"
+							[alt]="company().name"
+							width="720"
+							height="720"
+							priority
+						/>
+						<p class="mt-5 text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+							{{ company().name }}
+						</p>
+						<p class="mx-auto mt-2 max-w-[12rem] text-sm leading-6 text-[var(--c-text-muted)]" translate>
+							Digital presence, gathered in one place.
+						</p>
+					</div>
+				</aside>
+			</div>
+
+			<section aria-labelledby="messengers-title" class="rounded-[var(--radius-card)] border border-[var(--c-border-soft)] bg-[var(--c-bg-glass)] p-4 shadow-[var(--shadow-xs)] sm:p-5">
+				<div class="section-heading">
+					<p id="messengers-title" translate>Messengers</p>
+					<span translate>Quick chat channels</span>
+				</div>
+
+				<div class="mt-4 grid gap-3 md:grid-cols-3">
+					@for (messenger of company().messengers; track messenger.href) {
+						<a
+							class="compact-link"
+							[href]="messenger.href"
+							target="_blank"
+							rel="noreferrer nofollow"
+							[attr.aria-label]="('Open' | translate) + ' ' + company().name + ' ' + (messenger.label | translate)"
+						>
+							<span class="compact-icon material-symbols-outlined" aria-hidden="true">
+								{{ messengerIcon(messenger) }}
+							</span>
+							<span class="min-w-0">
+								<span class="compact-title">{{ messenger.label | translate }}</span>
+								<span class="compact-meta">{{ messenger.value }}</span>
+							</span>
+						</a>
+					}
+				</div>
+			</section>
+
+			<div class="grid gap-6 xl:grid-cols-[minmax(0,1fr)_minmax(20rem,0.58fr)]">
+				<section aria-labelledby="social-platforms-title" class="space-y-4">
+					<div class="section-heading">
+						<p id="social-platforms-title" translate>Social platforms</p>
+						<span translate>Updates and community profiles</span>
+					</div>
+
+					<div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+						@for (social of company().socials; track social.href) {
+							<a
+								class="platform-card"
+								[href]="social.href"
+								target="_blank"
+								rel="noreferrer nofollow"
+							[attr.aria-label]="('Open' | translate) + ' ' + company().name + ' ' + (social.label | translate)"
+							>
+								<span class="platform-mark">{{ socialMark(social) }}</span>
+								<span class="platform-copy">
+									<span class="platform-title">{{ social.label | translate }}</span>
+									<span class="platform-meta">{{ social.value }}</span>
+								</span>
+							</a>
+						}
+					</div>
+				</section>
+
+				<section aria-labelledby="business-platforms-title" class="space-y-4">
+					<div class="section-heading">
+						<p id="business-platforms-title" translate>Business listings</p>
+						<span translate>Maps, reviews, and delivery</span>
+					</div>
+
+					<div class="grid gap-3 sm:grid-cols-2 xl:grid-cols-1">
+						@for (listing of company().listings; track listing.href) {
+							<a
+								class="platform-card platform-card--business"
+								[href]="listing.href"
+								target="_blank"
+								rel="noreferrer nofollow"
+							[attr.aria-label]="('Open' | translate) + ' ' + company().name + ' ' + (listing.label | translate)"
+							>
+								<span class="platform-symbol material-symbols-outlined" aria-hidden="true">
+									{{ listingIcon(listing) }}
+								</span>
+								<span class="platform-copy">
+									<span class="platform-title">{{ listing.label | translate }}</span>
+									<span class="platform-meta">{{ listing.value | translate }}</span>
+								</span>
+							</a>
+						}
+					</div>
+				</section>
+			</div>
+		</div>
+	</section>
+</main>

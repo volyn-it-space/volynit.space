@@ -1,0 +1,23 @@
+[
+	{
+		"badge": "Built project",
+		"category": "Cafe website",
+		"title": "Lebedynka Brunch",
+		"description": "A warm Volyn cafe website built around breakfast menus, fresh pastry photos, table booking, and quick map access near the city center.",
+		"tags": ["Cafe", "Breakfast menu", "Photo-led", "Map-ready"]
+	},
+	{
+		"badge": "Built project",
+		"category": "Restaurant website",
+		"title": "Basiv Kut Terrace",
+		"description": "A seasonal restaurant page for Volyn guests with banquet formats, terrace atmosphere, menu highlights, and a clear reservation path.",
+		"tags": ["Restaurant", "Terrace", "Banquets", "Booking-focused"]
+	},
+	{
+		"badge": "Built project",
+		"category": "Bar website",
+		"title": "Soborna Craft Bar",
+		"description": "A compact HoReCa site for a Volyn craft bar with events, signature drinks, food delivery links, and social channels in one place.",
+		"tags": ["Craft bar", "Events", "Delivery links", "Social channels"]
+	}
+]

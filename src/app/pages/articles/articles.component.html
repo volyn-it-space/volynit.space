@@ -1,0 +1,60 @@
+<main
+	class="mx-auto max-w-[var(--container)] px-3 pb-[calc(8rem+env(safe-area-inset-bottom))] pt-3 sm:px-4 sm:pb-[calc(8.5rem+env(safe-area-inset-bottom))]"
+>
+	<section class="space-y-6 px-1 py-8 sm:px-2 sm:py-10" [attr.aria-label]="'Articles page' | translate">
+		<div>
+			<p class="text-[12px] font-semibold uppercase text-[var(--c-secondary)]" translate>
+				Articles
+			</p>
+			<h1 class="mt-2 text-2xl font-semibold text-[var(--c-text-secondary)] sm:text-3xl" translate>
+				Articles
+			</h1>
+		</div>
+
+		@if (loading()) {
+			<section class="rounded-[var(--radius-card)] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center shadow-[var(--shadow-sm)] sm:px-6 sm:py-14">
+				<div class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]">
+					<span class="material-symbols-outlined animate-spin text-[28px]" aria-hidden="true">progress_activity</span>
+				</div>
+				<h2 class="mt-4 text-xl font-semibold text-[var(--c-text-secondary)]" translate>Loading articles</h2>
+				<p class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]" translate>Please wait while we prepare the latest updates.</p>
+			</section>
+		} @else if (articles().length > 0) {
+			<div class="grid gap-4 md:grid-cols-2">
+				@for (article of articles(); track article.id) {
+					<article class="rounded-[var(--radius-card)] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-5 shadow-[var(--shadow-sm)]">
+						@if (article.category) {
+							<p class="text-xs font-semibold uppercase text-[var(--c-secondary)]">{{ article.category | translate }}</p>
+						}
+						<h2 class="mt-2 text-xl font-semibold text-[var(--c-text-secondary)]">{{ article.title | translate }}</h2>
+						<p class="mt-3 text-sm leading-6 text-[var(--c-text-muted)]">{{ article.description | translate }}</p>
+						@if (article.author || article.publishedAt) {
+							<p class="mt-4 text-sm leading-6 text-[var(--c-text-primary)]">
+								@if (article.author) {
+									{{ article.author | translate }}
+								}
+								@if (article.author && article.publishedAt) {
+									<span> / </span>
+								}
+								{{ article.publishedAt }}
+							</p>
+						}
+						@if (article.href) {
+							<a class="mt-5 inline-flex min-h-11 items-center justify-center rounded-[var(--radius-sm)] border border-[var(--c-border)] px-4 text-sm font-semibold text-[var(--c-text-secondary)]" [href]="article.href" translate>
+								Read article
+							</a>
+						}
+					</article>
+				}
+			</div>
+		} @else {
+			<section class="rounded-[var(--radius-card)] border border-dashed border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center shadow-[var(--shadow-sm)] sm:px-6 sm:py-14">
+				<div class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]">
+					<span class="material-symbols-outlined text-[28px]" aria-hidden="true">article</span>
+				</div>
+				<h2 class="mt-4 text-xl font-semibold text-[var(--c-text-secondary)]" translate>This page is empty for now</h2>
+				<p class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]" translate>Check back later for updates.</p>
+			</section>
+		}
+	</section>
+</main>

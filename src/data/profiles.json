@@ -1,0 +1,16 @@
+[
+	{
+		"name": "Denys Honchar",
+		"seniority": "senior",
+		"roles": ["founder", "developer"],
+		"image": "profile/ceo.webp",
+		"socials": [
+			{
+				"label": "LinkedIn",
+				"icon": "linkedin",
+				"href": "https://www.linkedin.com/in/crackeraki",
+				"external": true
+			}
+		]
+	}
+]

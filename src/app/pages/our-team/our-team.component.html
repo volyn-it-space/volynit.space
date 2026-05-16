@@ -1,0 +1,77 @@
+<main class="mx-auto max-w-[var(--container)] px-3 pb-28 pt-3 sm:px-4 sm:pb-32">
+	<section
+		class="team-hero rounded-[var(--radius-panel)] border border-[var(--c-border-soft)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center shadow-[var(--shadow-sm)] sm:px-6 sm:py-14"
+	>
+		<div
+			class="team-hero__icon mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border-soft)] bg-[var(--c-bg-glass)] text-[var(--c-secondary)]"
+		>
+			<span class="material-symbols-outlined text-[28px]" aria-hidden="true">groups</span>
+		</div>
+
+		<p
+			class="mt-5 text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
+			translate
+		>
+			Team
+		</p>
+		<h1
+			class="mt-2 text-2xl font-semibold text-[var(--c-text-secondary)] sm:text-3xl"
+			translate
+		>
+			Our team
+		</h1>
+		<p
+			class="mx-auto mt-3 max-w-[30rem] text-sm leading-6 text-[var(--c-text-muted)] sm:text-base"
+			translate
+		>
+			Experienced specialists behind Volyn IT Space projects
+		</p>
+	</section>
+
+	@if (loading()) {
+		<section class="mt-10 rounded-[var(--radius-card)] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-5 py-10 text-center shadow-[var(--shadow-sm)] sm:mt-12 sm:px-6 sm:py-14">
+			<div class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]">
+				<span class="material-symbols-outlined animate-spin text-[28px]" aria-hidden="true">progress_activity</span>
+			</div>
+			<h2 class="mt-4 text-xl font-semibold text-[var(--c-text-secondary)]" translate>Loading team</h2>
+			<p class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]" translate>Please wait while we prepare the team list.</p>
+		</section>
+	} @else if (teamSections().length > 0) {
+		<div class="mt-10 space-y-12 sm:mt-12 sm:space-y-14">
+			@for (section of teamSections(); track section.title) {
+				<section>
+					<div
+						class="mb-5 flex items-end justify-between gap-4 border-b border-[var(--c-border-soft)] pb-3"
+					>
+						<div>
+							<h2 class="mt-1 text-xl font-semibold text-[var(--c-text-secondary)]">
+								{{ section.title | translate }}
+							</h2>
+						</div>
+						<p class="text-sm font-medium text-[var(--c-text-muted)]">
+							{{ section.members.length }}
+							{{ section.members.length === 1 ? ('person' | translate) : ('people' | translate) }}
+						</p>
+					</div>
+
+					<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+						@for (
+							member of section.members;
+							track member.profile.name + '-' + member.role
+						) {
+							<app-profile [profile]="member.profile" />
+						}
+					</div>
+				</section>
+			}
+		</div>
+	} @else {
+		<section class="mt-10 rounded-[var(--radius-card)] border border-dashed border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-5 py-10 text-center shadow-[var(--shadow-sm)] sm:mt-12 sm:px-6 sm:py-14">
+			<div class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]">
+				<span class="material-symbols-outlined text-[28px]" aria-hidden="true">groups</span>
+			</div>
+			<h2 class="mt-4 text-xl font-semibold text-[var(--c-text-secondary)]" translate>This page is empty for now</h2>
+			<p class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]" translate>Check back later for updates.</p>
+		</section>
+	}
+</main>

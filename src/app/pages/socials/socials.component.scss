@@ -1,0 +1,176 @@
+:host {
+	display: block;
+	background: var(--gradient-page);
+	color: var(--c-text-primary);
+}
+
+.socials-shell {
+	background-image:
+		radial-gradient(circle at 12% 0%, color-mix(in srgb, var(--c-secondary) 14%, transparent), transparent 28rem),
+		radial-gradient(circle at 96% 22%, color-mix(in srgb, var(--c-primary) 10%, transparent), transparent 24rem),
+		var(--gradient-surface);
+}
+
+.logo-panel {
+	background-image:
+		radial-gradient(circle at 50% 28%, color-mix(in srgb, var(--c-secondary) 18%, transparent), transparent 11rem),
+		linear-gradient(180deg, color-mix(in srgb, var(--c-bg-glass) 82%, transparent), var(--c-bg-elevated));
+}
+
+.brand-ring {
+	border: 1px solid color-mix(in srgb, var(--c-secondary) 18%, transparent);
+	box-shadow: inset 0 1px 0 color-mix(in srgb, var(--c-text-secondary) 8%, transparent);
+}
+
+.section-heading {
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+.section-heading p {
+	color: var(--c-text-secondary);
+	font-size: 0.92rem;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+}
+
+.section-heading span {
+	color: var(--c-text-muted);
+	font-size: 0.78rem;
+	font-weight: 600;
+}
+
+.contact-card {
+	position: relative;
+	overflow: hidden;
+}
+
+.contact-card::after {
+	content: '';
+	position: absolute;
+	inset: auto -3rem -3rem auto;
+	width: 8rem;
+	height: 8rem;
+	border-radius: 9999px;
+	background: color-mix(in srgb, var(--c-secondary) 10%, transparent);
+	filter: blur(12px);
+	pointer-events: none;
+}
+
+.icon-wrap {
+	background: color-mix(in srgb, var(--c-secondary) 12%, var(--c-bg-glass));
+	box-shadow: var(--glow-secondary);
+}
+
+.compact-link,
+.platform-card {
+	display: flex;
+	min-width: 0;
+	align-items: center;
+	border: 1px solid var(--c-border-soft);
+	background: color-mix(in srgb, var(--c-bg-elevated) 82%, var(--c-bg-glass));
+	box-shadow: var(--shadow-xs);
+	transition:
+		transform 180ms ease,
+		border-color 180ms ease,
+		background 180ms ease,
+		box-shadow 180ms ease;
+}
+
+.compact-link {
+	gap: 0.875rem;
+	border-radius: var(--radius);
+	padding: 0.875rem 1rem;
+}
+
+.compact-link:hover,
+.platform-card:hover {
+	transform: translateY(-2px);
+	border-color: color-mix(in srgb, var(--c-secondary) 45%, var(--c-border));
+	background: color-mix(in srgb, var(--c-bg-elevated) 90%, var(--c-bg-soft));
+	box-shadow: var(--shadow-sm);
+}
+
+.compact-link:focus-visible,
+.platform-card:focus-visible {
+	outline: 2px solid var(--c-secondary);
+	outline-offset: 3px;
+}
+
+.compact-icon,
+.platform-symbol,
+.platform-mark {
+	display: inline-flex;
+	flex: 0 0 auto;
+	align-items: center;
+	justify-content: center;
+	width: 2.35rem;
+	height: 2.35rem;
+	border-radius: var(--radius-xs);
+	border: 1px solid var(--c-border-soft);
+	background: var(--c-bg-soft);
+	color: var(--c-secondary);
+}
+
+.compact-icon,
+.platform-symbol {
+	font-size: 1.25rem;
+}
+
+.compact-title,
+.compact-meta,
+.platform-title,
+.platform-meta {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.compact-title,
+.platform-title {
+	color: var(--c-text-secondary);
+	font-size: 0.92rem;
+	font-weight: 700;
+}
+
+.compact-meta,
+.platform-meta {
+	margin-top: 0.2rem;
+	color: var(--c-text-muted);
+	font-size: 0.82rem;
+	line-height: 1.35;
+}
+
+.platform-card {
+	gap: 0.8rem;
+	border-radius: var(--radius);
+	padding: 0.85rem;
+}
+
+.platform-card--business {
+	padding: 1rem;
+}
+
+.platform-mark {
+	font-size: 0.78rem;
+	font-weight: 800;
+	letter-spacing: 0.04em;
+}
+
+.platform-copy {
+	min-width: 0;
+}
+
+@media (max-width: 640px) {
+	.section-heading {
+		display: block;
+	}
+
+	.section-heading span {
+		display: block;
+		margin-top: 0.25rem;
+	}
+}

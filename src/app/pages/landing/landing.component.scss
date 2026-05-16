@@ -1,0 +1,296 @@
+:host {
+	display: block;
+	background: var(--gradient-page);
+	color: var(--c-text-primary);
+}
+
+.landing__section--panel {
+	border-block: 1px solid var(--c-border);
+	background:
+		linear-gradient(
+			180deg,
+			color-mix(in srgb, var(--c-bg-soft) 72%, transparent),
+			transparent 68%
+		),
+		color-mix(in srgb, var(--c-bg-secondary) 88%, var(--c-bg-primary));
+}
+
+.hero {
+	isolation: isolate;
+	background:
+		radial-gradient(
+			circle at 18% 12%,
+			color-mix(in srgb, var(--c-secondary) 28%, transparent),
+			transparent 26rem
+		),
+		radial-gradient(
+			circle at 84% 18%,
+			color-mix(in srgb, var(--c-accent) 18%, transparent),
+			transparent 28rem
+		),
+		linear-gradient(
+			180deg,
+			color-mix(in srgb, var(--c-bg-primary) 86%, transparent),
+			transparent 78%
+		);
+}
+
+.eyebrow {
+	border: 1px solid color-mix(in srgb, var(--c-primary) 24%, var(--c-border));
+	background: color-mix(in srgb, var(--c-bg-glass) 78%, var(--c-bg-soft));
+	box-shadow: var(--shadow-xs);
+	color: var(--c-primary);
+}
+
+.button {
+	display: inline-flex;
+	min-height: 3.1rem;
+	align-items: center;
+	justify-content: center;
+	border-radius: var(--radius);
+	font-size: 0.95rem;
+	font-weight: 700;
+	padding: 0.9rem 1.45rem;
+	text-decoration: none;
+}
+
+.button:focus-visible,
+.faq-item summary:focus-visible,
+.landing-footer a:focus-visible {
+	outline: none;
+	box-shadow: var(--focus-ring);
+}
+
+.button--primary {
+	border: 1px solid color-mix(in srgb, var(--c-secondary) 38%, var(--c-primary));
+	background: var(--gradient-primary);
+	box-shadow: var(--glow-primary), var(--shadow-md);
+	color: var(--c-text-on-primary);
+}
+
+.button--secondary {
+	border: 1px solid var(--c-border-strong);
+	background: color-mix(in srgb, var(--c-bg-glass) 88%, var(--c-bg-soft));
+	color: var(--c-text-secondary);
+}
+
+.chip,
+.tile,
+.card,
+.step-card,
+.faq-list,
+.media-card {
+	border: 1px solid var(--c-border);
+	background: var(--gradient-surface);
+	box-shadow: var(--shadow-sm);
+}
+
+.media-card {
+	position: relative;
+	overflow: hidden;
+	border-radius: var(--radius-panel);
+	border-color: color-mix(in srgb, var(--c-primary) 18%, var(--c-border));
+	box-shadow: var(--glow-secondary), var(--shadow-lg);
+}
+
+.media-card::after {
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+	background:
+		linear-gradient(
+			180deg,
+			transparent 42%,
+			color-mix(in srgb, var(--c-overlay) 62%, transparent)
+		),
+		radial-gradient(
+			circle at 20% 12%,
+			color-mix(in srgb, var(--c-secondary) 22%, transparent),
+			transparent 18rem
+		);
+	content: '';
+}
+
+.media-card__image {
+	display: block;
+	width: 100%;
+	height: clamp(20rem, 42vw, 31rem);
+	object-fit: cover;
+}
+
+.media-card__meta {
+	position: relative;
+	z-index: 1;
+	display: grid;
+	gap: 0.9rem;
+	border-top: 1px solid var(--c-border);
+	background: color-mix(in srgb, var(--c-bg-elevated) 88%, var(--c-bg-glass));
+	padding: clamp(1rem, 2vw, 1.25rem);
+	backdrop-filter: blur(var(--blur-sm));
+}
+
+.media-card__meta p {
+	margin: 0 0 0.3rem;
+	color: var(--c-text-muted);
+	font-size: 0.78rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.media-card__meta strong {
+	color: var(--c-text-secondary);
+	font-size: 0.98rem;
+	line-height: 1.35;
+}
+
+.card h3,
+.step-card h3 {
+	margin: 0;
+	color: var(--c-text-secondary);
+	font-size: 1.25rem;
+	line-height: 1.25;
+}
+
+.card p,
+.step-card p {
+	margin: 0.9rem 0 0;
+	color: var(--c-text-primary);
+	line-height: 1.75;
+}
+
+.card--accent {
+	border-color: color-mix(in srgb, var(--c-primary) 34%, var(--c-border));
+	background:
+		linear-gradient(135deg, var(--c-bg-soft), var(--c-bg-accent-soft)), var(--gradient-surface);
+	box-shadow: var(--glow-primary), var(--shadow-md);
+}
+
+.step-card {
+	border-color: color-mix(in srgb, var(--c-border) 84%, var(--c-primary));
+	background:
+		linear-gradient(
+			135deg,
+			color-mix(in srgb, var(--c-bg-soft) 60%, transparent),
+			transparent 48%
+		),
+		var(--gradient-surface);
+}
+
+.step-card__number {
+	margin: 0;
+	background: var(--gradient-accent);
+	background-clip: text;
+	color: transparent;
+	font-size: 2.15rem;
+	font-weight: 800;
+	line-height: 1;
+}
+
+.faq-list {
+	border-color: color-mix(in srgb, var(--c-border) 88%, var(--c-primary));
+}
+
+.faq-item {
+	border-bottom: 1px solid var(--c-divider);
+	background: transparent;
+	padding: 0.45rem;
+}
+
+.faq-item:last-child {
+	border-bottom: 0;
+}
+
+.faq-item:hover,
+.faq-item[open] {
+	background: color-mix(in srgb, var(--c-bg-soft) 70%, transparent);
+}
+
+.faq-item summary {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	border-radius: calc(var(--radius-card) - 4px);
+	color: var(--c-text-secondary);
+	cursor: pointer;
+	font-size: 1.05rem;
+	font-weight: 700;
+	list-style: none;
+	padding: 0.95rem 1rem;
+}
+
+.faq-item__icon {
+	display: inline-grid;
+	width: 2rem;
+	height: 2rem;
+	flex: 0 0 auto;
+	place-items: center;
+	border: 1px solid var(--c-border);
+	border-radius: 999px;
+	background: color-mix(in srgb, var(--c-bg-glass) 76%, var(--c-bg-soft));
+	color: var(--c-primary);
+}
+
+.faq-item[open] .faq-item__icon {
+	transform: rotate(45deg);
+	background: var(--gradient-primary);
+	color: var(--c-text-on-primary);
+}
+
+.faq-item p {
+	margin: 0 1rem 1rem;
+	color: var(--c-text-primary);
+	line-height: 1.7;
+}
+
+.cta-panel {
+	gap: 2rem;
+	overflow: hidden;
+	border: 1px solid color-mix(in srgb, var(--c-primary) 28%, var(--c-border));
+	border-radius: var(--radius-panel);
+	background:
+		radial-gradient(
+			circle at 14% 18%,
+			color-mix(in srgb, var(--c-secondary) 28%, transparent),
+			transparent 22rem
+		),
+		radial-gradient(
+			circle at 90% 82%,
+			color-mix(in srgb, var(--c-accent) 20%, transparent),
+			transparent 24rem
+		),
+		var(--gradient-surface);
+	box-shadow: var(--glow-primary), var(--shadow-lg);
+	padding: clamp(1.5rem, 4vw, 3.25rem);
+}
+
+.landing-footer {
+	background:
+		linear-gradient(
+			180deg,
+			color-mix(in srgb, var(--c-bg-secondary) 92%, transparent),
+			var(--c-bg-primary)
+		),
+		var(--c-bg-secondary);
+	line-height: 1.7;
+}
+
+.landing-footer p {
+	margin-block: 0 0.6rem;
+}
+
+.landing-footer a {
+	width: fit-content;
+	color: var(--c-text-primary);
+	text-decoration: none;
+}
+
+.landing-footer a:hover {
+	color: var(--c-primary);
+}
+
+@media (max-width: 639px) {
+	.button {
+		width: 100%;
+	}
+}

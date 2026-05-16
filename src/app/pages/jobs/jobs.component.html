@@ -1,0 +1,139 @@
+<main
+	class="mx-auto max-w-[var(--container)] px-3 pb-[calc(8rem+env(safe-area-inset-bottom))] pt-3 sm:px-4 sm:pb-[calc(8.5rem+env(safe-area-inset-bottom))]"
+>
+	<section class="space-y-6 px-1 py-8 sm:px-2 sm:py-10" [attr.aria-label]="'Jobs page' | translate">
+		<div class="max-w-2xl">
+			<p class="text-[12px] font-semibold uppercase text-[var(--c-secondary)]" translate>
+				Jobs
+			</p>
+			<h1
+				class="mt-2 text-2xl font-semibold text-[var(--c-text-secondary)] sm:text-3xl"
+				translate
+			>
+				Open positions
+			</h1>
+		</div>
+
+		@if (loading()) {
+			<section
+				class="rounded-[var(--radius-card)] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center shadow-[var(--shadow-sm)] sm:px-6 sm:py-14"
+			>
+				<div
+					class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]"
+				>
+					<span class="material-symbols-outlined animate-spin text-[28px]" aria-hidden="true">progress_activity</span>
+				</div>
+
+				<h2 class="mt-4 text-xl font-semibold text-[var(--c-text-secondary)]" translate>
+					Loading jobs
+				</h2>
+				<p class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]" translate>
+					Please wait while we prepare current openings.
+				</p>
+			</section>
+		} @else if (jobs().length > 0) {
+			<div class="grid gap-4 lg:grid-cols-2">
+				@for (job of jobs(); track job.id) {
+					<article
+						class="rounded-[var(--radius-card)] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-5 shadow-[var(--shadow-sm)]"
+					>
+						<div class="flex items-start gap-3">
+							<span
+								class="material-symbols-outlined mt-1 text-[28px] text-[var(--c-secondary)]"
+								aria-hidden="true"
+							>
+								work
+							</span>
+							<div>
+								@if (job.employmentType) {
+									<p class="text-xs font-semibold uppercase text-[var(--c-text-muted)]">
+										{{ job.employmentType | translate }}
+									</p>
+								}
+								<h2 class="mt-1 text-xl font-semibold text-[var(--c-text-secondary)]">
+									{{ job.title | translate }}
+								</h2>
+								<p class="mt-1 text-sm leading-6 text-[var(--c-text-muted)]">
+									{{ job.summary | translate }}
+								</p>
+							</div>
+						</div>
+
+						<p class="mt-4 text-sm leading-6 text-[var(--c-text-muted)]">
+							{{ job.description | translate }}
+						</p>
+
+						@if (job.responsibilities?.length) {
+							<div class="mt-4">
+								<h3 class="text-sm font-semibold text-[var(--c-text-secondary)]" translate>
+									Responsibilities
+								</h3>
+								<ul class="mt-2 space-y-2 text-sm leading-6 text-[var(--c-text-secondary)]">
+									@for (responsibility of job.responsibilities; track responsibility) {
+										<li class="flex gap-2">
+											<span
+												class="material-symbols-outlined mt-0.5 text-base text-[var(--c-secondary)]"
+												aria-hidden="true"
+												>check</span
+											>
+											<span>{{ responsibility | translate }}</span>
+										</li>
+									}
+								</ul>
+							</div>
+						}
+
+						@if (job.requirements?.length) {
+							<div class="mt-4">
+								<h3 class="text-sm font-semibold text-[var(--c-text-secondary)]" translate>
+									Requirements
+								</h3>
+								<ul class="mt-2 space-y-2 text-sm leading-6 text-[var(--c-text-secondary)]">
+									@for (requirement of job.requirements; track requirement) {
+										<li class="flex gap-2">
+											<span
+												class="material-symbols-outlined mt-0.5 text-base text-[var(--c-secondary)]"
+												aria-hidden="true"
+												>check</span
+											>
+											<span>{{ requirement | translate }}</span>
+										</li>
+									}
+								</ul>
+							</div>
+						}
+
+						@if (job.href) {
+							<div class="mt-5 flex flex-col gap-3 sm:flex-row">
+								<a
+									class="inline-flex min-h-11 items-center justify-center rounded-[var(--radius-sm)] border border-[var(--c-border)] px-4 text-sm font-semibold text-[var(--c-text-secondary)] transition hover:border-[var(--c-border-strong)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--c-secondary)] focus-visible:ring-offset-2"
+									[routerLink]="job.href"
+									translate
+								>
+									Read FAQ
+								</a>
+							</div>
+						}
+					</article>
+				}
+			</div>
+		} @else {
+			<section
+				class="rounded-[var(--radius-card)] border border-dashed border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center shadow-[var(--shadow-sm)] sm:px-6 sm:py-14"
+			>
+				<div
+					class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]"
+				>
+					<span class="material-symbols-outlined text-[28px]" aria-hidden="true">work</span>
+				</div>
+
+				<h2 class="mt-4 text-xl font-semibold text-[var(--c-text-secondary)]" translate>
+					This page is empty for now
+				</h2>
+				<p class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]" translate>
+					Check back later for updates.
+				</p>
+			</section>
+		}
+	</section>
+</main>

@@ -1,0 +1,54 @@
+[
+	{
+		"id": "public-main-offer",
+		"audience": "public",
+		"question": "What is your main offer?",
+		"answer": [
+			"We create ready-to-use websites for businesses and help them become visible on GPT and online.",
+			"Then we offer ownership and ongoing support."
+		]
+	},
+	{
+		"id": "public-content",
+		"audience": "public",
+		"question": "Do you provide texts and images?",
+		"answer": [
+			"We use client content if available.",
+			"If needed, we can prepare basic starter content for launch."
+		]
+	},
+	{
+		"id": "agent-show-client",
+		"audience": "agent",
+		"question": "What do we show to the client?",
+		"answer": [
+			"A ready website.",
+			"A demo of the admin panel if needed.",
+			"An explanation of how it helps them get clients."
+		]
+	},
+	{
+		"id": "agent-subscription-includes",
+		"audience": "agent",
+		"question": "What is included in subscription?",
+		"answer": ["Hosting.", "Bug fixing if it is our responsibility.", "Website maintenance."]
+	},
+	{
+		"id": "developer-main-role",
+		"audience": "developer",
+		"question": "What is developer responsibility?",
+		"answer": [
+			"Build approved features.",
+			"Fix agreed bugs.",
+			"Maintain technical quality and stability."
+		]
+	},
+	{
+		"id": "developer-quality",
+		"audience": "developer",
+		"question": "What is expected before marking work done?",
+		"answer": [
+			"The feature should be working, reviewed by the developer, and ready for agent verification."
+		]
+	}
+]

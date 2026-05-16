@@ -1,0 +1,2467 @@
+[
+	{
+		"name": "Red borshch with sour cream",
+		"slug": "red-borshch-with-sour-cream",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing red borshch with sour cream prepared for a Ukrainian restaurant menu.",
+		"covers": [
+			"red borshch",
+			"borshch with meat",
+			"borshch with beans",
+			"classic Ukrainian borshch"
+		],
+		"tags": ["food", "ukraine", "horeca", "soups", "borshch", "beetroot", "sour cream", "dill"]
+	},
+	{
+		"name": "Green borshch with egg",
+		"slug": "green-borshch-with-egg",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing green borshch with egg prepared for a Ukrainian restaurant menu.",
+		"covers": ["green borshch", "sorrel soup", "green soup with egg"],
+		"tags": ["food", "ukraine", "horeca", "soups", "sorrel", "egg", "spring soup"]
+	},
+	{
+		"name": "Kapusniak sauerkraut soup",
+		"slug": "kapusniak-sauerkraut-soup",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing kapusniak sauerkraut soup prepared for a Ukrainian restaurant menu.",
+		"covers": ["kapusniak", "sauerkraut soup", "cabbage soup"],
+		"tags": ["food", "ukraine", "horeca", "soups", "sauerkraut", "cabbage", "traditional"]
+	},
+	{
+		"name": "Chicken broth with noodles",
+		"slug": "chicken-broth-with-noodles",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing chicken broth with noodles prepared for a Ukrainian restaurant menu.",
+		"covers": ["chicken broth", "chicken noodle soup", "light chicken soup"],
+		"tags": ["food", "ukraine", "horeca", "soups", "chicken", "broth", "noodles"]
+	},
+	{
+		"name": "Mushroom soup with herbs",
+		"slug": "mushroom-soup-with-herbs",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing mushroom soup with herbs prepared for a Ukrainian restaurant menu.",
+		"covers": ["mushroom soup", "forest mushroom soup", "creamless mushroom soup"],
+		"tags": ["food", "ukraine", "horeca", "soups", "mushroom", "herbs", "forest mushrooms"]
+	},
+	{
+		"name": "Mushroom cream soup",
+		"slug": "mushroom-cream-soup",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing mushroom cream soup prepared for a Ukrainian restaurant menu.",
+		"covers": ["mushroom cream soup", "cream of mushroom soup", "mushroom puree soup"],
+		"tags": ["food", "ukraine", "horeca", "soups", "cream soup", "mushroom", "puree"]
+	},
+	{
+		"name": "Pumpkin cream soup",
+		"slug": "pumpkin-cream-soup",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing pumpkin cream soup prepared for a Ukrainian restaurant menu.",
+		"covers": ["pumpkin cream soup", "pumpkin puree soup", "autumn cream soup"],
+		"tags": ["food", "ukraine", "horeca", "soups", "cream soup", "pumpkin", "autumn"]
+	},
+	{
+		"name": "Cheese cream soup",
+		"slug": "cheese-cream-soup",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing cheese cream soup prepared for a Ukrainian restaurant menu.",
+		"covers": ["cheese soup", "cheese cream soup", "creamy cheese soup"],
+		"tags": ["food", "ukraine", "horeca", "soups", "cream soup", "cheese", "croutons"]
+	},
+	{
+		"name": "Pea soup with smoked meat",
+		"slug": "pea-soup-with-smoked-meat",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing pea soup with smoked meat prepared for a Ukrainian restaurant menu.",
+		"covers": ["pea soup", "pea soup with ribs", "smoked pea soup"],
+		"tags": ["food", "ukraine", "horeca", "soups", "pea soup", "smoked meat", "hearty"]
+	},
+	{
+		"name": "Solyanka soup",
+		"slug": "solyanka-soup",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing solyanka soup prepared for a Ukrainian restaurant menu.",
+		"covers": ["solyanka", "meat solyanka", "mixed smoked meat soup"],
+		"tags": ["food", "ukraine", "horeca", "soups", "solyanka", "smoked meat", "olives", "lemon"]
+	},
+	{
+		"name": "Bograch stew soup",
+		"slug": "bograch-stew-soup",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing bograch stew soup prepared for a Ukrainian restaurant menu.",
+		"covers": ["bograch", "bograch goulash", "Carpathian spicy stew"],
+		"tags": ["food", "ukraine", "horeca", "soups", "bograch", "carpathian", "paprika"]
+	},
+	{
+		"name": "Fish soup yushka",
+		"slug": "fish-soup-yushka",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing fish soup yushka prepared for a Ukrainian restaurant menu.",
+		"covers": ["fish yushka", "fish soup", "river fish soup"],
+		"tags": ["food", "ukraine", "horeca", "soups", "fish", "broth", "herbs"]
+	},
+	{
+		"name": "Kulesh with millet",
+		"slug": "kulesh-with-millet",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing kulesh with millet prepared for a Ukrainian restaurant menu.",
+		"covers": ["kulesh", "millet soup", "cossack kulesh"],
+		"tags": ["food", "ukraine", "horeca", "soups", "millet", "cossack", "porridge soup"]
+	},
+	{
+		"name": "Okroshka cold soup",
+		"slug": "okroshka-cold-soup",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing okroshka cold soup prepared for a Ukrainian restaurant menu.",
+		"covers": ["okroshka", "cold summer soup", "cold kefir soup"],
+		"tags": ["food", "ukraine", "horeca", "soups", "cold soup", "summer", "vegetables"]
+	},
+	{
+		"name": "Vegetable soup",
+		"slug": "vegetable-soup",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing vegetable soup prepared for a Ukrainian restaurant menu.",
+		"covers": ["vegetable soup", "light vegetable soup", "seasonal vegetable soup"],
+		"tags": ["food", "ukraine", "horeca", "soups", "vegetable", "light", "vegetarian"]
+	},
+	{
+		"name": "Meatball soup",
+		"slug": "meatball-soup",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing meatball soup prepared for a Ukrainian restaurant menu.",
+		"covers": ["meatball soup", "soup with meatballs", "homemade meatball broth"],
+		"tags": ["food", "ukraine", "horeca", "soups", "meatballs", "broth", "homemade"]
+	},
+	{
+		"name": "Lentil soup",
+		"slug": "lentil-soup",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing lentil soup prepared for a Ukrainian restaurant menu.",
+		"covers": ["lentil soup", "red lentil soup", "vegetarian lentil soup"],
+		"tags": ["food", "ukraine", "horeca", "soups", "lentil", "hearty", "vegetarian"]
+	},
+	{
+		"name": "Bean soup",
+		"slug": "bean-soup",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing bean soup prepared for a Ukrainian restaurant menu.",
+		"covers": ["bean soup", "white bean soup", "hearty bean soup"],
+		"tags": ["food", "ukraine", "horeca", "soups", "beans", "hearty", "traditional"]
+	},
+	{
+		"name": "Tomato soup",
+		"slug": "tomato-soup",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing tomato soup prepared for a Ukrainian restaurant menu.",
+		"covers": ["tomato soup", "tomato cream soup", "tomato puree soup"],
+		"tags": ["food", "ukraine", "horeca", "soups", "tomato", "cream soup", "croutons"]
+	},
+	{
+		"name": "Rassolnyk pickle soup",
+		"slug": "rassolnyk-pickle-soup",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing rassolnyk pickle soup prepared for a Ukrainian restaurant menu.",
+		"covers": ["rassolnyk", "pickle soup", "barley pickle soup"],
+		"tags": ["food", "ukraine", "horeca", "soups", "pickle", "barley", "sour soup"]
+	},
+	{
+		"name": "Kharcho soup",
+		"slug": "kharcho-soup",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing kharcho soup prepared for a Ukrainian restaurant menu.",
+		"covers": ["kharcho", "spicy beef soup", "rice and beef soup"],
+		"tags": ["food", "ukraine", "horeca", "soups", "spicy", "beef", "rice"]
+	},
+	{
+		"name": "Cold beet soup",
+		"slug": "cold-beet-soup",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing cold beet soup prepared for a Ukrainian restaurant menu.",
+		"covers": ["cold beet soup", "kholodnyk", "summer beet soup"],
+		"tags": ["food", "ukraine", "horeca", "soups", "beetroot", "cold soup", "summer"]
+	},
+	{
+		"name": "Savory varenyky with fried onion",
+		"slug": "savory-varenyky-with-fried-onion",
+		"src": "",
+		"description": "Minimal menu photo of Ukrainian varenyky topped with fried onion and dill; filling is hidden, so it represents savory varenyky.",
+		"covers": [
+			"varenyky with potato",
+			"varenyky with cabbage",
+			"varenyky with mushrooms",
+			"varenyky with meat",
+			"buckwheat varenyky"
+		],
+		"tags": [
+			"food",
+			"ukraine",
+			"horeca",
+			"dumplings",
+			"varenyky",
+			"fried onion",
+			"dill",
+			"savory"
+		]
+	},
+	{
+		"name": "Sweet varenyky with sour cream",
+		"slug": "sweet-varenyky-with-sour-cream",
+		"src": "",
+		"description": "Minimal menu photo of sweet varenyky served with sour cream, without onion or savory toppings.",
+		"covers": [
+			"varenyky with cherry",
+			"varenyky with sweet cheese",
+			"varenyky with blueberry",
+			"sweet varenyky"
+		],
+		"tags": ["food", "ukraine", "horeca", "dumplings", "varenyky", "sour cream", "sweet"]
+	},
+	{
+		"name": "Pelmeni with sour cream",
+		"slug": "pelmeni-with-sour-cream",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing pelmeni with sour cream prepared for a Ukrainian restaurant menu.",
+		"covers": ["pelmeni", "meat dumplings", "boiled dumplings with sour cream"],
+		"tags": ["food", "ukraine", "horeca", "dumplings", "pelmeni", "sour cream"]
+	},
+	{
+		"name": "Mlyntsi thin pancakes",
+		"slug": "mlyntsi-thin-pancakes",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing mlyntsi thin pancakes prepared for a Ukrainian restaurant menu.",
+		"covers": ["mlyntsi", "thin pancakes", "Ukrainian crepes"],
+		"tags": ["food", "ukraine", "horeca", "pancakes", "mlyntsi", "thin pancakes", "crepes"]
+	},
+	{
+		"name": "Nalysnyky with cheese",
+		"slug": "nalysnyky-with-cheese",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing nalysnyky with cheese prepared for a Ukrainian restaurant menu.",
+		"covers": ["nalysnyky with cheese", "sweet cheese crepes", "filled pancakes"],
+		"tags": ["food", "ukraine", "horeca", "pancakes", "nalysnyky", "crepes", "cheese filling"]
+	},
+	{
+		"name": "Nalysnyky with meat",
+		"slug": "nalysnyky-with-meat",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing nalysnyky with meat prepared for a Ukrainian restaurant menu.",
+		"covers": ["nalysnyky with meat", "savory filled crepes", "meat pancakes"],
+		"tags": ["food", "ukraine", "horeca", "pancakes", "nalysnyky", "crepes", "meat filling"]
+	},
+	{
+		"name": "Deruny with sour cream",
+		"slug": "deruny-with-sour-cream",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing deruny with sour cream prepared for a Ukrainian restaurant menu.",
+		"covers": ["deruny", "potato pancakes", "deruny with sour cream"],
+		"tags": ["food", "ukraine", "horeca", "potato", "deruny", "potato pancakes", "sour cream"]
+	},
+	{
+		"name": "Deruny with mushroom sauce",
+		"slug": "deruny-with-mushroom-sauce",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing deruny with mushroom sauce prepared for a Ukrainian restaurant menu.",
+		"covers": [
+			"deruny with mushrooms",
+			"potato pancakes with mushroom sauce",
+			"deruny in sauce"
+		],
+		"tags": [
+			"food",
+			"ukraine",
+			"horeca",
+			"potato",
+			"deruny",
+			"mushroom sauce",
+			"potato pancakes"
+		]
+	},
+	{
+		"name": "Potato zrazy",
+		"slug": "potato-zrazy",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing potato zrazy prepared for a Ukrainian restaurant menu.",
+		"covers": ["potato zrazy", "zrazy with meat", "zrazy with mushrooms"],
+		"tags": ["food", "ukraine", "horeca", "potato", "zrazy", "filled patties"]
+	},
+	{
+		"name": "Cabbage pirozhki",
+		"slug": "cabbage-pirozhki",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing cabbage pirozhki prepared for a Ukrainian restaurant menu.",
+		"covers": ["cabbage pirozhki", "baked pies with cabbage", "savory pastry"],
+		"tags": ["food", "ukraine", "horeca", "bakery", "pirozhki", "cabbage", "baked pastry"]
+	},
+	{
+		"name": "Meat pirozhki",
+		"slug": "meat-pirozhki",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing meat pirozhki prepared for a Ukrainian restaurant menu.",
+		"covers": ["meat pirozhki", "baked pies with meat", "savory meat pastry"],
+		"tags": ["food", "ukraine", "horeca", "bakery", "pirozhki", "meat", "baked pastry"]
+	},
+	{
+		"name": "Chebureki",
+		"slug": "chebureki",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing chebureki prepared for a Ukrainian restaurant menu.",
+		"covers": ["chebureki", "fried meat pastries", "crispy filled pastry"],
+		"tags": ["food", "ukraine", "horeca", "bakery", "chebureki", "fried pastry", "meat"]
+	},
+	{
+		"name": "Khachapuri",
+		"slug": "khachapuri",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing khachapuri prepared for a Ukrainian restaurant menu.",
+		"covers": ["khachapuri", "cheese bread", "boat khachapuri"],
+		"tags": ["food", "ukraine", "horeca", "bakery", "khachapuri", "cheese bread", "georgian"]
+	},
+	{
+		"name": "Lavash rolls",
+		"slug": "lavash-rolls",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing lavash rolls prepared for a Ukrainian restaurant menu.",
+		"covers": ["lavash rolls", "filled lavash", "party lavash rolls"],
+		"tags": ["food", "ukraine", "horeca", "appetizers", "lavash", "rolls", "snack"]
+	},
+	{
+		"name": "Baked pampushky with garlic",
+		"slug": "baked-pampushky-with-garlic",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing baked pampushky with garlic prepared for a Ukrainian restaurant menu.",
+		"covers": ["garlic pampushky", "Ukrainian garlic buns", "borshch bread side"],
+		"tags": ["food", "ukraine", "horeca", "bakery", "pampushky", "garlic", "bread"]
+	},
+	{
+		"name": "Homemade bread basket",
+		"slug": "homemade-bread-basket",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing homemade bread basket prepared for a Ukrainian restaurant menu.",
+		"covers": ["bread basket", "homemade bread", "restaurant bread side"],
+		"tags": ["food", "ukraine", "horeca", "bakery", "bread", "basket"]
+	},
+	{
+		"name": "Garlic croutons",
+		"slug": "garlic-croutons",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing garlic croutons prepared for a Ukrainian restaurant menu.",
+		"covers": ["garlic croutons", "rye croutons", "beer snack croutons"],
+		"tags": ["food", "ukraine", "horeca", "snacks", "croutons", "garlic", "beer snack"]
+	},
+	{
+		"name": "Syrnyky cheese pancakes",
+		"slug": "syrnyky-cheese-pancakes",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing syrnyky cheese pancakes prepared for a Ukrainian restaurant menu.",
+		"covers": ["syrnyky", "cheese pancakes", "breakfast syrnyky"],
+		"tags": [
+			"food",
+			"ukraine",
+			"horeca",
+			"breakfast",
+			"syrnyky",
+			"cheese pancakes",
+			"sour cream"
+		]
+	},
+	{
+		"name": "Lazy dumplings",
+		"slug": "lazy-dumplings",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing lazy dumplings prepared for a Ukrainian restaurant menu.",
+		"covers": ["lazy dumplings", "lazy varenyky", "cheese dumplings"],
+		"tags": ["food", "ukraine", "horeca", "dumplings", "lazy varenyky", "cheese", "sweet"]
+	},
+	{
+		"name": "Buckwheat pancakes",
+		"slug": "buckwheat-pancakes",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing buckwheat pancakes prepared for a Ukrainian restaurant menu.",
+		"covers": ["buckwheat pancakes", "grechanyky pancakes", "savory pancakes"],
+		"tags": ["food", "ukraine", "horeca", "pancakes", "buckwheat", "savory"]
+	},
+	{
+		"name": "Fried yeast donuts",
+		"slug": "fried-yeast-donuts",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing fried yeast donuts prepared for a Ukrainian restaurant menu.",
+		"covers": ["pampukhy", "fried donuts", "sweet fried dough"],
+		"tags": ["food", "ukraine", "horeca", "desserts", "donuts", "fried dough", "powdered sugar"]
+	},
+	{
+		"name": "Baked potato pies",
+		"slug": "baked-potato-pies",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing baked potato pies prepared for a Ukrainian restaurant menu.",
+		"covers": ["potato pirozhki", "baked potato pies", "savory potato pastry"],
+		"tags": ["food", "ukraine", "horeca", "bakery", "pies", "potato filling", "baked"]
+	},
+	{
+		"name": "Cottage cheese dumplings",
+		"slug": "cottage-cheese-dumplings",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing cottage cheese dumplings prepared for a Ukrainian restaurant menu.",
+		"covers": ["cottage cheese dumplings", "cheese varenyky", "sweet cheese dumplings"],
+		"tags": ["food", "ukraine", "horeca", "dumplings", "cottage cheese", "sweet"]
+	},
+	{
+		"name": "Varenyky platter",
+		"slug": "varenyky-platter",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing varenyky platter prepared for a Ukrainian restaurant menu.",
+		"covers": ["mixed varenyky platter", "varenyky assortment", "dumpling plate"],
+		"tags": ["food", "ukraine", "horeca", "dumplings", "varenyky", "mixed dumplings", "platter"]
+	},
+	{
+		"name": "Salo plate with garlic",
+		"slug": "salo-plate-with-garlic",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing salo plate with garlic prepared for a Ukrainian restaurant menu.",
+		"covers": ["salo plate", "Ukrainian pork fat appetizer", "salo with garlic"],
+		"tags": ["food", "ukraine", "horeca", "starters", "salo", "garlic", "rye bread"]
+	},
+	{
+		"name": "Pickled vegetable platter",
+		"slug": "pickled-vegetable-platter",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing pickled vegetable platter prepared for a Ukrainian restaurant menu.",
+		"covers": ["pickled vegetables", "pickle platter", "marinated vegetable starter"],
+		"tags": ["food", "ukraine", "horeca", "starters", "pickles", "vegetables", "assorted"]
+	},
+	{
+		"name": "Herring with onion",
+		"slug": "herring-with-onion",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing herring with onion prepared for a Ukrainian restaurant menu.",
+		"covers": ["herring with onion", "herring appetizer", "salted herring"],
+		"tags": ["food", "ukraine", "horeca", "starters", "herring", "onion", "fish appetizer"]
+	},
+	{
+		"name": "Forshmak spread",
+		"slug": "forshmak-spread",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing forshmak spread prepared for a Ukrainian restaurant menu.",
+		"covers": ["forshmak", "herring spread", "cold fish appetizer"],
+		"tags": ["food", "ukraine", "horeca", "starters", "forshmak", "herring spread", "toast"]
+	},
+	{
+		"name": "Eggplant rolls",
+		"slug": "eggplant-rolls",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing eggplant rolls prepared for a Ukrainian restaurant menu.",
+		"covers": ["eggplant rolls", "eggplant appetizer", "vegetable rolls"],
+		"tags": ["food", "ukraine", "horeca", "starters", "eggplant", "rolls", "garlic filling"]
+	},
+	{
+		"name": "Cheese platter",
+		"slug": "cheese-platter",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing cheese platter prepared for a Ukrainian restaurant menu.",
+		"covers": ["cheese platter", "assorted cheese", "cheese board"],
+		"tags": ["food", "ukraine", "horeca", "starters", "cheese", "platter", "assorted"]
+	},
+	{
+		"name": "Meat platter",
+		"slug": "meat-platter",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing meat platter prepared for a Ukrainian restaurant menu.",
+		"covers": ["meat platter", "cold cuts", "charcuterie board"],
+		"tags": ["food", "ukraine", "horeca", "starters", "meat", "charcuterie", "cold cuts"]
+	},
+	{
+		"name": "Vegetable platter",
+		"slug": "vegetable-platter",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing vegetable platter prepared for a Ukrainian restaurant menu.",
+		"covers": ["fresh vegetable platter", "seasonal vegetables", "vegetable slices"],
+		"tags": ["food", "ukraine", "horeca", "starters", "vegetables", "fresh", "platter"]
+	},
+	{
+		"name": "Bruschetta with tomato",
+		"slug": "bruschetta-with-tomato",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing bruschetta with tomato prepared for a Ukrainian restaurant menu.",
+		"covers": ["tomato bruschetta", "toast appetizer", "Italian starter"],
+		"tags": ["food", "ukraine", "horeca", "starters", "bruschetta", "tomato", "toast"]
+	},
+	{
+		"name": "Caesar salad with chicken",
+		"slug": "caesar-salad-with-chicken",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing caesar salad with chicken prepared for a Ukrainian restaurant menu.",
+		"covers": ["Caesar salad", "Caesar with chicken", "chicken Caesar"],
+		"tags": ["food", "ukraine", "horeca", "salads", "caesar", "chicken", "lettuce", "croutons"]
+	},
+	{
+		"name": "Greek salad",
+		"slug": "greek-salad",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing greek salad prepared for a Ukrainian restaurant menu.",
+		"covers": ["Greek salad", "vegetable salad with feta", "summer salad"],
+		"tags": ["food", "ukraine", "horeca", "salads", "greek salad", "feta", "vegetables"]
+	},
+	{
+		"name": "Olivier salad",
+		"slug": "olivier-salad",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing olivier salad prepared for a Ukrainian restaurant menu.",
+		"covers": ["Olivier salad", "Ukrainian holiday salad", "potato and pea salad"],
+		"tags": ["food", "ukraine", "horeca", "salads", "olivier", "mayonnaise", "potato"]
+	},
+	{
+		"name": "Shuba herring salad",
+		"slug": "shuba-herring-salad",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing shuba herring salad prepared for a Ukrainian restaurant menu.",
+		"covers": ["shuba salad", "herring under fur coat", "layered beet salad"],
+		"tags": [
+			"food",
+			"ukraine",
+			"horeca",
+			"salads",
+			"herring under fur coat",
+			"beetroot",
+			"layered"
+		]
+	},
+	{
+		"name": "Vinaigrette salad",
+		"slug": "vinaigrette-salad",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing vinaigrette salad prepared for a Ukrainian restaurant menu.",
+		"covers": ["vinaigrette salad", "beetroot vegetable salad", "classic Ukrainian salad"],
+		"tags": ["food", "ukraine", "horeca", "salads", "vinaigrette", "beetroot", "pickles"]
+	},
+	{
+		"name": "Cabbage salad",
+		"slug": "cabbage-salad",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing cabbage salad prepared for a Ukrainian restaurant menu.",
+		"covers": ["cabbage salad", "fresh cabbage slaw", "cabbage and carrot salad"],
+		"tags": ["food", "ukraine", "horeca", "salads", "cabbage", "fresh salad", "carrot"]
+	},
+	{
+		"name": "Beetroot salad with prunes",
+		"slug": "beetroot-salad-with-prunes",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing beetroot salad with prunes prepared for a Ukrainian restaurant menu.",
+		"covers": ["beetroot salad", "beet salad with prunes", "beetroot walnut salad"],
+		"tags": ["food", "ukraine", "horeca", "salads", "beetroot", "prunes", "walnuts"]
+	},
+	{
+		"name": "Carrot salad",
+		"slug": "carrot-salad",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing carrot salad prepared for a Ukrainian restaurant menu.",
+		"covers": ["carrot salad", "carrot with garlic", "fresh carrot salad"],
+		"tags": ["food", "ukraine", "horeca", "salads", "carrot", "garlic", "simple salad"]
+	},
+	{
+		"name": "Tomato cucumber salad",
+		"slug": "tomato-cucumber-salad",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing tomato cucumber salad prepared for a Ukrainian restaurant menu.",
+		"covers": ["tomato cucumber salad", "fresh vegetable salad", "summer salad"],
+		"tags": ["food", "ukraine", "horeca", "salads", "tomato", "cucumber", "summer"]
+	},
+	{
+		"name": "Chicken and mushroom salad",
+		"slug": "chicken-and-mushroom-salad",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing chicken and mushroom salad prepared for a Ukrainian restaurant menu.",
+		"covers": ["chicken mushroom salad", "layered chicken salad", "banquet salad"],
+		"tags": ["food", "ukraine", "horeca", "salads", "chicken", "mushroom", "mayonnaise"]
+	},
+	{
+		"name": "Crab stick salad",
+		"slug": "crab-stick-salad",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing crab stick salad prepared for a Ukrainian restaurant menu.",
+		"covers": ["crab stick salad", "corn crab salad", "banquet crab salad"],
+		"tags": ["food", "ukraine", "horeca", "salads", "crab sticks", "corn", "mayonnaise"]
+	},
+	{
+		"name": "Tuna salad",
+		"slug": "tuna-salad",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing tuna salad prepared for a Ukrainian restaurant menu.",
+		"covers": ["tuna salad", "salad with tuna", "protein salad"],
+		"tags": ["food", "ukraine", "horeca", "salads", "tuna", "egg", "greens"]
+	},
+	{
+		"name": "Warm chicken salad",
+		"slug": "warm-chicken-salad",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing warm chicken salad prepared for a Ukrainian restaurant menu.",
+		"covers": ["warm chicken salad", "grilled chicken salad", "warm greens salad"],
+		"tags": ["food", "ukraine", "horeca", "salads", "warm salad", "chicken", "greens"]
+	},
+	{
+		"name": "Mushrooms in sour cream",
+		"slug": "mushrooms-in-sour-cream",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing mushrooms in sour cream prepared for a Ukrainian restaurant menu.",
+		"covers": ["mushrooms in sour cream", "warm mushroom appetizer", "creamy mushrooms"],
+		"tags": [
+			"food",
+			"ukraine",
+			"horeca",
+			"starters",
+			"mushrooms",
+			"sour cream",
+			"warm appetizer"
+		]
+	},
+	{
+		"name": "Julienne mushrooms",
+		"slug": "julienne-mushrooms",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing julienne mushrooms prepared for a Ukrainian restaurant menu.",
+		"covers": ["mushroom julienne", "cheesy mushroom starter", "warm mushroom casserole"],
+		"tags": ["food", "ukraine", "horeca", "starters", "julienne", "mushrooms", "cheese"]
+	},
+	{
+		"name": "Stuffed eggs",
+		"slug": "stuffed-eggs",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing stuffed eggs prepared for a Ukrainian restaurant menu.",
+		"covers": ["stuffed eggs", "deviled eggs", "banquet egg appetizer"],
+		"tags": ["food", "ukraine", "horeca", "starters", "eggs", "stuffed", "cold appetizer"]
+	},
+	{
+		"name": "Chicken liver pâté",
+		"slug": "chicken-liver-p-t",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing chicken liver pâté prepared for a Ukrainian restaurant menu.",
+		"covers": ["chicken liver pâté", "liver spread", "pâté appetizer"],
+		"tags": ["food", "ukraine", "horeca", "starters", "pate", "chicken liver", "toast"]
+	},
+	{
+		"name": "Fried cheese sticks",
+		"slug": "fried-cheese-sticks",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing fried cheese sticks prepared for a Ukrainian restaurant menu.",
+		"covers": ["fried cheese sticks", "mozzarella sticks", "beer snack"],
+		"tags": ["food", "ukraine", "horeca", "snacks", "cheese sticks", "fried", "snack"]
+	},
+	{
+		"name": "Chicken Kyiv cutlet",
+		"slug": "chicken-kyiv-cutlet",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing chicken kyiv cutlet prepared for a Ukrainian restaurant menu.",
+		"covers": ["Chicken Kyiv", "kotleta po-kyivsky", "stuffed chicken cutlet"],
+		"tags": ["food", "ukraine", "horeca", "mains", "chicken kyiv", "cutlet", "butter"]
+	},
+	{
+		"name": "Pork chop with garnish",
+		"slug": "pork-chop-with-garnish",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing pork chop with garnish prepared for a Ukrainian restaurant menu.",
+		"covers": ["pork chop", "pork steak", "grilled pork with side"],
+		"tags": ["food", "ukraine", "horeca", "mains", "pork", "chop", "garnish"]
+	},
+	{
+		"name": "Chicken schnitzel",
+		"slug": "chicken-schnitzel",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing chicken schnitzel prepared for a Ukrainian restaurant menu.",
+		"covers": ["chicken schnitzel", "breaded chicken fillet", "crispy chicken"],
+		"tags": ["food", "ukraine", "horeca", "mains", "chicken", "schnitzel", "breaded"]
+	},
+	{
+		"name": "Pork schnitzel",
+		"slug": "pork-schnitzel",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing pork schnitzel prepared for a Ukrainian restaurant menu.",
+		"covers": ["pork schnitzel", "breaded pork cutlet", "crispy pork"],
+		"tags": ["food", "ukraine", "horeca", "mains", "pork", "schnitzel", "breaded"]
+	},
+	{
+		"name": "Homemade meat cutlets",
+		"slug": "homemade-meat-cutlets",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing homemade meat cutlets prepared for a Ukrainian restaurant menu.",
+		"covers": ["homemade meat cutlets", "pork cutlets", "mixed meat cutlets"],
+		"tags": ["food", "ukraine", "horeca", "mains", "cutlets", "homemade", "minced meat"]
+	},
+	{
+		"name": "Chicken cutlets",
+		"slug": "chicken-cutlets",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing chicken cutlets prepared for a Ukrainian restaurant menu.",
+		"covers": ["chicken cutlets", "minced chicken patties", "home-style chicken cutlets"],
+		"tags": ["food", "ukraine", "horeca", "mains", "chicken", "cutlets", "minced"]
+	},
+	{
+		"name": "Meatballs in tomato sauce",
+		"slug": "meatballs-in-tomato-sauce",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing meatballs in tomato sauce prepared for a Ukrainian restaurant menu.",
+		"covers": ["meatballs", "meatballs in tomato sauce", "tefteli"],
+		"tags": ["food", "ukraine", "horeca", "mains", "meatballs", "tomato sauce", "minced meat"]
+	},
+	{
+		"name": "Meatballs in cream sauce",
+		"slug": "meatballs-in-cream-sauce",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing meatballs in cream sauce prepared for a Ukrainian restaurant menu.",
+		"covers": ["meatballs in cream sauce", "creamy tefteli", "meatballs with gravy"],
+		"tags": ["food", "ukraine", "horeca", "mains", "meatballs", "cream sauce", "minced meat"]
+	},
+	{
+		"name": "Holubtsi cabbage rolls",
+		"slug": "holubtsi-cabbage-rolls",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing holubtsi cabbage rolls prepared for a Ukrainian restaurant menu.",
+		"covers": ["holubtsi", "stuffed cabbage rolls", "cabbage rolls with meat and rice"],
+		"tags": ["food", "ukraine", "horeca", "mains", "holubtsi", "cabbage rolls", "rice", "meat"]
+	},
+	{
+		"name": "Stuffed peppers",
+		"slug": "stuffed-peppers",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing stuffed peppers prepared for a Ukrainian restaurant menu.",
+		"covers": ["stuffed peppers", "peppers with meat and rice", "baked stuffed peppers"],
+		"tags": ["food", "ukraine", "horeca", "mains", "peppers", "stuffed", "rice", "meat"]
+	},
+	{
+		"name": "Pork ribs",
+		"slug": "pork-ribs",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing pork ribs prepared for a Ukrainian restaurant menu.",
+		"covers": ["pork ribs", "grilled ribs", "BBQ ribs"],
+		"tags": ["food", "ukraine", "horeca", "grill", "ribs", "pork", "bbq"]
+	},
+	{
+		"name": "Grilled pork shashlyk",
+		"slug": "grilled-pork-shashlyk",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing grilled pork shashlyk prepared for a Ukrainian restaurant menu.",
+		"covers": ["pork shashlyk", "grilled pork skewers", "BBQ pork"],
+		"tags": ["food", "ukraine", "horeca", "grill", "shashlyk", "pork", "skewers"]
+	},
+	{
+		"name": "Chicken shashlyk",
+		"slug": "chicken-shashlyk",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing chicken shashlyk prepared for a Ukrainian restaurant menu.",
+		"covers": ["chicken shashlyk", "grilled chicken skewers", "BBQ chicken"],
+		"tags": ["food", "ukraine", "horeca", "grill", "shashlyk", "chicken", "skewers"]
+	},
+	{
+		"name": "Mixed grill platter",
+		"slug": "mixed-grill-platter",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing mixed grill platter prepared for a Ukrainian restaurant menu.",
+		"covers": ["mixed grill", "meat grill platter", "BBQ assortment"],
+		"tags": ["food", "ukraine", "horeca", "grill", "mixed grill", "meat platter", "bbq"]
+	},
+	{
+		"name": "Grilled sausages",
+		"slug": "grilled-sausages",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing grilled sausages prepared for a Ukrainian restaurant menu.",
+		"covers": ["grilled sausages", "sausages with garnish", "beer sausages"],
+		"tags": ["food", "ukraine", "horeca", "grill", "sausages", "beer food"]
+	},
+	{
+		"name": "Homemade kovbasa",
+		"slug": "homemade-kovbasa",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing homemade kovbasa prepared for a Ukrainian restaurant menu.",
+		"covers": ["homemade kovbasa", "Ukrainian sausage", "fried sausage"],
+		"tags": ["food", "ukraine", "horeca", "mains", "kovbasa", "sausage", "traditional"]
+	},
+	{
+		"name": "Roast pork with potatoes",
+		"slug": "roast-pork-with-potatoes",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing roast pork with potatoes prepared for a Ukrainian restaurant menu.",
+		"covers": ["roast pork", "pork with potatoes", "home-style baked pork"],
+		"tags": ["food", "ukraine", "horeca", "mains", "roast pork", "potatoes", "baked"]
+	},
+	{
+		"name": "Beef stroganoff",
+		"slug": "beef-stroganoff",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing beef stroganoff prepared for a Ukrainian restaurant menu.",
+		"covers": ["beef stroganoff", "beef in cream sauce", "beef with mushrooms"],
+		"tags": ["food", "ukraine", "horeca", "mains", "beef", "stroganoff", "cream sauce"]
+	},
+	{
+		"name": "Beef goulash",
+		"slug": "beef-goulash",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing beef goulash prepared for a Ukrainian restaurant menu.",
+		"covers": ["beef goulash", "meat stew", "beef with gravy"],
+		"tags": ["food", "ukraine", "horeca", "mains", "beef", "goulash", "stew"]
+	},
+	{
+		"name": "Chicken fillet in cream sauce",
+		"slug": "chicken-fillet-in-cream-sauce",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing chicken fillet in cream sauce prepared for a Ukrainian restaurant menu.",
+		"covers": ["chicken fillet in cream sauce", "chicken with mushrooms", "creamy chicken"],
+		"tags": ["food", "ukraine", "horeca", "mains", "chicken", "cream sauce", "fillet"]
+	},
+	{
+		"name": "Turkey fillet",
+		"slug": "turkey-fillet",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing turkey fillet prepared for a Ukrainian restaurant menu.",
+		"covers": ["turkey fillet", "grilled turkey", "turkey steak"],
+		"tags": ["food", "ukraine", "horeca", "mains", "turkey", "fillet", "diet"]
+	},
+	{
+		"name": "Duck leg with apples",
+		"slug": "duck-leg-with-apples",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing duck leg with apples prepared for a Ukrainian restaurant menu.",
+		"covers": ["duck leg", "duck with apples", "roasted duck"],
+		"tags": ["food", "ukraine", "horeca", "mains", "duck", "apple", "premium"]
+	},
+	{
+		"name": "Roast chicken",
+		"slug": "roast-chicken",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing roast chicken prepared for a Ukrainian restaurant menu.",
+		"covers": ["roast chicken", "baked chicken", "chicken with herbs"],
+		"tags": ["food", "ukraine", "horeca", "mains", "chicken", "roast", "whole"]
+	},
+	{
+		"name": "Chicken wings",
+		"slug": "chicken-wings",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing chicken wings prepared for a Ukrainian restaurant menu.",
+		"covers": ["chicken wings", "BBQ wings", "spicy wings"],
+		"tags": ["food", "ukraine", "horeca", "snacks", "wings", "chicken", "sauce"]
+	},
+	{
+		"name": "Pork knuckle",
+		"slug": "pork-knuckle",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing pork knuckle prepared for a Ukrainian restaurant menu.",
+		"covers": ["pork knuckle", "roasted knuckle", "beer restaurant pork"],
+		"tags": ["food", "ukraine", "horeca", "mains", "pork knuckle", "beer food", "roasted"]
+	},
+	{
+		"name": "Liver with onions",
+		"slug": "liver-with-onions",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing liver with onions prepared for a Ukrainian restaurant menu.",
+		"covers": ["liver with onions", "fried liver", "chicken liver main"],
+		"tags": ["food", "ukraine", "horeca", "mains", "liver", "onion", "pan fried"]
+	},
+	{
+		"name": "Chicken roll",
+		"slug": "chicken-roll",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing chicken roll prepared for a Ukrainian restaurant menu.",
+		"covers": ["chicken roll", "stuffed chicken roll", "banquet chicken roll"],
+		"tags": ["food", "ukraine", "horeca", "mains", "chicken roll", "stuffed", "sliced"]
+	},
+	{
+		"name": "Pork roll",
+		"slug": "pork-roll",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing pork roll prepared for a Ukrainian restaurant menu.",
+		"covers": ["pork roll", "stuffed pork roll", "banquet meat roll"],
+		"tags": ["food", "ukraine", "horeca", "mains", "pork roll", "stuffed", "sliced"]
+	},
+	{
+		"name": "Meat pancakes",
+		"slug": "meat-pancakes",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing meat pancakes prepared for a Ukrainian restaurant menu.",
+		"covers": ["meat pancakes", "mlyntsi with meat", "savory filled pancakes"],
+		"tags": ["food", "ukraine", "horeca", "mains", "pancakes", "meat filling", "savory"]
+	},
+	{
+		"name": "Kebab plate",
+		"slug": "kebab-plate",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing kebab plate prepared for a Ukrainian restaurant menu.",
+		"covers": ["kebab plate", "grilled kebab", "lula kebab"],
+		"tags": ["food", "ukraine", "horeca", "grill", "kebab", "meat"]
+	},
+	{
+		"name": "Burger with fries",
+		"slug": "burger-with-fries",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing burger with fries prepared for a Ukrainian restaurant menu.",
+		"covers": ["burger", "beef burger", "chicken burger"],
+		"tags": ["food", "ukraine", "horeca", "cafe", "burger", "fries", "fast casual"]
+	},
+	{
+		"name": "Chicken nuggets",
+		"slug": "chicken-nuggets",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing chicken nuggets prepared for a Ukrainian restaurant menu.",
+		"covers": ["chicken nuggets", "kids chicken nuggets", "fried chicken bites"],
+		"tags": ["food", "ukraine", "horeca", "cafe", "nuggets", "chicken", "snack"]
+	},
+	{
+		"name": "Steak with vegetables",
+		"slug": "steak-with-vegetables",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing steak with vegetables prepared for a Ukrainian restaurant menu.",
+		"covers": ["beef steak", "steak with vegetables", "grilled steak"],
+		"tags": ["food", "ukraine", "horeca", "mains", "steak", "beef", "vegetables"]
+	},
+	{
+		"name": "Fried carp",
+		"slug": "fried-carp",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing fried carp prepared for a Ukrainian restaurant menu.",
+		"covers": ["fried carp", "river fish", "carp with garnish"],
+		"tags": ["food", "ukraine", "horeca", "fish", "carp", "fried fish", "river fish"]
+	},
+	{
+		"name": "Baked trout",
+		"slug": "baked-trout",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing baked trout prepared for a Ukrainian restaurant menu.",
+		"covers": ["baked trout", "grilled trout", "whole trout"],
+		"tags": ["food", "ukraine", "horeca", "fish", "trout", "baked", "lemon"]
+	},
+	{
+		"name": "Grilled salmon steak",
+		"slug": "grilled-salmon-steak",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing grilled salmon steak prepared for a Ukrainian restaurant menu.",
+		"covers": ["salmon steak", "grilled salmon", "salmon with vegetables"],
+		"tags": ["food", "ukraine", "horeca", "fish", "salmon", "grilled", "steak"]
+	},
+	{
+		"name": "Hake fillet",
+		"slug": "hake-fillet",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing hake fillet prepared for a Ukrainian restaurant menu.",
+		"covers": ["hake fillet", "fried hake", "white fish fillet"],
+		"tags": ["food", "ukraine", "horeca", "fish", "hake", "fillet", "white fish"]
+	},
+	{
+		"name": "Mackerel with potatoes",
+		"slug": "mackerel-with-potatoes",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing mackerel with potatoes prepared for a Ukrainian restaurant menu.",
+		"covers": ["baked mackerel", "mackerel with potatoes", "fish main"],
+		"tags": ["food", "ukraine", "horeca", "fish", "mackerel", "potatoes", "baked"]
+	},
+	{
+		"name": "Fish cutlets",
+		"slug": "fish-cutlets",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing fish cutlets prepared for a Ukrainian restaurant menu.",
+		"covers": ["fish cutlets", "fish patties", "homemade fish cutlets"],
+		"tags": ["food", "ukraine", "horeca", "fish", "fish cutlets", "minced fish", "patties"]
+	},
+	{
+		"name": "Shrimp salad",
+		"slug": "shrimp-salad",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing shrimp salad prepared for a Ukrainian restaurant menu.",
+		"covers": ["shrimp salad", "seafood salad", "salad with prawns"],
+		"tags": ["food", "ukraine", "horeca", "seafood", "shrimp", "salad"]
+	},
+	{
+		"name": "Shrimp pasta",
+		"slug": "shrimp-pasta",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing shrimp pasta prepared for a Ukrainian restaurant menu.",
+		"covers": ["shrimp pasta", "seafood pasta", "pasta with prawns"],
+		"tags": ["food", "ukraine", "horeca", "seafood", "shrimp", "pasta", "cream sauce"]
+	},
+	{
+		"name": "Mussels in cream sauce",
+		"slug": "mussels-in-cream-sauce",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing mussels in cream sauce prepared for a Ukrainian restaurant menu.",
+		"covers": ["mussels in cream sauce", "mussels", "seafood starter"],
+		"tags": ["food", "ukraine", "horeca", "seafood", "mussels", "cream sauce"]
+	},
+	{
+		"name": "Squid rings",
+		"slug": "squid-rings",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing squid rings prepared for a Ukrainian restaurant menu.",
+		"covers": ["squid rings", "fried calamari", "beer seafood snack"],
+		"tags": ["food", "ukraine", "horeca", "seafood", "squid", "fried", "rings"]
+	},
+	{
+		"name": "Fish and chips",
+		"slug": "fish-and-chips",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing fish and chips prepared for a Ukrainian restaurant menu.",
+		"covers": ["fish and chips", "fried fish with fries", "crispy fish"],
+		"tags": ["food", "ukraine", "horeca", "fish", "fried fish", "fries", "cafe"]
+	},
+	{
+		"name": "Smoked fish plate",
+		"slug": "smoked-fish-plate",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing smoked fish plate prepared for a Ukrainian restaurant menu.",
+		"covers": ["smoked fish plate", "fish appetizer", "smoked mackerel platter"],
+		"tags": ["food", "ukraine", "horeca", "fish", "smoked fish", "platter", "starter"]
+	},
+	{
+		"name": "Salted salmon plate",
+		"slug": "salted-salmon-plate",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing salted salmon plate prepared for a Ukrainian restaurant menu.",
+		"covers": ["salted salmon", "salmon appetizer", "lightly salted fish"],
+		"tags": ["food", "ukraine", "horeca", "fish", "salmon", "salted", "starter"]
+	},
+	{
+		"name": "Fish soup portion",
+		"slug": "fish-soup-portion",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing fish soup portion prepared for a Ukrainian restaurant menu.",
+		"covers": ["fish soup serving", "yushka portion", "clear fish broth"],
+		"tags": ["food", "ukraine", "horeca", "fish", "fish soup", "broth", "river fish"]
+	},
+	{
+		"name": "Baked dorado",
+		"slug": "baked-dorado",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing baked dorado prepared for a Ukrainian restaurant menu.",
+		"covers": ["baked dorado", "grilled dorado", "whole white fish"],
+		"tags": ["food", "ukraine", "horeca", "fish", "dorado", "baked", "whole fish"]
+	},
+	{
+		"name": "Herring plate",
+		"slug": "herring-plate",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing herring plate prepared for a Ukrainian restaurant menu.",
+		"covers": ["herring plate", "salted herring", "herring with potatoes"],
+		"tags": ["food", "ukraine", "horeca", "fish", "herring", "onion", "starter"]
+	},
+	{
+		"name": "Mashed potatoes",
+		"slug": "mashed-potatoes",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing mashed potatoes prepared for a Ukrainian restaurant menu.",
+		"covers": ["mashed potatoes", "potato puree", "garnish for cutlets"],
+		"tags": ["food", "ukraine", "horeca", "sides", "potato", "mashed", "garnish"]
+	},
+	{
+		"name": "Boiled potatoes with dill",
+		"slug": "boiled-potatoes-with-dill",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing boiled potatoes with dill prepared for a Ukrainian restaurant menu.",
+		"covers": ["boiled potatoes", "potatoes with dill", "simple potato garnish"],
+		"tags": ["food", "ukraine", "horeca", "sides", "potato", "dill", "boiled"]
+	},
+	{
+		"name": "Fried potatoes",
+		"slug": "fried-potatoes",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing fried potatoes prepared for a Ukrainian restaurant menu.",
+		"covers": ["fried potatoes", "home-style potatoes", "pan fried potato"],
+		"tags": ["food", "ukraine", "horeca", "sides", "potato", "fried", "home-style"]
+	},
+	{
+		"name": "French fries",
+		"slug": "french-fries",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing french fries prepared for a Ukrainian restaurant menu.",
+		"covers": ["French fries", "fries", "potato side"],
+		"tags": ["food", "ukraine", "horeca", "sides", "fries", "potato", "cafe"]
+	},
+	{
+		"name": "Potato wedges",
+		"slug": "potato-wedges",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing potato wedges prepared for a Ukrainian restaurant menu.",
+		"covers": ["potato wedges", "baked wedges", "spiced potatoes"],
+		"tags": ["food", "ukraine", "horeca", "sides", "potato wedges", "baked", "cafe"]
+	},
+	{
+		"name": "Buckwheat garnish",
+		"slug": "buckwheat-garnish",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing buckwheat garnish prepared for a Ukrainian restaurant menu.",
+		"covers": ["buckwheat", "buckwheat garnish", "grechka side"],
+		"tags": ["food", "ukraine", "horeca", "sides", "buckwheat", "garnish", "traditional"]
+	},
+	{
+		"name": "Rice garnish",
+		"slug": "rice-garnish",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing rice garnish prepared for a Ukrainian restaurant menu.",
+		"covers": ["rice garnish", "boiled rice", "rice side"],
+		"tags": ["food", "ukraine", "horeca", "sides", "rice", "garnish", "simple"]
+	},
+	{
+		"name": "Pilaf portion",
+		"slug": "pilaf-portion",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing pilaf portion prepared for a Ukrainian restaurant menu.",
+		"covers": ["pilaf", "plov", "rice with meat"],
+		"tags": ["food", "ukraine", "horeca", "sides", "pilaf", "rice", "meat"]
+	},
+	{
+		"name": "Grilled vegetables",
+		"slug": "grilled-vegetables",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing grilled vegetables prepared for a Ukrainian restaurant menu.",
+		"covers": ["grilled vegetables", "vegetable garnish", "grilled seasonal vegetables"],
+		"tags": ["food", "ukraine", "horeca", "sides", "vegetables", "grilled", "garnish"]
+	},
+	{
+		"name": "Stewed cabbage",
+		"slug": "stewed-cabbage",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing stewed cabbage prepared for a Ukrainian restaurant menu.",
+		"covers": ["stewed cabbage", "braised cabbage", "cabbage garnish"],
+		"tags": ["food", "ukraine", "horeca", "sides", "cabbage", "stewed", "traditional"]
+	},
+	{
+		"name": "Braised beans",
+		"slug": "braised-beans",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing braised beans prepared for a Ukrainian restaurant menu.",
+		"covers": ["braised beans", "bean garnish", "beans in sauce"],
+		"tags": ["food", "ukraine", "horeca", "sides", "beans", "braised", "garnish"]
+	},
+	{
+		"name": "Corn on the cob",
+		"slug": "corn-on-the-cob",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing corn on the cob prepared for a Ukrainian restaurant menu.",
+		"covers": ["corn on the cob", "grilled corn", "boiled corn"],
+		"tags": ["food", "ukraine", "horeca", "sides", "corn", "grilled", "summer"]
+	},
+	{
+		"name": "Macaroni side",
+		"slug": "macaroni-side",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing macaroni side prepared for a Ukrainian restaurant menu.",
+		"covers": ["macaroni side", "pasta garnish", "simple pasta"],
+		"tags": ["food", "ukraine", "horeca", "sides", "pasta", "garnish", "simple"]
+	},
+	{
+		"name": "Creamy polenta",
+		"slug": "creamy-polenta",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing creamy polenta prepared for a Ukrainian restaurant menu.",
+		"covers": ["polenta", "corn porridge", "creamy corn side"],
+		"tags": ["food", "ukraine", "horeca", "sides", "polenta", "cornmeal", "cream"]
+	},
+	{
+		"name": "Banosh with brynza",
+		"slug": "banosh-with-brynza",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing banosh with brynza prepared for a Ukrainian restaurant menu.",
+		"covers": ["banosh", "banosh with brynza", "Carpathian cornmeal dish"],
+		"tags": ["food", "ukraine", "horeca", "sides", "banosh", "brynza", "carpathian"]
+	},
+	{
+		"name": "Mamalyga with cheese",
+		"slug": "mamalyga-with-cheese",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing mamalyga with cheese prepared for a Ukrainian restaurant menu.",
+		"covers": ["mamalyga", "cornmeal porridge", "mamalyga with cheese"],
+		"tags": ["food", "ukraine", "horeca", "sides", "mamalyga", "cornmeal", "cheese"]
+	},
+	{
+		"name": "Vegetable ragout",
+		"slug": "vegetable-ragout",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing vegetable ragout prepared for a Ukrainian restaurant menu.",
+		"covers": ["vegetable ragout", "vegetable stew", "seasonal vegetables"],
+		"tags": ["food", "ukraine", "horeca", "sides", "ragout", "vegetables", "stewed"]
+	},
+	{
+		"name": "Mixed garnish plate",
+		"slug": "mixed-garnish-plate",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing mixed garnish plate prepared for a Ukrainian restaurant menu.",
+		"covers": ["mixed garnish", "assorted side dish", "complex garnish"],
+		"tags": ["food", "ukraine", "horeca", "sides", "garnish", "mixed", "plate"]
+	},
+	{
+		"name": "Omelette with vegetables",
+		"slug": "omelette-with-vegetables",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing omelette with vegetables prepared for a Ukrainian restaurant menu.",
+		"covers": ["omelette", "vegetable omelette", "breakfast eggs"],
+		"tags": ["food", "ukraine", "horeca", "breakfast", "omelette", "eggs", "vegetables"]
+	},
+	{
+		"name": "Fried eggs with bacon",
+		"slug": "fried-eggs-with-bacon",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing fried eggs with bacon prepared for a Ukrainian restaurant menu.",
+		"covers": ["fried eggs", "eggs with bacon", "English-style breakfast"],
+		"tags": ["food", "ukraine", "horeca", "breakfast", "eggs", "bacon"]
+	},
+	{
+		"name": "Scrambled eggs",
+		"slug": "scrambled-eggs",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing scrambled eggs prepared for a Ukrainian restaurant menu.",
+		"covers": ["scrambled eggs", "soft eggs", "breakfast eggs"],
+		"tags": ["food", "ukraine", "horeca", "breakfast", "eggs", "scrambled"]
+	},
+	{
+		"name": "Oatmeal with berries",
+		"slug": "oatmeal-with-berries",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing oatmeal with berries prepared for a Ukrainian restaurant menu.",
+		"covers": ["oatmeal", "oat porridge", "breakfast porridge"],
+		"tags": ["food", "ukraine", "horeca", "breakfast", "oatmeal", "berries", "porridge"]
+	},
+	{
+		"name": "Buckwheat porridge with milk",
+		"slug": "buckwheat-porridge-with-milk",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing buckwheat porridge with milk prepared for a Ukrainian restaurant menu.",
+		"covers": ["buckwheat porridge", "milk buckwheat", "breakfast buckwheat"],
+		"tags": ["food", "ukraine", "horeca", "breakfast", "buckwheat", "milk", "porridge"]
+	},
+	{
+		"name": "Rice porridge",
+		"slug": "rice-porridge",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing rice porridge prepared for a Ukrainian restaurant menu.",
+		"covers": ["rice porridge", "milk rice", "breakfast porridge"],
+		"tags": ["food", "ukraine", "horeca", "breakfast", "rice", "milk", "porridge"]
+	},
+	{
+		"name": "Granola bowl",
+		"slug": "granola-bowl",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing granola bowl prepared for a Ukrainian restaurant menu.",
+		"covers": ["granola bowl", "yogurt granola", "healthy breakfast"],
+		"tags": ["food", "ukraine", "horeca", "breakfast", "granola", "yogurt", "berries"]
+	},
+	{
+		"name": "Avocado toast",
+		"slug": "avocado-toast",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing avocado toast prepared for a Ukrainian restaurant menu.",
+		"covers": ["avocado toast", "toast with avocado", "modern breakfast"],
+		"tags": ["food", "ukraine", "horeca", "breakfast", "avocado", "toast"]
+	},
+	{
+		"name": "Croissant breakfast",
+		"slug": "croissant-breakfast",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing croissant breakfast prepared for a Ukrainian restaurant menu.",
+		"covers": ["croissant breakfast", "butter croissant", "cafe pastry"],
+		"tags": ["food", "ukraine", "horeca", "breakfast", "croissant", "coffee", "bakery"]
+	},
+	{
+		"name": "Breakfast plate",
+		"slug": "breakfast-plate",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing breakfast plate prepared for a Ukrainian restaurant menu.",
+		"covers": ["breakfast plate", "hotel breakfast", "full breakfast"],
+		"tags": ["food", "ukraine", "horeca", "breakfast", "eggs", "sausage", "toast"]
+	},
+	{
+		"name": "Pancakes with honey",
+		"slug": "pancakes-with-honey",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing pancakes with honey prepared for a Ukrainian restaurant menu.",
+		"covers": ["pancakes with honey", "sweet breakfast pancakes", "fluffy pancakes"],
+		"tags": ["food", "ukraine", "horeca", "breakfast", "pancakes", "honey", "sweet"]
+	},
+	{
+		"name": "Pancakes with berries",
+		"slug": "pancakes-with-berries",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing pancakes with berries prepared for a Ukrainian restaurant menu.",
+		"covers": ["pancakes with berries", "berry pancakes", "sweet breakfast"],
+		"tags": ["food", "ukraine", "horeca", "breakfast", "pancakes", "berries", "sweet"]
+	},
+	{
+		"name": "Toast with salmon",
+		"slug": "toast-with-salmon",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing toast with salmon prepared for a Ukrainian restaurant menu.",
+		"covers": ["salmon toast", "toast with salmon", "breakfast salmon toast"],
+		"tags": ["food", "ukraine", "horeca", "breakfast", "toast", "salmon", "cream cheese"]
+	},
+	{
+		"name": "Cottage cheese bowl",
+		"slug": "cottage-cheese-bowl",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing cottage cheese bowl prepared for a Ukrainian restaurant menu.",
+		"covers": ["cottage cheese breakfast", "cheese bowl", "healthy breakfast"],
+		"tags": ["food", "ukraine", "horeca", "breakfast", "cottage cheese", "berries"]
+	},
+	{
+		"name": "Yogurt with fruit",
+		"slug": "yogurt-with-fruit",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing yogurt with fruit prepared for a Ukrainian restaurant menu.",
+		"covers": ["yogurt with fruit", "fruit yogurt", "light breakfast"],
+		"tags": ["food", "ukraine", "horeca", "breakfast", "yogurt", "fruit"]
+	},
+	{
+		"name": "Sandwich with ham and cheese",
+		"slug": "sandwich-with-ham-and-cheese",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing sandwich with ham and cheese prepared for a Ukrainian restaurant menu.",
+		"covers": ["ham cheese sandwich", "cafe sandwich", "breakfast sandwich"],
+		"tags": ["food", "ukraine", "horeca", "cafe", "sandwich", "ham", "cheese"]
+	},
+	{
+		"name": "Club sandwich",
+		"slug": "club-sandwich",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing club sandwich prepared for a Ukrainian restaurant menu.",
+		"covers": ["club sandwich", "triple sandwich", "chicken sandwich"],
+		"tags": ["food", "ukraine", "horeca", "cafe", "club sandwich", "chicken", "toast"]
+	},
+	{
+		"name": "Panini with chicken",
+		"slug": "panini-with-chicken",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing panini with chicken prepared for a Ukrainian restaurant menu.",
+		"covers": ["chicken panini", "grilled sandwich", "hot sandwich"],
+		"tags": ["food", "ukraine", "horeca", "cafe", "panini", "chicken", "grilled sandwich"]
+	},
+	{
+		"name": "Margherita pizza",
+		"slug": "margherita-pizza",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing margherita pizza prepared for a Ukrainian restaurant menu.",
+		"covers": ["Margherita pizza", "cheese pizza", "classic pizza"],
+		"tags": ["food", "ukraine", "horeca", "pizza", "tomato", "mozzarella"]
+	},
+	{
+		"name": "Pepperoni pizza",
+		"slug": "pepperoni-pizza",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing pepperoni pizza prepared for a Ukrainian restaurant menu.",
+		"covers": ["pepperoni pizza", "salami pizza", "meat pizza"],
+		"tags": ["food", "ukraine", "horeca", "pizza", "pepperoni", "cheese"]
+	},
+	{
+		"name": "Four cheese pizza",
+		"slug": "four-cheese-pizza",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing four cheese pizza prepared for a Ukrainian restaurant menu.",
+		"covers": ["four cheese pizza", "quattro formaggi", "cheese pizza"],
+		"tags": ["food", "ukraine", "horeca", "pizza", "cheese", "four cheese"]
+	},
+	{
+		"name": "Chicken mushroom pizza",
+		"slug": "chicken-mushroom-pizza",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing chicken mushroom pizza prepared for a Ukrainian restaurant menu.",
+		"covers": ["chicken mushroom pizza", "white pizza with chicken", "pizza with mushrooms"],
+		"tags": ["food", "ukraine", "horeca", "pizza", "chicken", "mushroom"]
+	},
+	{
+		"name": "Spaghetti bolognese",
+		"slug": "spaghetti-bolognese",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing spaghetti bolognese prepared for a Ukrainian restaurant menu.",
+		"covers": ["spaghetti bolognese", "pasta with meat sauce", "Italian pasta"],
+		"tags": ["food", "ukraine", "horeca", "pasta", "bolognese", "meat sauce"]
+	},
+	{
+		"name": "Carbonara pasta",
+		"slug": "carbonara-pasta",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing carbonara pasta prepared for a Ukrainian restaurant menu.",
+		"covers": ["carbonara", "spaghetti carbonara", "creamy pasta"],
+		"tags": ["food", "ukraine", "horeca", "pasta", "carbonara", "cream"]
+	},
+	{
+		"name": "Pasta with chicken and mushrooms",
+		"slug": "pasta-with-chicken-and-mushrooms",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing pasta with chicken and mushrooms prepared for a Ukrainian restaurant menu.",
+		"covers": ["chicken mushroom pasta", "creamy chicken pasta", "pasta with mushrooms"],
+		"tags": ["food", "ukraine", "horeca", "pasta", "chicken", "mushrooms", "cream"]
+	},
+	{
+		"name": "Pesto pasta",
+		"slug": "pesto-pasta",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing pesto pasta prepared for a Ukrainian restaurant menu.",
+		"covers": ["pesto pasta", "green pasta", "pasta with basil sauce"],
+		"tags": ["food", "ukraine", "horeca", "pasta", "pesto", "basil"]
+	},
+	{
+		"name": "Philadelphia sushi rolls",
+		"slug": "philadelphia-sushi-rolls",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing philadelphia sushi rolls prepared for a Ukrainian restaurant menu.",
+		"covers": ["Philadelphia rolls", "salmon sushi rolls", "cream cheese sushi"],
+		"tags": ["food", "ukraine", "horeca", "sushi", "salmon", "cream cheese"]
+	},
+	{
+		"name": "California sushi rolls",
+		"slug": "california-sushi-rolls",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing california sushi rolls prepared for a Ukrainian restaurant menu.",
+		"covers": ["California rolls", "crab sushi rolls", "sushi set item"],
+		"tags": ["food", "ukraine", "horeca", "sushi", "california", "crab"]
+	},
+	{
+		"name": "Mixed sushi set",
+		"slug": "mixed-sushi-set",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing mixed sushi set prepared for a Ukrainian restaurant menu.",
+		"covers": ["sushi set", "mixed sushi", "roll assortment"],
+		"tags": ["food", "ukraine", "horeca", "sushi", "set", "assorted"]
+	},
+	{
+		"name": "Ramen bowl",
+		"slug": "ramen-bowl",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing ramen bowl prepared for a Ukrainian restaurant menu.",
+		"covers": ["ramen", "noodle soup", "Asian soup"],
+		"tags": ["food", "ukraine", "horeca", "asian", "ramen", "noodles", "broth"]
+	},
+	{
+		"name": "Wok noodles with chicken",
+		"slug": "wok-noodles-with-chicken",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing wok noodles with chicken prepared for a Ukrainian restaurant menu.",
+		"covers": ["wok noodles", "chicken noodles", "Asian noodle box"],
+		"tags": ["food", "ukraine", "horeca", "asian", "wok", "noodles", "chicken"]
+	},
+	{
+		"name": "Rice bowl with chicken",
+		"slug": "rice-bowl-with-chicken",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing rice bowl with chicken prepared for a Ukrainian restaurant menu.",
+		"covers": ["chicken rice bowl", "Asian rice bowl", "rice with chicken"],
+		"tags": ["food", "ukraine", "horeca", "asian", "rice bowl", "chicken", "vegetables"]
+	},
+	{
+		"name": "Caesar wrap",
+		"slug": "caesar-wrap",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing caesar wrap prepared for a Ukrainian restaurant menu.",
+		"covers": ["Caesar wrap", "chicken wrap", "cafe wrap"],
+		"tags": ["food", "ukraine", "horeca", "cafe", "wrap", "caesar", "chicken"]
+	},
+	{
+		"name": "Quesadilla with chicken",
+		"slug": "quesadilla-with-chicken",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing quesadilla with chicken prepared for a Ukrainian restaurant menu.",
+		"covers": ["chicken quesadilla", "cheese quesadilla", "hot tortilla snack"],
+		"tags": ["food", "ukraine", "horeca", "cafe", "quesadilla", "chicken", "cheese"]
+	},
+	{
+		"name": "Kyiv cake slice",
+		"slug": "kyiv-cake-slice",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing kyiv cake slice prepared for a Ukrainian restaurant menu.",
+		"covers": ["Kyiv cake", "Kyiv cake slice", "nut meringue cake"],
+		"tags": ["food", "ukraine", "horeca", "desserts", "kyiv cake", "cake", "nuts"]
+	},
+	{
+		"name": "Napoleon cake",
+		"slug": "napoleon-cake",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing napoleon cake prepared for a Ukrainian restaurant menu.",
+		"covers": ["Napoleon cake", "layered custard cake", "classic cake"],
+		"tags": ["food", "ukraine", "horeca", "desserts", "napoleon", "cake", "custard"]
+	},
+	{
+		"name": "Medovyk honey cake",
+		"slug": "medovyk-honey-cake",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing medovyk honey cake prepared for a Ukrainian restaurant menu.",
+		"covers": ["Medovyk", "honey cake", "layered honey cake"],
+		"tags": ["food", "ukraine", "horeca", "desserts", "medovyk", "honey cake", "layers"]
+	},
+	{
+		"name": "Lviv cheesecake",
+		"slug": "lviv-cheesecake",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing lviv cheesecake prepared for a Ukrainian restaurant menu.",
+		"covers": ["Lviv cheesecake", "syrnyk", "Ukrainian cheesecake"],
+		"tags": ["food", "ukraine", "horeca", "desserts", "cheesecake", "lviv", "cottage cheese"]
+	},
+	{
+		"name": "Apple strudel",
+		"slug": "apple-strudel",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing apple strudel prepared for a Ukrainian restaurant menu.",
+		"covers": ["apple strudel", "apple pastry", "warm dessert"],
+		"tags": ["food", "ukraine", "horeca", "desserts", "strudel", "apple", "pastry"]
+	},
+	{
+		"name": "Cherry pie",
+		"slug": "cherry-pie",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing cherry pie prepared for a Ukrainian restaurant menu.",
+		"covers": ["cherry pie", "berry pie", "homemade cherry dessert"],
+		"tags": ["food", "ukraine", "horeca", "desserts", "cherry", "pie", "berry"]
+	},
+	{
+		"name": "Chocolate cake",
+		"slug": "chocolate-cake",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing chocolate cake prepared for a Ukrainian restaurant menu.",
+		"covers": ["chocolate cake", "chocolate dessert", "cake slice"],
+		"tags": ["food", "ukraine", "horeca", "desserts", "chocolate", "cake", "slice"]
+	},
+	{
+		"name": "Cheesecake with berries",
+		"slug": "cheesecake-with-berries",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing cheesecake with berries prepared for a Ukrainian restaurant menu.",
+		"covers": ["cheesecake", "berry cheesecake", "classic cheesecake"],
+		"tags": ["food", "ukraine", "horeca", "desserts", "cheesecake", "berries", "slice"]
+	},
+	{
+		"name": "Tiramisu",
+		"slug": "tiramisu",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing tiramisu prepared for a Ukrainian restaurant menu.",
+		"covers": ["tiramisu", "coffee dessert", "Italian dessert"],
+		"tags": ["food", "ukraine", "horeca", "desserts", "tiramisu", "coffee", "cream"]
+	},
+	{
+		"name": "Panna cotta",
+		"slug": "panna-cotta",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing panna cotta prepared for a Ukrainian restaurant menu.",
+		"covers": ["panna cotta", "cream dessert", "berry panna cotta"],
+		"tags": ["food", "ukraine", "horeca", "desserts", "panna cotta", "cream", "berries"]
+	},
+	{
+		"name": "Ice cream bowl",
+		"slug": "ice-cream-bowl",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing ice cream bowl prepared for a Ukrainian restaurant menu.",
+		"covers": ["ice cream", "ice cream dessert", "sundae"],
+		"tags": ["food", "ukraine", "horeca", "desserts", "ice cream", "scoop", "dessert"]
+	},
+	{
+		"name": "Fruit plate",
+		"slug": "fruit-plate",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing fruit plate prepared for a Ukrainian restaurant menu.",
+		"covers": ["fruit plate", "fresh fruit platter", "seasonal fruit"],
+		"tags": ["food", "ukraine", "horeca", "desserts", "fruit", "platter", "fresh"]
+	},
+	{
+		"name": "Berry dessert cup",
+		"slug": "berry-dessert-cup",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing berry dessert cup prepared for a Ukrainian restaurant menu.",
+		"covers": ["berry dessert", "berry cup", "cream berry dessert"],
+		"tags": ["food", "ukraine", "horeca", "desserts", "berries", "cream", "cup"]
+	},
+	{
+		"name": "Macarons plate",
+		"slug": "macarons-plate",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing macarons plate prepared for a Ukrainian restaurant menu.",
+		"covers": ["macarons", "macaron dessert", "sweet pastry plate"],
+		"tags": ["food", "ukraine", "horeca", "desserts", "macarons", "cookies", "colorful"]
+	},
+	{
+		"name": "Eclairs",
+		"slug": "eclairs",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing eclairs prepared for a Ukrainian restaurant menu.",
+		"covers": ["eclairs", "cream eclairs", "custard pastry"],
+		"tags": ["food", "ukraine", "horeca", "desserts", "eclairs", "pastry", "cream"]
+	},
+	{
+		"name": "Croissants",
+		"slug": "croissants",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing croissants prepared for a Ukrainian restaurant menu.",
+		"covers": ["croissants", "butter croissants", "breakfast pastry"],
+		"tags": ["food", "ukraine", "horeca", "bakery", "croissants", "pastry"]
+	},
+	{
+		"name": "Cinnamon rolls",
+		"slug": "cinnamon-rolls",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing cinnamon rolls prepared for a Ukrainian restaurant menu.",
+		"covers": ["cinnamon rolls", "sweet buns", "cinnamon pastry"],
+		"tags": ["food", "ukraine", "horeca", "bakery", "cinnamon", "rolls", "pastry"]
+	},
+	{
+		"name": "Poppy seed roll",
+		"slug": "poppy-seed-roll",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing poppy seed roll prepared for a Ukrainian restaurant menu.",
+		"covers": ["poppy seed roll", "makivnyk", "Ukrainian poppy pastry"],
+		"tags": ["food", "ukraine", "horeca", "bakery", "poppy seed", "roll", "traditional"]
+	},
+	{
+		"name": "Kutia bowl",
+		"slug": "kutia-bowl",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing kutia bowl prepared for a Ukrainian restaurant menu.",
+		"covers": ["kutia", "Christmas wheat dessert", "traditional festive dessert"],
+		"tags": ["food", "ukraine", "horeca", "desserts", "kutia", "wheat", "christmas"]
+	},
+	{
+		"name": "Uzvar drink glass",
+		"slug": "uzvar-drink-glass",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing uzvar drink glass prepared for a Ukrainian restaurant menu.",
+		"covers": ["uzvar", "dried fruit drink", "traditional Ukrainian drink"],
+		"tags": ["food", "ukraine", "horeca", "drinks", "uzvar", "dried fruit", "traditional"]
+	},
+	{
+		"name": "Compote glass",
+		"slug": "compote-glass",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing compote glass prepared for a Ukrainian restaurant menu.",
+		"covers": ["compote", "fruit compote", "berry drink"],
+		"tags": ["food", "ukraine", "horeca", "drinks", "compote", "berries", "drink"]
+	},
+	{
+		"name": "Homemade lemonade",
+		"slug": "homemade-lemonade",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing homemade lemonade prepared for a Ukrainian restaurant menu.",
+		"covers": ["homemade lemonade", "lemon mint drink", "summer drink"],
+		"tags": ["food", "ukraine", "horeca", "drinks", "lemonade", "mint", "cold drink"]
+	},
+	{
+		"name": "Milkshake",
+		"slug": "milkshake",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing milkshake prepared for a Ukrainian restaurant menu.",
+		"covers": ["milkshake", "vanilla milkshake", "dessert drink"],
+		"tags": ["food", "ukraine", "horeca", "drinks", "milkshake", "dessert drink", "cream"]
+	},
+	{
+		"name": "Coffee cup",
+		"slug": "coffee-cup",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing coffee cup prepared for a Ukrainian restaurant menu.",
+		"covers": ["coffee", "espresso", "americano"],
+		"tags": ["food", "ukraine", "horeca", "drinks", "coffee", "cup", "cafe"]
+	},
+	{
+		"name": "Latte art coffee",
+		"slug": "latte-art-coffee",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing latte art coffee prepared for a Ukrainian restaurant menu.",
+		"covers": ["latte", "cappuccino", "coffee with milk"],
+		"tags": ["food", "ukraine", "horeca", "drinks", "latte", "coffee", "foam"]
+	},
+	{
+		"name": "Tea with lemon",
+		"slug": "tea-with-lemon",
+		"src": "",
+		"description": "minimal realistic HoReCa image, centered composition, neutral background, soft natural daylight showing tea with lemon prepared for a Ukrainian restaurant menu.",
+		"covers": ["tea", "black tea with lemon", "hot tea"],
+		"tags": ["food", "ukraine", "horeca", "drinks", "tea", "lemon", "hot drink"]
+	},
+	{
+		"name": "Restaurant exterior entrance",
+		"slug": "restaurant-exterior-entrance",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing restaurant exterior entrance with clean commercial composition and natural lighting.",
+		"covers": ["restaurant home hero", "business exterior", "restaurant entrance gallery"],
+		"tags": ["horeca", "gallery", "exterior", "restaurant", "entrance", "street"]
+	},
+	{
+		"name": "Cafe exterior facade",
+		"slug": "cafe-exterior-facade",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing cafe exterior facade with clean commercial composition and natural lighting.",
+		"covers": ["cafe home hero", "coffee shop exterior", "street cafe gallery"],
+		"tags": ["horeca", "gallery", "exterior", "cafe", "facade", "street"]
+	},
+	{
+		"name": "Hotel exterior building",
+		"slug": "hotel-exterior-building",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing hotel exterior building with clean commercial composition and natural lighting.",
+		"covers": ["hotel home hero", "hotel exterior", "accommodation business gallery"],
+		"tags": ["horeca", "gallery", "exterior", "hotel", "building", "facade"]
+	},
+	{
+		"name": "Guest house exterior",
+		"slug": "guest-house-exterior",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing guest house exterior with clean commercial composition and natural lighting.",
+		"covers": ["guest house hero", "small hotel exterior", "family hotel gallery"],
+		"tags": ["horeca", "gallery", "exterior", "guest house", "small hotel", "courtyard"]
+	},
+	{
+		"name": "Restaurant evening facade",
+		"slug": "restaurant-evening-facade",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing restaurant evening facade with clean commercial composition and natural lighting.",
+		"covers": ["evening restaurant hero", "night exterior", "dinner venue gallery"],
+		"tags": ["horeca", "gallery", "exterior", "restaurant", "evening", "lights"]
+	},
+	{
+		"name": "Cafe terrace from street",
+		"slug": "cafe-terrace-from-street",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing cafe terrace from street with clean commercial composition and natural lighting.",
+		"covers": ["cafe terrace", "outdoor seating", "summer cafe gallery"],
+		"tags": ["horeca", "gallery", "exterior", "terrace", "cafe", "outdoor"]
+	},
+	{
+		"name": "Hotel courtyard",
+		"slug": "hotel-courtyard",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing hotel courtyard with clean commercial composition and natural lighting.",
+		"covers": ["hotel courtyard", "guest house courtyard", "outdoor hotel area"],
+		"tags": ["horeca", "gallery", "exterior", "courtyard", "hotel", "greenery"]
+	},
+	{
+		"name": "Restaurant garden entrance",
+		"slug": "restaurant-garden-entrance",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing restaurant garden entrance with clean commercial composition and natural lighting.",
+		"covers": ["garden restaurant", "outdoor restaurant", "event restaurant hero"],
+		"tags": ["horeca", "gallery", "exterior", "garden", "entrance", "greenery"]
+	},
+	{
+		"name": "Roadside motel exterior",
+		"slug": "roadside-motel-exterior",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing roadside motel exterior with clean commercial composition and natural lighting.",
+		"covers": ["motel exterior", "roadside hotel", "travel accommodation gallery"],
+		"tags": ["horeca", "gallery", "exterior", "motel", "roadside", "parking"]
+	},
+	{
+		"name": "Boutique hotel facade",
+		"slug": "boutique-hotel-facade",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing boutique hotel facade with clean commercial composition and natural lighting.",
+		"covers": ["boutique hotel hero", "premium hotel exterior", "hotel gallery"],
+		"tags": ["horeca", "gallery", "exterior", "boutique hotel", "facade", "premium"]
+	},
+	{
+		"name": "Rural restaurant exterior",
+		"slug": "rural-restaurant-exterior",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing rural restaurant exterior with clean commercial composition and natural lighting.",
+		"covers": ["rural restaurant", "ethno restaurant exterior", "traditional venue gallery"],
+		"tags": ["horeca", "gallery", "exterior", "rural", "restaurant", "wood"]
+	},
+	{
+		"name": "Modern restaurant storefront",
+		"slug": "modern-restaurant-storefront",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing modern restaurant storefront with clean commercial composition and natural lighting.",
+		"covers": ["modern restaurant exterior", "storefront hero", "urban restaurant gallery"],
+		"tags": ["horeca", "gallery", "exterior", "modern", "storefront", "restaurant"]
+	},
+	{
+		"name": "Outdoor signboard closeup",
+		"slug": "outdoor-signboard-closeup",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing outdoor signboard closeup with clean commercial composition and natural lighting.",
+		"covers": ["business signboard", "restaurant sign", "hotel sign gallery"],
+		"tags": ["horeca", "gallery", "exterior", "signboard", "entrance", "branding"]
+	},
+	{
+		"name": "Parking area near hotel",
+		"slug": "parking-area-near-hotel",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing parking area near hotel with clean commercial composition and natural lighting.",
+		"covers": ["hotel parking", "guest parking", "parking amenity gallery"],
+		"tags": ["horeca", "gallery", "exterior", "parking", "hotel", "guest convenience"]
+	},
+	{
+		"name": "Panoramic city view from venue",
+		"slug": "panoramic-city-view-from-venue",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing panoramic city view from venue with clean commercial composition and natural lighting.",
+		"covers": ["city view hero", "terrace view", "location advantage gallery"],
+		"tags": ["horeca", "gallery", "exterior", "city view", "panorama", "venue"]
+	},
+	{
+		"name": "Restaurant dining hall",
+		"slug": "restaurant-dining-hall",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing restaurant dining hall with clean commercial composition and natural lighting.",
+		"covers": ["restaurant interior", "main dining room", "home page gallery"],
+		"tags": ["horeca", "gallery", "interior", "restaurant", "dining hall", "tables"]
+	},
+	{
+		"name": "Cozy cafe interior",
+		"slug": "cozy-cafe-interior",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing cozy cafe interior with clean commercial composition and natural lighting.",
+		"covers": ["cafe interior", "coffee shop seating", "small cafe gallery"],
+		"tags": ["horeca", "gallery", "interior", "cafe", "cozy", "tables"]
+	},
+	{
+		"name": "Modern bar counter",
+		"slug": "modern-bar-counter",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing modern bar counter with clean commercial composition and natural lighting.",
+		"covers": ["bar counter", "cocktail bar", "restaurant bar gallery"],
+		"tags": ["horeca", "gallery", "bar", "counter", "drinks"]
+	},
+	{
+		"name": "Rustic Ukrainian restaurant interior",
+		"slug": "rustic-ukrainian-restaurant-interior",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing rustic ukrainian restaurant interior with clean commercial composition and natural lighting.",
+		"covers": [
+			"traditional restaurant interior",
+			"ethno restaurant hall",
+			"Ukrainian venue gallery"
+		],
+		"tags": ["horeca", "gallery", "interior", "rustic", "ukrainian", "wood"]
+	},
+	{
+		"name": "Fine dining table setup",
+		"slug": "fine-dining-table-setup",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing fine dining table setup with clean commercial composition and natural lighting.",
+		"covers": ["premium restaurant table", "fine dining setup", "banquet table preview"],
+		"tags": ["horeca", "gallery", "interior", "fine dining", "table", "premium"]
+	},
+	{
+		"name": "Family restaurant seating",
+		"slug": "family-restaurant-seating",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing family restaurant seating with clean commercial composition and natural lighting.",
+		"covers": ["family restaurant", "casual dining hall", "family-friendly gallery"],
+		"tags": ["horeca", "gallery", "interior", "family", "seating", "casual"]
+	},
+	{
+		"name": "Coffee shop counter",
+		"slug": "coffee-shop-counter",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing coffee shop counter with clean commercial composition and natural lighting.",
+		"covers": ["coffee counter", "cafe service area", "coffee shop gallery"],
+		"tags": ["horeca", "gallery", "cafe", "coffee", "counter", "barista"]
+	},
+	{
+		"name": "Bakery display counter",
+		"slug": "bakery-display-counter",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing bakery display counter with clean commercial composition and natural lighting.",
+		"covers": ["bakery counter", "dessert display", "cafe bakery gallery"],
+		"tags": ["horeca", "gallery", "cafe", "bakery", "display", "pastry"]
+	},
+	{
+		"name": "Pizzeria interior",
+		"slug": "pizzeria-interior",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing pizzeria interior with clean commercial composition and natural lighting.",
+		"covers": ["pizzeria interior", "pizza restaurant hall", "casual dining gallery"],
+		"tags": ["horeca", "gallery", "interior", "pizzeria", "oven", "casual"]
+	},
+	{
+		"name": "Sushi restaurant interior",
+		"slug": "sushi-restaurant-interior",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing sushi restaurant interior with clean commercial composition and natural lighting.",
+		"covers": ["sushi restaurant interior", "Asian restaurant hall", "minimal dining gallery"],
+		"tags": ["horeca", "gallery", "interior", "sushi", "minimal", "restaurant"]
+	},
+	{
+		"name": "Pub interior with wooden tables",
+		"slug": "pub-interior-with-wooden-tables",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing pub interior with wooden tables with clean commercial composition and natural lighting.",
+		"covers": ["pub interior", "beer restaurant hall", "casual bar gallery"],
+		"tags": ["horeca", "gallery", "bar", "pub", "wood", "beer"]
+	},
+	{
+		"name": "Lounge seating area",
+		"slug": "lounge-seating-area",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing lounge seating area with clean commercial composition and natural lighting.",
+		"covers": ["lounge area", "hotel lounge", "restaurant lounge gallery"],
+		"tags": ["horeca", "gallery", "interior", "lounge", "sofas", "relax"]
+	},
+	{
+		"name": "Small banquet room",
+		"slug": "small-banquet-room",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing small banquet room with clean commercial composition and natural lighting.",
+		"covers": ["small banquet room", "private dining room", "family event venue"],
+		"tags": ["horeca", "gallery", "banquet", "private room", "tables"]
+	},
+	{
+		"name": "Large banquet hall",
+		"slug": "large-banquet-hall",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing large banquet hall with clean commercial composition and natural lighting.",
+		"covers": ["large banquet hall", "wedding venue", "event hall gallery"],
+		"tags": ["horeca", "gallery", "banquet", "banquet hall", "wedding", "event"]
+	},
+	{
+		"name": "Conference restaurant setup",
+		"slug": "conference-restaurant-setup",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing conference restaurant setup with clean commercial composition and natural lighting.",
+		"covers": ["conference setup", "business lunch venue", "seminar room gallery"],
+		"tags": ["horeca", "gallery", "banquet", "conference", "tables", "screen"]
+	},
+	{
+		"name": "Kids corner in restaurant",
+		"slug": "kids-corner-in-restaurant",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing kids corner in restaurant with clean commercial composition and natural lighting.",
+		"covers": ["kids corner", "family restaurant amenity", "children play area"],
+		"tags": ["horeca", "gallery", "interior", "kids", "family", "play area"]
+	},
+	{
+		"name": "Open kitchen view",
+		"slug": "open-kitchen-view",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing open kitchen view with clean commercial composition and natural lighting.",
+		"covers": ["open kitchen", "restaurant kitchen view", "show kitchen gallery"],
+		"tags": ["horeca", "gallery", "interior", "kitchen", "open kitchen", "chef"]
+	},
+	{
+		"name": "Private dining room",
+		"slug": "private-dining-room",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing private dining room with clean commercial composition and natural lighting.",
+		"covers": ["private dining", "VIP room", "private event room"],
+		"tags": ["horeca", "gallery", "interior", "private room", "dining", "small group"]
+	},
+	{
+		"name": "Wine shelf interior",
+		"slug": "wine-shelf-interior",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing wine shelf interior with clean commercial composition and natural lighting.",
+		"covers": ["wine display", "restaurant wine shelf", "bar interior detail"],
+		"tags": ["horeca", "gallery", "bar", "wine", "shelf", "display"]
+	},
+	{
+		"name": "Fireplace dining area",
+		"slug": "fireplace-dining-area",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing fireplace dining area with clean commercial composition and natural lighting.",
+		"covers": ["fireplace area", "cozy dining room", "winter restaurant hero"],
+		"tags": ["horeca", "gallery", "interior", "fireplace", "cozy", "winter"]
+	},
+	{
+		"name": "Terrace dining tables",
+		"slug": "terrace-dining-tables",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing terrace dining tables with clean commercial composition and natural lighting.",
+		"covers": ["outdoor dining terrace", "summer restaurant terrace", "cafe terrace gallery"],
+		"tags": ["horeca", "gallery", "terrace", "outdoor", "tables"]
+	},
+	{
+		"name": "Rooftop terrace seating",
+		"slug": "rooftop-terrace-seating",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing rooftop terrace seating with clean commercial composition and natural lighting.",
+		"covers": ["rooftop terrace", "view terrace", "premium outdoor seating"],
+		"tags": ["horeca", "gallery", "terrace", "rooftop", "view"]
+	},
+	{
+		"name": "Standard hotel room",
+		"slug": "standard-hotel-room",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing standard hotel room with clean commercial composition and natural lighting.",
+		"covers": ["standard room", "hotel room gallery", "room listing image"],
+		"tags": ["horeca", "gallery", "rooms", "hotel room", "standard", "bed"]
+	},
+	{
+		"name": "Double hotel room",
+		"slug": "double-hotel-room",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing double hotel room with clean commercial composition and natural lighting.",
+		"covers": ["double room", "room for two", "hotel accommodation"],
+		"tags": ["horeca", "gallery", "rooms", "double room", "bed", "hotel"]
+	},
+	{
+		"name": "Twin hotel room",
+		"slug": "twin-hotel-room",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing twin hotel room with clean commercial composition and natural lighting.",
+		"covers": ["twin room", "room with two beds", "group accommodation"],
+		"tags": ["horeca", "gallery", "rooms", "twin room", "two beds", "hotel"]
+	},
+	{
+		"name": "Single hotel room",
+		"slug": "single-hotel-room",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing single hotel room with clean commercial composition and natural lighting.",
+		"covers": ["single room", "solo traveler room", "budget hotel room"],
+		"tags": ["horeca", "gallery", "rooms", "single room", "bed", "compact"]
+	},
+	{
+		"name": "Family hotel room",
+		"slug": "family-hotel-room",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing family hotel room with clean commercial composition and natural lighting.",
+		"covers": ["family room", "room for family", "hotel family accommodation"],
+		"tags": ["horeca", "gallery", "rooms", "family room", "beds", "spacious"]
+	},
+	{
+		"name": "Suite bedroom",
+		"slug": "suite-bedroom",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing suite bedroom with clean commercial composition and natural lighting.",
+		"covers": ["suite room", "premium room", "hotel suite gallery"],
+		"tags": ["horeca", "gallery", "rooms", "suite", "bedroom", "premium"]
+	},
+	{
+		"name": "Junior suite room",
+		"slug": "junior-suite-room",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing junior suite room with clean commercial composition and natural lighting.",
+		"covers": ["junior suite", "semi-premium room", "comfort room"],
+		"tags": ["horeca", "gallery", "rooms", "junior suite", "hotel", "sofa"]
+	},
+	{
+		"name": "Apartment-style hotel room",
+		"slug": "apartment-style-hotel-room",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing apartment-style hotel room with clean commercial composition and natural lighting.",
+		"covers": ["hotel apartment", "aparthotel room", "long-stay room"],
+		"tags": ["horeca", "gallery", "rooms", "apartment", "kitchenette", "hotel"]
+	},
+	{
+		"name": "Hostel dorm room",
+		"slug": "hostel-dorm-room",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing hostel dorm room with clean commercial composition and natural lighting.",
+		"covers": ["hostel dorm", "shared room", "budget accommodation"],
+		"tags": ["horeca", "gallery", "rooms", "hostel", "dorm", "bunk beds"]
+	},
+	{
+		"name": "Guest house room",
+		"slug": "guest-house-room",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing guest house room with clean commercial composition and natural lighting.",
+		"covers": ["guest house room", "small hotel room", "cozy accommodation"],
+		"tags": ["horeca", "gallery", "rooms", "guest house", "cozy", "bed"]
+	},
+	{
+		"name": "Room with balcony",
+		"slug": "room-with-balcony",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing room with balcony with clean commercial composition and natural lighting.",
+		"covers": ["room with balcony", "hotel balcony", "view room"],
+		"tags": ["horeca", "gallery", "rooms", "balcony", "hotel room", "view"]
+	},
+	{
+		"name": "Room bathroom",
+		"slug": "room-bathroom",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing room bathroom with clean commercial composition and natural lighting.",
+		"covers": ["hotel bathroom", "room bathroom", "bathroom amenity"],
+		"tags": ["horeca", "gallery", "rooms", "bathroom", "hotel", "clean"]
+	},
+	{
+		"name": "Premium bathroom",
+		"slug": "premium-bathroom",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing premium bathroom with clean commercial composition and natural lighting.",
+		"covers": ["premium bathroom", "suite bathroom", "bathtub amenity"],
+		"tags": ["horeca", "gallery", "rooms", "bathroom", "premium", "bathtub"]
+	},
+	{
+		"name": "Room working desk",
+		"slug": "room-working-desk",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing room working desk with clean commercial composition and natural lighting.",
+		"covers": ["working desk in room", "business traveler room", "room workspace"],
+		"tags": ["horeca", "gallery", "rooms", "desk", "work", "business"]
+	},
+	{
+		"name": "Room window view",
+		"slug": "room-window-view",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing room window view with clean commercial composition and natural lighting.",
+		"covers": ["room view", "window view", "hotel view photo"],
+		"tags": ["horeca", "gallery", "rooms", "window", "view", "hotel"]
+	},
+	{
+		"name": "Room wardrobe detail",
+		"slug": "room-wardrobe-detail",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing room wardrobe detail with clean commercial composition and natural lighting.",
+		"covers": ["room wardrobe", "storage amenity", "room detail gallery"],
+		"tags": ["horeca", "gallery", "rooms", "wardrobe", "storage", "detail"]
+	},
+	{
+		"name": "Room tea station",
+		"slug": "room-tea-station",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing room tea station with clean commercial composition and natural lighting.",
+		"covers": ["tea station", "room amenities", "hotel room service detail"],
+		"tags": ["horeca", "gallery", "rooms", "tea station", "kettle", "amenity"]
+	},
+	{
+		"name": "Hotel room bedding detail",
+		"slug": "hotel-room-bedding-detail",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing hotel room bedding detail with clean commercial composition and natural lighting.",
+		"covers": ["bedding detail", "clean bed linen", "room quality photo"],
+		"tags": ["horeca", "gallery", "rooms", "bedding", "clean", "detail"]
+	},
+	{
+		"name": "Pet-friendly hotel room",
+		"slug": "pet-friendly-hotel-room",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing pet-friendly hotel room with clean commercial composition and natural lighting.",
+		"covers": ["pet-friendly room", "hotel room for pets", "family accommodation"],
+		"tags": ["horeca", "gallery", "rooms", "pet friendly", "hotel", "room"]
+	},
+	{
+		"name": "Accessible hotel room",
+		"slug": "accessible-hotel-room",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing accessible hotel room with clean commercial composition and natural lighting.",
+		"covers": ["accessible room", "barrier-free hotel room", "special accommodation"],
+		"tags": ["horeca", "gallery", "rooms", "accessible", "hotel room", "inclusive"]
+	},
+	{
+		"name": "Hotel reception desk",
+		"slug": "hotel-reception-desk",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing hotel reception desk with clean commercial composition and natural lighting.",
+		"covers": ["hotel reception", "front desk", "check-in area"],
+		"tags": ["horeca", "gallery", "amenities", "reception", "hotel", "front desk"]
+	},
+	{
+		"name": "Hotel lobby seating",
+		"slug": "hotel-lobby-seating",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing hotel lobby seating with clean commercial composition and natural lighting.",
+		"covers": ["hotel lobby", "waiting area", "reception lounge"],
+		"tags": ["horeca", "gallery", "amenities", "lobby", "seating", "hotel"]
+	},
+	{
+		"name": "Breakfast buffet",
+		"slug": "breakfast-buffet",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing breakfast buffet with clean commercial composition and natural lighting.",
+		"covers": ["hotel breakfast", "breakfast buffet", "morning service gallery"],
+		"tags": ["horeca", "gallery", "amenities", "breakfast", "buffet", "hotel"]
+	},
+	{
+		"name": "Spa relaxation room",
+		"slug": "spa-relaxation-room",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing spa relaxation room with clean commercial composition and natural lighting.",
+		"covers": ["spa area", "wellness room", "relaxation amenity"],
+		"tags": ["horeca", "gallery", "amenities", "spa", "relax", "wellness"]
+	},
+	{
+		"name": "Sauna interior",
+		"slug": "sauna-interior",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing sauna interior with clean commercial composition and natural lighting.",
+		"covers": ["sauna", "hotel sauna", "wellness gallery"],
+		"tags": ["horeca", "gallery", "amenities", "sauna", "wood", "wellness"]
+	},
+	{
+		"name": "Swimming pool",
+		"slug": "swimming-pool",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing swimming pool with clean commercial composition and natural lighting.",
+		"covers": ["swimming pool", "hotel pool", "wellness amenity"],
+		"tags": ["horeca", "gallery", "amenities", "pool", "water", "hotel"]
+	},
+	{
+		"name": "Indoor jacuzzi",
+		"slug": "indoor-jacuzzi",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing indoor jacuzzi with clean commercial composition and natural lighting.",
+		"covers": ["jacuzzi", "spa pool", "relaxation amenity"],
+		"tags": ["horeca", "gallery", "amenities", "jacuzzi", "spa", "water"]
+	},
+	{
+		"name": "Gym fitness room",
+		"slug": "gym-fitness-room",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing gym fitness room with clean commercial composition and natural lighting.",
+		"covers": ["hotel gym", "fitness room", "sport amenity"],
+		"tags": ["horeca", "gallery", "amenities", "gym", "fitness", "equipment"]
+	},
+	{
+		"name": "Massage room",
+		"slug": "massage-room",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing massage room with clean commercial composition and natural lighting.",
+		"covers": ["massage room", "spa treatment room", "wellness service"],
+		"tags": ["horeca", "gallery", "amenities", "massage", "spa", "treatment"]
+	},
+	{
+		"name": "Conference room",
+		"slug": "conference-room",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing conference room with clean commercial composition and natural lighting.",
+		"covers": ["conference room", "meeting room", "business event space"],
+		"tags": ["horeca", "gallery", "amenities", "conference", "meeting", "business"]
+	},
+	{
+		"name": "Coworking table",
+		"slug": "coworking-table",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing coworking table with clean commercial composition and natural lighting.",
+		"covers": ["coworking area", "work-friendly hotel", "business guest amenity"],
+		"tags": ["horeca", "gallery", "amenities", "coworking", "work", "table"]
+	},
+	{
+		"name": "Kids play room",
+		"slug": "kids-play-room",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing kids play room with clean commercial composition and natural lighting.",
+		"covers": ["kids play room", "children area", "family hotel amenity"],
+		"tags": ["horeca", "gallery", "amenities", "kids", "play room", "family"]
+	},
+	{
+		"name": "Wedding arch setup",
+		"slug": "wedding-arch-setup",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing wedding arch setup with clean commercial composition and natural lighting.",
+		"covers": ["wedding ceremony setup", "wedding venue gallery", "event decoration"],
+		"tags": ["horeca", "gallery", "events", "wedding", "arch", "ceremony"]
+	},
+	{
+		"name": "Outdoor event area",
+		"slug": "outdoor-event-area",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing outdoor event area with clean commercial composition and natural lighting.",
+		"covers": ["outdoor event venue", "garden event", "summer banquet area"],
+		"tags": ["horeca", "gallery", "events", "outdoor event", "garden", "tables"]
+	},
+	{
+		"name": "Catering table",
+		"slug": "catering-table",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing catering table with clean commercial composition and natural lighting.",
+		"covers": ["catering table", "event buffet", "banquet service"],
+		"tags": ["horeca", "gallery", "events", "catering", "buffet", "event"]
+	},
+	{
+		"name": "Business lunch table",
+		"slug": "business-lunch-table",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing business lunch table with clean commercial composition and natural lighting.",
+		"covers": ["business lunch", "corporate dining", "restaurant service gallery"],
+		"tags": ["horeca", "gallery", "events", "business lunch", "table", "restaurant"]
+	},
+	{
+		"name": "Terrace lounge at sunset",
+		"slug": "terrace-lounge-at-sunset",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing terrace lounge at sunset with clean commercial composition and natural lighting.",
+		"covers": ["sunset terrace", "hotel terrace", "evening lounge gallery"],
+		"tags": ["horeca", "gallery", "amenities", "terrace", "sunset", "lounge"]
+	},
+	{
+		"name": "Garden seating area",
+		"slug": "garden-seating-area",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing garden seating area with clean commercial composition and natural lighting.",
+		"covers": ["garden seating", "outdoor lounge", "green area gallery"],
+		"tags": ["horeca", "gallery", "amenities", "garden", "seating", "outdoor"]
+	},
+	{
+		"name": "Playground near restaurant",
+		"slug": "playground-near-restaurant",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing playground near restaurant with clean commercial composition and natural lighting.",
+		"covers": ["outdoor playground", "family restaurant amenity", "children outdoor area"],
+		"tags": ["horeca", "gallery", "amenities", "playground", "kids", "outdoor"]
+	},
+	{
+		"name": "Parking with EV charger",
+		"slug": "parking-with-ev-charger",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing parking with ev charger with clean commercial composition and natural lighting.",
+		"covers": ["EV charging parking", "modern hotel parking", "guest convenience amenity"],
+		"tags": ["horeca", "gallery", "amenities", "parking", "ev charger", "modern"]
+	},
+	{
+		"name": "Set restaurant table",
+		"slug": "set-restaurant-table",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing set restaurant table with clean commercial composition and natural lighting.",
+		"covers": ["table setting", "restaurant gallery", "home page detail"],
+		"tags": ["horeca", "gallery", "details", "table setting", "restaurant", "plates"]
+	},
+	{
+		"name": "Menu on table",
+		"slug": "menu-on-table",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing menu on table with clean commercial composition and natural lighting.",
+		"covers": ["menu preview", "restaurant menu gallery", "homepage detail"],
+		"tags": ["horeca", "gallery", "details", "menu", "table", "restaurant"]
+	},
+	{
+		"name": "Chef plating dish",
+		"slug": "chef-plating-dish",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing chef plating dish with clean commercial composition and natural lighting.",
+		"covers": ["chef plating", "restaurant process", "kitchen gallery"],
+		"tags": ["horeca", "gallery", "details", "chef", "plating", "kitchen"]
+	},
+	{
+		"name": "Barista making coffee",
+		"slug": "barista-making-coffee",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing barista making coffee with clean commercial composition and natural lighting.",
+		"covers": ["barista service", "coffee preparation", "cafe gallery"],
+		"tags": ["horeca", "gallery", "details", "barista", "coffee", "cafe"]
+	},
+	{
+		"name": "Bartender mixing drink",
+		"slug": "bartender-mixing-drink",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing bartender mixing drink with clean commercial composition and natural lighting.",
+		"covers": ["bartender service", "cocktail preparation", "bar gallery"],
+		"tags": ["horeca", "gallery", "details", "bartender", "cocktail", "bar"]
+	},
+	{
+		"name": "Waiter serving table",
+		"slug": "waiter-serving-table",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing waiter serving table with clean commercial composition and natural lighting.",
+		"covers": ["waiter service", "restaurant hospitality", "service gallery"],
+		"tags": ["horeca", "gallery", "details", "waiter", "service", "restaurant"]
+	},
+	{
+		"name": "Chef in kitchen",
+		"slug": "chef-in-kitchen",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing chef in kitchen with clean commercial composition and natural lighting.",
+		"covers": ["chef portrait", "kitchen staff", "restaurant team gallery"],
+		"tags": ["horeca", "gallery", "details", "chef", "kitchen", "professional"]
+	},
+	{
+		"name": "Fresh ingredients closeup",
+		"slug": "fresh-ingredients-closeup",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing fresh ingredients closeup with clean commercial composition and natural lighting.",
+		"covers": ["fresh ingredients", "food quality detail", "kitchen ingredient photo"],
+		"tags": ["horeca", "gallery", "details", "ingredients", "fresh", "kitchen"]
+	},
+	{
+		"name": "Wine glasses on table",
+		"slug": "wine-glasses-on-table",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing wine glasses on table with clean commercial composition and natural lighting.",
+		"covers": ["wine table detail", "banquet table", "restaurant atmosphere"],
+		"tags": ["horeca", "gallery", "details", "wine glasses", "table", "event"]
+	},
+	{
+		"name": "Coffee and dessert table",
+		"slug": "coffee-and-dessert-table",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing coffee and dessert table with clean commercial composition and natural lighting.",
+		"covers": ["coffee dessert table", "cafe gallery", "dessert service"],
+		"tags": ["horeca", "gallery", "details", "coffee", "dessert", "cafe"]
+	},
+	{
+		"name": "Breakfast tray in room",
+		"slug": "breakfast-tray-in-room",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing breakfast tray in room with clean commercial composition and natural lighting.",
+		"covers": ["room service breakfast", "hotel breakfast in room", "guest service gallery"],
+		"tags": ["horeca", "gallery", "details", "breakfast tray", "room service", "hotel"]
+	},
+	{
+		"name": "Room key card closeup",
+		"slug": "room-key-card-closeup",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing room key card closeup with clean commercial composition and natural lighting.",
+		"covers": ["hotel key card", "check-in detail", "guest arrival gallery"],
+		"tags": ["horeca", "gallery", "details", "key card", "hotel", "check-in"]
+	},
+	{
+		"name": "Clean towels detail",
+		"slug": "clean-towels-detail",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing clean towels detail with clean commercial composition and natural lighting.",
+		"covers": ["hotel towels", "bathroom detail", "cleanliness gallery"],
+		"tags": ["horeca", "gallery", "details", "towels", "hotel", "clean"]
+	},
+	{
+		"name": "Restaurant candles atmosphere",
+		"slug": "restaurant-candles-atmosphere",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing restaurant candles atmosphere with clean commercial composition and natural lighting.",
+		"covers": ["evening atmosphere", "romantic dinner detail", "restaurant mood gallery"],
+		"tags": ["horeca", "gallery", "details", "candles", "atmosphere", "evening"]
+	},
+	{
+		"name": "Table reservation sign",
+		"slug": "table-reservation-sign",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing table reservation sign with clean commercial composition and natural lighting.",
+		"covers": ["reserved table", "reservation service", "restaurant table detail"],
+		"tags": ["horeca", "gallery", "details", "reservation", "table", "restaurant"]
+	},
+	{
+		"name": "Pizza oven with fire",
+		"slug": "pizza-oven-with-fire",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing pizza oven with fire with clean commercial composition and natural lighting.",
+		"covers": ["pizzeria home hero", "pizza oven gallery", "Italian restaurant detail"],
+		"tags": ["horeca", "gallery", "details", "pizza oven", "fire", "pizzeria"]
+	},
+	{
+		"name": "Bakery oven and bread",
+		"slug": "bakery-oven-and-bread",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing bakery oven and bread with clean commercial composition and natural lighting.",
+		"covers": ["bakery production", "bread baking", "artisan bakery gallery"],
+		"tags": ["horeca", "gallery", "details", "bakery", "oven", "bread"]
+	},
+	{
+		"name": "Sushi counter",
+		"slug": "sushi-counter",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing sushi counter with clean commercial composition and natural lighting.",
+		"covers": ["sushi counter", "Asian restaurant bar", "sushi preparation gallery"],
+		"tags": ["horeca", "gallery", "details", "sushi", "counter", "chef"]
+	},
+	{
+		"name": "Banquet floral decor",
+		"slug": "banquet-floral-decor",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing banquet floral decor with clean commercial composition and natural lighting.",
+		"covers": ["banquet decor", "wedding table decoration", "event styling gallery"],
+		"tags": ["horeca", "gallery", "events", "flowers", "banquet", "decor"]
+	},
+	{
+		"name": "Outdoor grill station",
+		"slug": "outdoor-grill-station",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing outdoor grill station with clean commercial composition and natural lighting.",
+		"covers": ["outdoor grill", "BBQ station", "summer terrace food prep"],
+		"tags": ["horeca", "gallery", "details", "grill", "outdoor", "bbq"]
+	},
+	{
+		"name": "Hotel corridor",
+		"slug": "hotel-corridor",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing hotel corridor with clean commercial composition and natural lighting.",
+		"covers": ["hotel corridor", "room hallway", "hotel interior gallery"],
+		"tags": ["horeca", "gallery", "amenities", "corridor", "hotel", "interior"]
+	},
+	{
+		"name": "Restaurant restroom",
+		"slug": "restaurant-restroom",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing restaurant restroom with clean commercial composition and natural lighting.",
+		"covers": ["restaurant restroom", "guest restroom", "facility amenity"],
+		"tags": ["horeca", "gallery", "amenities", "restroom", "restaurant", "clean"]
+	},
+	{
+		"name": "Delivery packaging display",
+		"slug": "delivery-packaging-display",
+		"src": "",
+		"description": "Generic realistic HoReCa gallery image showing delivery packaging display with clean commercial composition and natural lighting.",
+		"covers": ["delivery service", "takeaway packaging", "restaurant delivery gallery"],
+		"tags": ["horeca", "gallery", "details", "delivery", "packaging", "takeaway"]
+	}
+]

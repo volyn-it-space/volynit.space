@@ -1,0 +1,134 @@
+:host {
+	display: block;
+	background: var(--gradient-page);
+	color: var(--c-text-primary);
+	min-height: 100%;
+}
+
+.work-shell {
+	background:
+		radial-gradient(circle at 12% 0%, color-mix(in srgb, var(--c-secondary) 16%, transparent), transparent 32%),
+		radial-gradient(circle at 88% 10%, color-mix(in srgb, var(--c-accent) 12%, transparent), transparent 28%),
+		var(--gradient-surface);
+	position: relative;
+}
+
+.intro-icon {
+	box-shadow: var(--glow-secondary), var(--shadow-sm);
+}
+
+.project-card {
+	box-shadow: var(--shadow-md);
+	flex-direction: column;
+	min-height: 100%;
+	position: relative;
+}
+
+.project-card:hover {
+	border-color: var(--c-border-strong);
+	box-shadow: var(--glow-primary), var(--shadow-lg);
+}
+
+.project-visual {
+	--work-cover-border: color-mix(in srgb, var(--c-bg-elevated) 24%, transparent);
+	--work-cover-fill: color-mix(in srgb, var(--c-bg-elevated) 12%, transparent);
+	--work-cover-muted: color-mix(in srgb, var(--c-bg-elevated) 68%, transparent);
+	--work-cover-text: color-mix(in srgb, var(--c-bg-elevated) 92%, var(--c-secondary));
+	--work-cover-bg: linear-gradient(180deg, transparent, color-mix(in srgb, var(--c-text-secondary) 28%, transparent)), radial-gradient(circle at 18% 16%, color-mix(in srgb, var(--c-secondary) 38%, transparent), transparent 30%), radial-gradient(circle at 82% 8%, color-mix(in srgb, var(--c-accent) 26%, transparent), transparent 30%), linear-gradient(135deg, color-mix(in srgb, var(--c-text-secondary) 78%, var(--c-primary)), var(--c-primary-active) 48%, color-mix(in srgb, var(--c-text-secondary) 86%, var(--c-primary-active)));
+
+	background: var(--work-cover-bg);
+	position: relative;
+}
+
+:host-context(html[data-mode='dark']) .project-visual {
+	--work-cover-border: color-mix(in srgb, var(--c-text-secondary) 24%, transparent);
+	--work-cover-fill: color-mix(in srgb, var(--c-text-secondary) 10%, transparent);
+	--work-cover-muted: color-mix(in srgb, var(--c-text-secondary) 68%, transparent);
+	--work-cover-text: var(--c-text-secondary);
+	--work-cover-bg: linear-gradient(180deg, transparent, color-mix(in srgb, var(--c-bg-primary) 48%, transparent)), radial-gradient(circle at 18% 16%, color-mix(in srgb, var(--c-secondary) 32%, transparent), transparent 30%), radial-gradient(circle at 82% 8%, color-mix(in srgb, var(--c-accent) 22%, transparent), transparent 30%), linear-gradient(135deg, color-mix(in srgb, var(--c-bg-primary) 76%, var(--c-primary)), var(--c-bg-tertiary) 48%, var(--c-bg-primary));
+}
+
+.project-visual::after {
+	background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--work-cover-text) 26%, transparent), transparent);
+	bottom: 4.25rem;
+	content: '';
+	height: 1px;
+	left: 1.25rem;
+	position: absolute;
+	right: 1.25rem;
+}
+
+.project-visual > * {
+	position: relative;
+	z-index: 1;
+}
+
+.project-cover-pill {
+	background: var(--work-cover-fill);
+	border: 1px solid var(--work-cover-border);
+	color: var(--work-cover-text);
+}
+
+.project-cover-kicker { color: var(--work-cover-muted); }
+.project-cover-title {
+	color: var(--work-cover-text);
+}
+
+.project-content {
+	background:
+		linear-gradient(180deg, color-mix(in srgb, var(--c-bg-elevated) 94%, transparent), var(--c-bg-elevated)),
+		var(--c-bg-elevated);
+	border-top: 1px solid var(--c-border-soft);
+}
+
+.project-mark {
+	background: var(--work-cover-fill);
+	border: 1px solid var(--work-cover-border);
+	border-radius: 999px;
+	box-shadow: inset 0 1px 0 color-mix(in srgb, var(--work-cover-text) 16%, transparent);
+	display: inline-block;
+	height: 2rem;
+	position: relative;
+	width: 2rem;
+}
+
+.project-mark::before,
+.project-mark::after {
+	background: color-mix(in srgb, var(--work-cover-text) 46%, transparent);
+	content: '';
+	position: absolute;
+}
+
+.project-mark::before {
+	height: 1px;
+	left: 0.45rem;
+	right: 0.45rem;
+	top: 50%;
+}
+
+.project-mark::after {
+	bottom: 0.45rem;
+	left: 50%;
+	top: 0.45rem;
+	width: 1px;
+}
+
+.project-primary-link {
+	color: var(--c-text-secondary);
+}
+
+.project-inline-link {
+	color: var(--c-secondary);
+	text-decoration: underline;
+	text-decoration-color: color-mix(in srgb, var(--c-secondary) 55%, transparent);
+	text-underline-offset: 0.15em;
+}
+
+.project-inline-link:hover {
+	color: var(--c-accent);
+	text-decoration-color: currentColor;
+}
+
+:host-context(html[data-mode='dark']) .project-primary-link {
+	color: var(--c-text-on-primary);
+}
